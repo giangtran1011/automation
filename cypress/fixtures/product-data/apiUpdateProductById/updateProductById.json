@@ -1,0 +1,177 @@
+[
+    {
+        "title":"200 - Update success when update product code ",
+        "testCaseKey": "200_1",
+        "productId" : "{productIdJson}",
+        "body": {
+            "productCode": "Test_Update11_GHX-2608-17"
+        },
+        "code": 200,
+        "responseBody" : {
+            "success": true
+        }
+    },
+    {
+        "title":"200 - Update success when just update product name ",
+        "testCaseKey": "200_2",
+        "productId" : "{productIdJson}",
+        "body": {
+            "productName": "Test_Update_ProductName01",
+            "productCode":"productCode_1235"
+        },
+        "code": 200,
+        "responseBody" : {
+            "success": true
+        }
+    },
+    {
+        "title":"200 - Update success when update properties ",
+        "testCaseKey": "200_3",
+        "productId" : "{productIdJson}",
+        "body": {
+            "productCode":"productCode_1236",
+            "properties": {
+                "da01eb41-0a88-4333-95ac-97d3354c892b": "brand",
+                "60707b5e-33c1-4502-bd29-808f713a0b09" : "color"
+            }
+        },
+        "responseBody" : {
+            "success": true
+        },
+        "code": 200 
+    },
+    {
+        "title":"200 - Update success when update properties empty",
+        "testCaseKey": "200_4",
+        "productId" : "{productIdJson}",
+        "body": {
+            "productCode":"productCode_1237",
+            "properties": {
+                "da01eb41-0a88-4333-95ac-97d3354c892b": "",
+                "60707b5e-33c1-4502-bd29-808f713a0b09" : ""
+            }
+        },
+        "code": 200,
+        "responseBody" : {
+            "success": true
+        }
+    },
+    {
+        "title":"200 - Update success when update properties format is date",
+        "testCaseKey": "200_5",
+        "productId" : "{productIdJson}",
+        "body": {
+            "productCode":"productCode_1238",
+            "properties": {
+                "da01eb41-0a88-4333-95ac-97d3354c892b": "5-2-2022"
+            }
+        },
+        "code": 200,
+        "responseBody" : {
+            "success": true
+        }
+    },
+    {
+        "title":"200 - Update success when update properties, product code, product name, color, style code, brand",
+        "testCaseKey": "200_6",
+        "productId" : "{productIdJson}",
+        "body": {
+            "productCode": "GHX-2608-17",
+            "productName": "T Shirt",
+            "color": "White",
+            "styleCode": "907",
+            "brand": "Super brand",
+            "properties": {
+                "da01eb41-0a88-4333-95ac-97d3354c892b": "5-2-2022"
+                }
+        },
+        "code": 200,
+        "responseBody" : {
+            "success": true
+        }
+    },
+    {
+        "title":"400 - Fail when productId not exist",
+        "testCaseKey": "400_1",
+        "body": {
+            "productName": "Test_Update_ProductName01",
+            "productCode":"Test_Update_GHX-2608-17"
+        },
+        "responseBody": {
+                "errors": {
+                  "productId": [
+                    "The value '398a7639-db38-4076-a863-dd0a7' is not valid."
+                  ]
+                },
+                "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+                "title": "One or more validation errors occurred.",
+                "status": 400,
+                "traceId": "|cd8f6011-46302b8a939f67e0."
+              
+        },
+        "code": 400 
+    },
+    {
+        "title":"400 - Fail when update product not have product code",
+        "testCaseKey": "400_2",
+        "body": {
+            "productName": "Test_Update_ProductName01"
+        },
+        "responseBody": {
+                "errors": [
+                    {
+                        "code": "PRO-PROP-1",
+                        "message": "EmptyProductCode"
+                    }
+                ]
+        },
+        "code": 400 
+    },
+    {
+        "title":"400 - Fail when update properties not exist",
+        "testCaseKey": "400_3",
+        "body": {
+        "productCode": "productCode_1239",
+        "properties": {
+            "D7D84FCE-6533-426F-8659-D88D0EEC54B2": "season winter"
+        }
+        },
+        "responseBody": {
+                "errors": [
+                    {
+                        "code": "PRO-PROP-9",
+                        "message": "SomePropertiesNotfound"
+                    }
+                ]
+        },
+        "code": 400 
+    },
+    {
+        "title": "400 - Fail when update properties format invalid",
+        "testCaseKey": "400_4",
+        "body": {
+            "productCode": "productCode_1239",
+            "properties": {
+                "76fbd1ce-90ce-4ab7-8043-f9107068185c": "15-022.022"
+            }
+        },
+        "responseBody": {
+            "errors": [
+                {
+                    "code": "CPR-12",
+                    "message": "CustomPropertyValueFormatInvalid"
+                }
+            ]
+        },
+        "code": 400
+    },
+    {
+        "title":"405 - Not method allow",
+        "testCaseKey": "405_1",
+        "body": {
+            "productName": "Test_Update_ProductName01",
+            "productCode":"Test_Update_GHX-2608-17"
+        },
+        "code": 405
+    }
+]

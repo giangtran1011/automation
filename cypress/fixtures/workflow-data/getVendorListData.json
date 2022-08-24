@@ -1,0 +1,392 @@
+[
+    {
+        "title": "200 - Get vendor list Successfully",
+        "token":"{access_token1}",
+        "requestBody": ["34860f3f-91c9-4ec5-a210-b186139c4153"],
+        "code" : 200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAFU05:00000001"
+            },
+            "data": [
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 7
+                        }
+                    ],
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2",
+                    "type": 2
+                },
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 5
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 6
+                        }
+                    ],
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel",
+                    "type": 3
+                }
+            ]
+        }
+    },
+    {
+        "title":"200 - Get vendor list when have multiple workflow exist vendor list",
+        "token":"{access_token1}",
+        "requestBody": ["bf6e2f03-2015-4984-a3fc-e906ae03146d", "34860f3f-91c9-4ec5-a210-b186139c4153"],
+        "code" : 200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAFU22:00000001"
+            },
+            "data": [
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 5
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 5
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 6
+                        }
+                    ],
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel",
+                    "type": 3
+                },
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 2
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 3
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 7
+                        }
+                    ],
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2",
+                    "type": 2
+                }
+            ]
+        }
+    },
+    {
+        "title":"200 - Get vendor list found when body have 1 workflow have vendor list and 1 workflow not have vendor list",
+        "token":"{access_token1}",
+        "code":200,
+        "requestBody":["809cd9f9-1b78-412b-81fb-2484b3f6d948","bf6e2f03-2015-4984-a3fc-e906ae03146d"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAFU6D:00000001"
+            },
+            "data": [
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 5
+                        }
+                    ],
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel",
+                    "type": 3
+                },
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 2
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 3
+                        }
+                    ],
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2",
+                    "type": 2
+                }
+            ]
+        }
+    },
+    {
+        "title":"200 - Get vendor list not found when workflow not exist vendor",
+        "token":"{access_token1}",
+        "code":200,
+        "requestBody":["809cd9f9-1b78-412b-81fb-2484b3f6d948"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJFNQHTJLAT:00000001"
+            },
+            "data": []
+        }
+    },
+    {
+        "title":"200 - Get vendor list not found when body have 2 the same workflow ",
+        "token":"{access_token1}",
+        "code":200,
+        "requestBody":["809cd9f9-1b78-412b-81fb-2484b3f6d948", "809cd9f9-1b78-412b-81fb-2484b3f6d948"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJFNQHTJLAT:00000001"
+            },
+            "data": []
+        }
+    },
+    {
+        "title":"200 - Get vendor list found when body have 1 workflow have vendor list and 1 workflow invalid",
+        "token":"{access_token1}",
+        "code":200,
+        "requestBody":["809cd9f9-1b78-412b-81fb-2484b3f6","bf6e2f03-2015-4984-a3fc-e906ae03146d"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAFU82:00000001"
+            },
+            "data": [
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 5
+                        }
+                    ],
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel",
+                    "type": 3
+                },
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 2
+                        },
+                        {
+                            "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                            "shootingTypeId": 3
+                        }
+                    ],
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2",
+                    "type": 2
+                }
+            ]
+        }
+    },
+    {
+        "title":"200 - Get vendor list not found when workflow invalid",
+        "token":"{access_token1}",
+        "code":200,
+        "requestBody":["809cd9f9-1b78-412b-81fb-2484b3f"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAFULL:00000001"
+            },
+            "data": []
+        }
+    },
+    {
+        "title":"200 - Get vendor list when user limit client and access other workflow other client",
+        "token":"{access_token2}",
+        "code":200,
+        "requestBody":["bf6e2f03-2015-4984-a3fc-e906ae03146d"],
+        "responseBody":{
+            "metadata": {
+              "code": "GEN-0",
+              "message": "Success",
+              "requestId": "0HMJL11E00A6I:00000001"
+            },
+            "data": [
+              {
+                "workflowVersionInfos": [
+                  {
+                    "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                    "shootingTypeId": 1
+                  },
+                  {
+                    "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                    "shootingTypeId": 5
+                  }
+                ],
+                "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                "name": "Pixel",
+                "type": 3
+              },
+              {
+                "workflowVersionInfos": [
+                  {
+                    "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                    "shootingTypeId": 1
+                  },
+                  {
+                    "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                    "shootingTypeId": 2
+                  },
+                  {
+                    "workflowVersionId": "bf6e2f03-2015-4984-a3fc-e906ae03146d",
+                    "shootingTypeId": 3
+                  }
+                ],
+                "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                "name": "FTP2",
+                "type": 2
+              }
+            ]
+          }
+    },
+    {
+        "title":"200 - Get vendor list when user not permission workflow",
+        "token":"{access_token3}",
+        "code":200,
+        "requestBody":["34860f3f-91c9-4ec5-a210-b186139c4153"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAG17G:00000001"
+            },
+            "data": [
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 7
+                        }
+                    ],
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2",
+                    "type": 2
+                },
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 5
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 6
+                        }
+                    ],
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel",
+                    "type": 3
+                }
+            ]
+        }
+    },
+    {
+        "title":"200 - Get vendor list when user view permission workflow",
+        "token":"{access_token4}",
+        "code":200,
+        "requestBody":["34860f3f-91c9-4ec5-a210-b186139c4153"],
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJKEHHAG17G:00000001"
+            },
+            "data": [
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 1
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 7
+                        }
+                    ],
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2",
+                    "type": 2
+                },
+                {
+                    "workflowVersionInfos": [
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 5
+                        },
+                        {
+                            "workflowVersionId": "34860f3f-91c9-4ec5-a210-b186139c4153",
+                            "shootingTypeId": 6
+                        }
+                    ],
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel",
+                    "type": 3
+                }
+            ]
+        }
+    }
+    
+]

@@ -1,0 +1,115 @@
+{
+    "name": "w15",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 1,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 1006,
+            "shootingTypeCategoryId": 30,
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "keepExternalPostFileName": false,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                }
+            },
+            "photography": {
+                "cutOffStepId": 15,
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 1
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12"
+            }
+        },
+        {
+            "shootingTypeId": 1009,
+            "shootingTypeCategoryId": 30,
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": true,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "keepExternalPostFileName": false,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                }
+            },
+            "photography": {
+                "cutOffStepId": 7,
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 2
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            }
+        },
+        {
+            "shootingTypeId": 1010,
+            "shootingTypeCategoryId": 30,
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "keepExternalPostFileName": false,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                }
+            },
+            "photography": {
+                "cutOffStepId": 4,
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            }
+        }
+    ]
+}

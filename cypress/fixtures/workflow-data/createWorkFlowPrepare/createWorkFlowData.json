@@ -1,0 +1,409 @@
+[
+  {
+    "title":"Validate Data, - Create workflow when client not exist",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6",
+    "requestBody":"prepare_1.json",
+    "responseBody":"InvalidData.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when client is disabled",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=a9765ee5-a900-46b1-873c-7e6e24508b38",
+    "requestBody":"prepare_1.json",
+    "responseBody":"UserNotHavePermissionOnClient.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when client of other studio",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=622f23d5-18b2-40ee-8e96-11a9feb301e4",
+    "requestBody":"prepare_1.json",
+    "responseBody":"UserNotHavePermissionOnClient.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when client invalid",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=123@1345#$@!",
+    "requestBody":"prepare_1.json",
+    "responseBody":"InvalidData.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when user view workflow",
+    "code": 403,
+    "token":"view-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_1.json",
+    "responseBody":"Undefined.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when user not permission workflow",
+    "code": 403,
+    "token":"none-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_1.json",
+    "responseBody":"Undefined.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when user limit ",
+    "code": 200,
+    "token":"limit-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_1.json",
+    "responseBody":"UserNotHavePermissionOnClient.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when duplicate name in 1 client ",
+    "generateName":"No",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_2.json",
+    "responseBody":"NameDuplicated.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when duplicate name with workflow is disabled",
+    "generateName":"No",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_31.json",
+    "responseBody":"NameDuplicated.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when workflow name max length",
+    "generateName":"No",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6",
+    "requestBody":"prepare_32.json",
+    "responseBody":"InvalidData.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when workflow name is space",
+    "generateName":"No",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6",
+    "requestBody":"prepare_33.json",
+    "responseBody":"InvalidData.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when workflow name is empty",
+    "generateName":"No",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6",
+    "requestBody":"prepare_34.json",
+    "responseBody":"InvalidData.json"
+  },
+  {
+    "title":"Validate Data, - Create workflow when workflow name is empty",
+    "generateName":"No",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6",
+    "requestBody":"prepare_35.json",
+    "responseBody":"InvalidData.json"
+  },
+  {
+    "title":"Validate Data, create workflow when custom production type is disable ",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_3.json",
+    "responseBody":"ShootingTypeNotInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when vendor in postproduction is deleted ",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_4.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when Cut off step = External post-production QC done and By pass external QC = true ",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_5.json",
+    "responseBody":"CutOffStepInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when postproduction = internal post , external = true",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_6.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when Internal = true, Flat, Outsourcing",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_7.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when Internal1 = true, Model, Hybrid (External -> Internal)",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_8.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when Internal2 = true, Flat, Hybrid (External -> Internal)",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_9.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when video type, postproduction = Outsourcing with exception handling",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_10.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when video type, post production = Hybrid (External -> Internal)",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_11.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when video type, post production = Hybrid (internal -> external) with exception handling",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_12.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when video type, post production = Hybrid (internal -> external) with exception handling",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_13.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = outsourcing, vendor = null",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_14.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = outsourcing with exception handle, vendor = null",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_15.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = Hybrid (External ➞ Internal), vendor = null",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_16.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = Hybrid (Internal ➞ External) with exception handling, vendor = null",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_17.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = Hybrid (External ➞ Internal ➞ Internal), vendor = null",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_18.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production =Overflow, vendor = null",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_19.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = outsourcing with exception handle, vendor = ''",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_20.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = Hybrid (External ➞ Internal), vendor = ''",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_21.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = Hybrid (Internal ➞ External) with exception handling, vendor = ''",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_22.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production = Hybrid (External ➞ Internal ➞ Internal), vendor = ''",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_23.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, post production =Overflow, vendor = ''",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_24.json",
+    "responseBody":"VendorInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when model, Internal = true, Internal L1 = true",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_25.json",
+    "responseBody":"ApproachModelInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when table top, color ref = Request from Specific productdion type, Production type: Mannequin",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_26.json",
+    "responseBody":"ColorMatchingApproachInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when model, color ref = Use selection from production type, Production type: Flat",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_27.json",
+    "responseBody":"ColorMatchingApproachInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when model, color ref = Use selection from production type, Production type: model, Accurate step: Asset delivery done",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_28.json",
+    "responseBody":"ColorRefAccurateStepInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when flat, delivery connection deleted or not found",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_29.json",
+    "responseBody":"ClientDeliveryConnectionInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when orbitvu disconnect",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_30.json",
+    "responseBody":"ShootingTypeNotInvalid.json"
+  },
+  {
+    "title":"Validate Data, create workflow when flat and choose vendor added duplicated",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_36.json",
+    "responseBody":"VendorDuplicated.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Model outsourcing",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_1.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Flat Outsourcing with exception handling",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_2.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Mannequin & Custom production type",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_3.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Overhead & Custom production type & Orbitvu",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_4.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Hanger & Video type",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_5.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Video type",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_6.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when production type is Multipe type",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_7.json",
+    "responseBody":"SuccessOutput.json"
+  },
+  {
+    "title":"Success Case, create workflow when name include special character",
+    "generateName":"special_character",
+    "code": 200,
+    "token":"full-permission",
+    "param":"clientId=ed2addc2-0768-4c58-ad77-ecb7d6e6afd7",
+    "requestBody":"prepare_success_8.json",
+    "responseBody":"SuccessOutput.json"
+  }
+]

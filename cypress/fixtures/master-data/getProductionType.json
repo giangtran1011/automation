@@ -1,0 +1,281 @@
+[
+    {
+        "title":"Success case - Get all production type",
+        "param":"pageNumber=1&pageSize=10&keyword=",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 13
+            },
+            "pageData": [
+                {
+                    "productionTypeId": 1,
+                    "productionTypeName": "On Model",
+                    "productionTypeCategoryId": 10,
+                    "productionTypeCategoryName": "ModelProduction"
+                },
+                {
+                    "productionTypeId": 2,
+                    "productionTypeName": "Mannequin",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 3,
+                    "productionTypeName": "Flats",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 5,
+                    "productionTypeName": "Overhead",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 6,
+                    "productionTypeName": "Tabletop",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 7,
+                    "productionTypeName": "Hanger",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1001,
+                    "productionTypeName": "giang_t1",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1002,
+                    "productionTypeName": "Na test",
+                    "productionTypeCategoryId": 40,
+                    "productionTypeCategoryName": "VPI"
+                },
+                {
+                    "productionTypeId": 1003,
+                    "productionTypeName": "VPI",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1006,
+                    "productionTypeName": "Video test",
+                    "productionTypeCategoryId": 30,
+                    "productionTypeCategoryName": "Video"
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success case - Get  production type key word is found",
+        "param":"pageNumber=1&pageSize=10&keyword=On Model",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 1
+            },
+            "pageData": [
+                {
+                    "productionTypeId": 1,
+                    "productionTypeName": "On Model",
+                    "productionTypeCategoryId": 10,
+                    "productionTypeCategoryName": "ModelProduction"
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success case - Get  production type with param not keyword",
+        "param":"pageNumber=1&pageSize=10",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 13
+            },
+            "pageData": [
+                {
+                    "productionTypeId": 1,
+                    "productionTypeName": "On Model",
+                    "productionTypeCategoryId": 10,
+                    "productionTypeCategoryName": "ModelProduction"
+                },
+                {
+                    "productionTypeId": 2,
+                    "productionTypeName": "Mannequin",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 3,
+                    "productionTypeName": "Flats",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 5,
+                    "productionTypeName": "Overhead",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 6,
+                    "productionTypeName": "Tabletop",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 7,
+                    "productionTypeName": "Hanger",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1001,
+                    "productionTypeName": "giang_t1",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1002,
+                    "productionTypeName": "Na test",
+                    "productionTypeCategoryId": 40,
+                    "productionTypeCategoryName": "VPI"
+                },
+                {
+                    "productionTypeId": 1003,
+                    "productionTypeName": "VPI",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1006,
+                    "productionTypeName": "Video test",
+                    "productionTypeCategoryId": 30,
+                    "productionTypeCategoryName": "Video"
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success case - Get  production type with keyword is lower case",
+        "param":"pageNumber=1&pageSize=10&keyword=flat",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 1
+            },
+            "pageData": [
+                {
+                    "productionTypeId": 3,
+                    "productionTypeName": "Flats",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success case - Get  production type with keyword is upper case",
+        "param":"pageNumber=1&pageSize=10&keyword=FLATS",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 1
+            },
+            "pageData": [
+                {
+                    "productionTypeId": 3,
+                    "productionTypeName": "Flats",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success case - Get  production type with keyword is search like",
+        "param":"pageNumber=1&pageSize=10&keyword=m",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 3
+            },
+            "pageData": [
+                {
+                    "productionTypeId": 1,
+                    "productionTypeName": "On Model",
+                    "productionTypeCategoryId": 10,
+                    "productionTypeCategoryName": "ModelProduction"
+                },
+                {
+                    "productionTypeId": 2,
+                    "productionTypeName": "Mannequin",
+                    "productionTypeCategoryId": 20,
+                    "productionTypeCategoryName": "StillLifeProduction"
+                },
+                {
+                    "productionTypeId": 1008,
+                    "productionTypeName": "Orbitvu model",
+                    "productionTypeCategoryId": 50,
+                    "productionTypeCategoryName": "Orbitvu"
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success case - Get  production type with pageNumber not enough",
+        "param":"pageNumber=2&pageSize=10&keyword=m",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 2,
+                "pageSize": 10,
+                "totalItemsCount": 3
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title":"Success case - Get  production type with keyword not found",
+        "param":"pageNumber=1&pageSize=10&keyword=123",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 0
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title":"Success case - Get  production type with keyword include special character",
+        "param":"pageNumber=1&pageSize=10&keyword=!@#@$1233",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 0
+            },
+            "pageData": []
+        }
+    }
+]

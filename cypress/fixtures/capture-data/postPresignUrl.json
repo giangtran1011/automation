@@ -1,0 +1,1873 @@
+[{
+        "title": "Case 1: Submit task with 3 normal asset",
+        "product": "case 1",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+
+        }
+    },
+
+    {
+        "title": "Case 2: Submit task with 1 inclip asset",
+        "product": "case 2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 1
+            }]
+        }
+    },
+
+    {
+        "title": "Case 3: Submit task with inclip +alternative + Non-selected",
+        "product": "case 3",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 1
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 4
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 8
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 4a + case 5: submit task successfully and duplicate",
+        "product": "case 4",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 0,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 4,
+                    "positionId": 0,
+                    "attr": 0
+                }
+            ]
+
+        }
+    },
+
+    {
+        "title": "Case 4b: submit task with used assetId",
+        "product": "case 4",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+
+        }
+    },
+
+    {
+        "title": "Case 5: submit task with used assetId",
+        "product": "case 5",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 5,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+
+        }
+    },
+
+    {
+        "title": "Case 6: Submit task with normal + alternative asset",
+        "product": "case 6",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 4
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 7: Submit task with normal asset and color reference",
+        "product": "case 7",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ],
+            "colorReferences": [{
+                    "fileId": "uuid"
+                },
+                {
+                    "fileId": "uuid"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 8: Submit task with duplicate resource asset",
+        "product": "case 8",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-324",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-325",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-326",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": [{
+                        "assetId": "uuid",
+                        "rating": 5
+                    }]
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": [{
+                        "assetId": "uuid",
+                        "rating": 5
+                    }]
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 9: Submit task with invalid condition of position 3",
+        "product": "case 9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-324",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-325",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 9b: PositionId = 0",
+        "product": "case 9b",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 0,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 10: Submit task with 20 resource asset of 1 asset",
+        "product": "case 10",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-324",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-325",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-326",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-327",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-328",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-329",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3210",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3211",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3212",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3213",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3214",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3215",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3216",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3217",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3218",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3219",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3220",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3221",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3222",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 4,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": [{
+                            "assetId": "uuid1",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid2",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid3",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid4",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid5",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid6",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid7",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid8",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid9",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid10",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid11",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid12",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid13",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid14",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid15",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid16",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid17",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid18",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid19",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid20",
+                            "rating": 3
+                        }
+                    ]
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 1,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 11: Submit task with 21 resource asset of 1 asset",
+        "product": "case 11",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-324",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-325",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-326",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-327",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-328",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-329",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3210",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3211",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3212",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3213",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3214",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3215",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3216",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3217",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3218",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3219",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3220",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3221",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3222",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-3223",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": [{
+                            "assetId": "uuid1",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid2",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid3",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid4",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid5",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid6",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid7",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid8",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid9",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid10",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid11",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid12",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid13",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid14",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid15",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid16",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid17",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid18",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid19",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid20",
+                            "rating": 3
+                        },
+                        {
+                            "assetId": "uuid21",
+                            "rating": 3
+                        }
+                    ]
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 12: Submit task with 2 normal if productionType is disable",
+        "product": "case 12",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 14: Submit task with 2 normal if productionType is inactive",
+        "product": "case 14",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 15: Successful - Require color reference = True",
+        "product": "case 15",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ],
+            "colorReferences": [{
+                    "fileId": "uuid"
+                },
+                {
+                    "fileId": "uuid"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 16: Require color reference = True - Missing file color reference",
+        "product": "case 16",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 17: Unsuccessful - 11 color reference fields",
+        "product": "case 17",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ],
+            "colorReferences": [{
+                    "fileId": "uuid1"
+                },
+                {
+                    "fileId": "uuid2"
+                },
+                {
+                    "fileId": "uuid3"
+                },
+                {
+                    "fileId": "uuid4"
+                },
+                {
+                    "fileId": "uuid5"
+                },
+                {
+                    "fileId": "uuid6"
+                },
+                {
+                    "fileId": "uuid7"
+                },
+                {
+                    "fileId": "uuid8"
+                },
+                {
+                    "fileId": "uuid9"
+                },
+                {
+                    "fileId": "uuid10"
+                },
+                {
+                    "fileId": "uuid11"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 17a: Successful - 10 color reference fields",
+        "product": "case 17a",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ],
+            "colorReferences": [{
+                    "fileId": "uuid1"
+                },
+                {
+                    "fileId": "uuid2"
+                },
+                {
+                    "fileId": "uuid3"
+                },
+                {
+                    "fileId": "uuid4"
+                },
+                {
+                    "fileId": "uuid5"
+                },
+                {
+                    "fileId": "uuid6"
+                },
+                {
+                    "fileId": "uuid7"
+                },
+                {
+                    "fileId": "uuid8"
+                },
+                {
+                    "fileId": "uuid9"
+                },
+                {
+                    "fileId": "uuid10"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 18: Imported color ref before",
+        "product": "case 18",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0
+                }
+            ],
+            "colorReferences": [{
+                    "fileId": "uuid"
+                },
+                {
+                    "fileId": "uuid"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 19a + case 20: pre-selection - submit task and duplicate with same assetId",
+        "product": "case 19",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 4,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 4,
+                    "attr": 0
+                }
+            ]
+
+        }
+    },
+    {
+        "title": "Case 19b: pre-selection - submit task and duplicate with new assetId",
+        "product": "case 19",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 1,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 1,
+                    "attr": 0
+                }
+            ]
+
+        }
+    },
+    {
+        "title": "Case 20- Data test",
+        "product": "case 20",
+        "picture": "",
+        "getUrlData": "",
+        "submitTaskData": ""
+    },
+    {
+        "title": "Case 21: pre-selection - submit task with inclip +alternative + Non-selected",
+        "product": "case 21",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-323",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "attr": 1
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "attr": 4
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "attr": 8
+                }
+            ]
+        }
+    },
+    {
+        "title": "Case 22: pre-selection - submit task with color ref",
+        "product": "case 22",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 2,
+                "attr": 0
+            }],
+            "colorReferences": [{
+                "fileId": "uuid"
+            }]
+        }
+    },
+    {
+        "title": "Case 23: pre-selection - submit task with disable prodductType",
+        "product": "case 23",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 2,
+                "attr": 0
+            }]
+        }
+    },
+
+    {
+        "title": "Case 24: pre-selection - submit task with inactive prodduct",
+        "product": "case 24",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 2,
+                "attr": 0
+            }]
+        }
+    },
+
+    {
+        "title": "Case 25: pre-selection - successful - submit task with require color reference = True",
+        "product": "case 25",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 2,
+                "attr": 0
+            }],
+            "colorReferences": [{
+                "fileId": "uuid"
+            }]
+        }
+    },
+
+    {
+        "title": "Case 26: pre-selection - successful - submit task with missing color reference",
+        "product": "case 26",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 2,
+                "attr": 0
+            }]
+        }
+    },
+
+    {
+        "title": "Case 27a: pre-selection- Successful - 10 color reference fields",
+        "product": "case 27a",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-322",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 0,
+                "attr": 0
+            }],
+            "colorReferences": [{
+                    "fileId": "uuid1"
+                },
+                {
+                    "fileId": "uuid2"
+                },
+                {
+                    "fileId": "uuid3"
+                },
+                {
+                    "fileId": "uuid4"
+                },
+                {
+                    "fileId": "uuid5"
+                },
+                {
+                    "fileId": "uuid6"
+                },
+                {
+                    "fileId": "uuid7"
+                },
+                {
+                    "fileId": "uuid8"
+                },
+                {
+                    "fileId": "uuid9"
+                },
+                {
+                    "fileId": "uuid10"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 27: pre-selection - 11 color reference fields",
+        "product": "case 27",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-322",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 3,
+                "positionId": 0,
+                "attr": 0
+            }],
+            "colorReferences": [{
+                    "fileId": "uuid1"
+                },
+                {
+                    "fileId": "uuid2"
+                },
+                {
+                    "fileId": "uuid3"
+                },
+                {
+                    "fileId": "uuid4"
+                },
+                {
+                    "fileId": "uuid5"
+                },
+                {
+                    "fileId": "uuid6"
+                },
+                {
+                    "fileId": "uuid7"
+                },
+                {
+                    "fileId": "uuid8"
+                },
+                {
+                    "fileId": "uuid9"
+                },
+                {
+                    "fileId": "uuid10"
+                },
+                {
+                    "fileId": "uuid11"
+                }
+            ]
+        }
+    },
+
+    {
+        "title": "Case 28: pre-selection - Imported color ref before",
+        "product": "case 28",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }],
+            "colorReferences": [{
+                "fileId": "uuid"
+            }]
+        }
+    }
+
+]

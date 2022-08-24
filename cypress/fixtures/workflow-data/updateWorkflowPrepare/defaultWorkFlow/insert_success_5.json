@@ -1,0 +1,67 @@
+{
+    "name": "New workflow",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 7,
+        "approachType": 2,
+        "actionWithoutColorRefId": 0,
+        "accurateStep": null
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 7,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 1
+                },
+                "cutOffStepId": 15
+            },
+            "postProduction": {
+                "approachModelId": 5
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true,
+                "clientDeliveryConnectionId": "3d445d9a-24b6-4faf-a04a-4d0cd9c5d0b6"
+            }
+        },
+        {
+            "shootingTypeId": 1006,
+            "shootingTypeCategoryId": 30,
+            "postProduction": {
+                "approachModelId": 5
+            },
+            "photography": {
+                "cutOffStepId": 4,
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            }
+        }
+    ]
+}

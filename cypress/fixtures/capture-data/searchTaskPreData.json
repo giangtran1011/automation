@@ -1,0 +1,46 @@
+[
+    {
+        "title":"200 - Search Task",
+        "param": "productCode03N_3560474",
+        "data": 
+            {
+                "searchResult": 1,
+                "objectTypeId": 2,
+                "objectIds": [
+                    "3f2b003a-7041-43a0-8dbb-1bd4eace568f"
+                ],
+                "tasks": [
+                    {
+                        "taskId": "4c270ca0-e39d-4170-8e8d-0b94ac58b232",
+                        "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+                        "stepStatusId": 2000,
+                        "jobId": "04964854-ed34-44a5-8be5-a64d824c46c9",
+                        "jobCode": "jobCode2_78340",
+                        "productId": "3f2b003a-7041-43a0-8dbb-1bd4eace568f",
+                        "productCode": "productCode03N_3560474",
+                        "productCfCode": "PD9428285CF",
+                        "samples": [
+                            {
+                                "sampleId": "4b15d206-4b94-4849-9d31-39a8a3a4e323",
+                                "sampleCode": "SE11306136CF",
+                                "sampleCfCode": "SE11306136CF"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "code" : 200
+    },
+    {
+        "title": "400 - Bad request when bareCode not exist",
+        "param": "productCode03N",
+        "numberCase" : "400_1",
+        "code": 400
+    },
+    {
+        "title": "405 - Not method allow",
+        "param": "productCode03N_3560474",
+        "code": 405
+    }
+    
+]

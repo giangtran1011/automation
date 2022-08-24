@@ -1,0 +1,1227 @@
+[
+    {
+        "title": "Get styleGuides information of studio",
+        "endpoint": "",
+        "compareData": [
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "5f16af74-f09e-40fd-870f-af4af449ca5a",
+              "styleVersionId": "76145d40-3c54-4a5c-9d18-daaa034d1b33",
+              "styleGuideVersionNumber": 5,
+              "styleGuideName": "Category style guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0f38c5bd-2eab-4d84-90db-06e5a7b4c91d",
+              "styleGuideId": "74ae2d3a-143e-441a-81e0-26eea964f8cd",
+              "styleVersionId": "7d5ad05d-88ee-4ec8-adb4-1104749d7be9",
+              "styleGuideVersionNumber": 0,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "b8b8bc1a-2a39-4016-98ef-813e63b7be42",
+              "styleVersionId": "d51c0e6d-6844-4d99-b879-846c001e9f44",
+              "styleGuideVersionNumber": 5,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 3,
+                  "shootingTypeName": "Flats",
+                  "positions": [
+                    {
+                      "positionId": 6,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 5,
+                  "shootingTypeName": "Overhead",
+                  "positions": [
+                    {
+                      "positionId": 8,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+              "styleGuideId": "ac66e245-05c2-47fa-8dbb-8f07e987a29b",
+              "styleVersionId": "23a48e8f-ffd6-4afc-a93a-2f1b1eef4ec8",
+              "styleGuideVersionNumber": 0,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "35878155-4adc-492f-945e-43ddf783a259",
+              "styleVersionId": "c5d6114c-5d78-4ce4-91bf-3055ac95d379",
+              "styleGuideVersionNumber": 5,
+              "styleGuideName": "Pre-Selection By Position",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "3c216c54-d84b-41e1-9c25-28315ff2cbe6",
+              "styleVersionId": "6bac681b-65cd-4d30-9b21-ac197a9092a1",
+              "styleGuideVersionNumber": 25,
+              "styleGuideName": "Full setting style guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "Front"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "Back"
+                    },
+                    {
+                      "positionId": 12,
+                      "positionName": "Beside"
+                    },
+                    {
+                      "positionId": 13,
+                      "positionName": "Other"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 5,
+                      "positionName": "Ghost 1"
+                    },
+                    {
+                      "positionId": 14,
+                      "positionName": "Ghost 2"
+                    },
+                    {
+                      "positionId": 15,
+                      "positionName": "Ghost 3"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 3,
+                  "shootingTypeName": "Flats",
+                  "positions": [
+                    {
+                      "positionId": 7,
+                      "positionName": "Flat 1"
+                    },
+                    {
+                      "positionId": 16,
+                      "positionName": "New position Copy 2"
+                    },
+                    {
+                      "positionId": 17,
+                      "positionName": "New position Copy"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 1003,
+                  "shootingTypeName": "VPI",
+                  "positions": [
+                    {
+                      "positionId": 11,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 18,
+                      "positionName": "New position Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "a5f61013-65e7-4638-adf1-f6ac331d420c",
+              "styleVersionId": "277e2875-b804-4531-b4f6-367392c9614c",
+              "styleGuideVersionNumber": 4,
+              "styleGuideName": "style guide hero on",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "position 1"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "position 2"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "position 3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "0559cd4f-4d42-49db-8855-9567680fd65d",
+              "styleVersionId": "88f1766e-7366-4f70-96b3-0eaddc17d261",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Invalid styleGuide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "3c218ec9-7a75-49e2-80bf-3cec80b9df25",
+              "styleVersionId": "376866da-50f9-40d6-b142-76168080a97b",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Final selection Require color ref Use selection from production type",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "15b83c76-56ae-4bb8-80bd-1561f9bf2919",
+              "styleVersionId": "f2fc349e-93f2-494f-9538-1af3e9d31ba7",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Final selection Require color ref Specific production type",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "29173970-4c4c-4195-bd92-b9d894fc1256",
+              "styleVersionId": "d8801449-b558-409b-8546-a4a739c93ab0",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "047f6b8c-5815-44fb-bb4b-f08524b78e91",
+              "styleVersionId": "2ec9c1e4-7f14-461b-a4d8-abac89822ed9",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Pre-selection Require color ref",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "88ea6556-329c-4777-8b56-c5f567fcaba6",
+              "styleVersionId": "5dbf10ca-d79f-4b1c-a034-307f4360062c",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Pre-Selection",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "f56dc680-08bc-48af-91cc-0980f6e0ca5c",
+              "styleVersionId": "3603f7ed-0b67-4472-abc6-abd24abb2405",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Pre-Selection By Position Require Color Ref",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "e326d5df-fcca-4bab-ad01-b78b1a4a74b7",
+              "styleVersionId": "c3a05933-1393-4b8d-ad81-4bab8e701f1b",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Final selection Require color ref",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+              "styleGuideId": "15f3edec-927f-4cfd-a252-ede5d28ca382",
+              "styleVersionId": "2d32ec03-b66f-4399-a2a3-5d62611531bf",
+              "styleGuideVersionNumber": 1,
+              "styleGuideName": "Animals",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "position 1"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "position 2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "e3f0223c-63ea-4028-8ba4-15b6a25ea88a",
+              "styleVersionId": "75d29f00-e13c-403e-8015-f9cb6bda09c5",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Disable style guide (don't change)",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+              "styleGuideId": "e8ed4fcb-7443-4767-9b27-e445f0a7cc47",
+              "styleVersionId": "7c306327-b526-408c-b344-ac38791c792f",
+              "styleGuideVersionNumber": 1,
+              "styleGuideName": "Style Guilde Client Task",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "Position1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+              "styleGuideId": "823cf5ec-8c10-4139-8053-d24158be7674",
+              "styleVersionId": "8ead6f97-49c0-4ac3-8c3a-1d148c04f3e5",
+              "styleGuideVersionNumber": 0,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "1b684ed5-abf7-4e73-8781-fbb09739010c",
+              "styleGuideId": "b183264d-acdf-41e0-be69-a34ef0fc359d",
+              "styleVersionId": "c2fba6cc-f353-4824-8939-205f5c565dab",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "270bbe30-eeba-46e0-bc6a-d9b1652ecd51",
+              "styleVersionId": "9ae5a9ed-552d-46c7-ab5a-9c7284ba0b5f",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Final selection",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "e3183d25-514b-4d93-a310-fee15ea078eb",
+              "styleVersionId": "b8c4a6d3-86de-484b-9c0e-c79d008346a9",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Final selection ALT = FALSE",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuides information with isEnabled = false",
+        "endpoint": "?isEnabled=false",
+        "compareData": [
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "e3f0223c-63ea-4028-8ba4-15b6a25ea88a",
+              "styleVersionId": "75d29f00-e13c-403e-8015-f9cb6bda09c5",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Disable style guide (don't change)",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuides information with isEnabled = true",
+        "endpoint": "?isEnabled=true",
+        "compareData": [
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "5f16af74-f09e-40fd-870f-af4af449ca5a",
+              "styleVersionId": "76145d40-3c54-4a5c-9d18-daaa034d1b33",
+              "styleGuideVersionNumber": 5,
+              "styleGuideName": "Category style guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0f38c5bd-2eab-4d84-90db-06e5a7b4c91d",
+              "styleGuideId": "74ae2d3a-143e-441a-81e0-26eea964f8cd",
+              "styleVersionId": "7d5ad05d-88ee-4ec8-adb4-1104749d7be9",
+              "styleGuideVersionNumber": 0,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "b8b8bc1a-2a39-4016-98ef-813e63b7be42",
+              "styleVersionId": "d51c0e6d-6844-4d99-b879-846c001e9f44",
+              "styleGuideVersionNumber": 5,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 3,
+                  "shootingTypeName": "Flats",
+                  "positions": [
+                    {
+                      "positionId": 6,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 5,
+                  "shootingTypeName": "Overhead",
+                  "positions": [
+                    {
+                      "positionId": 8,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+              "styleGuideId": "ac66e245-05c2-47fa-8dbb-8f07e987a29b",
+              "styleVersionId": "23a48e8f-ffd6-4afc-a93a-2f1b1eef4ec8",
+              "styleGuideVersionNumber": 0,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "35878155-4adc-492f-945e-43ddf783a259",
+              "styleVersionId": "c5d6114c-5d78-4ce4-91bf-3055ac95d379",
+              "styleGuideVersionNumber": 5,
+              "styleGuideName": "Pre-Selection By Position",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "3c216c54-d84b-41e1-9c25-28315ff2cbe6",
+              "styleVersionId": "6bac681b-65cd-4d30-9b21-ac197a9092a1",
+              "styleGuideVersionNumber": 25,
+              "styleGuideName": "Full setting style guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "Front"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "Back"
+                    },
+                    {
+                      "positionId": 12,
+                      "positionName": "Beside"
+                    },
+                    {
+                      "positionId": 13,
+                      "positionName": "Other"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 5,
+                      "positionName": "Ghost 1"
+                    },
+                    {
+                      "positionId": 14,
+                      "positionName": "Ghost 2"
+                    },
+                    {
+                      "positionId": 15,
+                      "positionName": "Ghost 3"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 3,
+                  "shootingTypeName": "Flats",
+                  "positions": [
+                    {
+                      "positionId": 7,
+                      "positionName": "Flat 1"
+                    },
+                    {
+                      "positionId": 16,
+                      "positionName": "New position Copy 2"
+                    },
+                    {
+                      "positionId": 17,
+                      "positionName": "New position Copy"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 1003,
+                  "shootingTypeName": "VPI",
+                  "positions": [
+                    {
+                      "positionId": 11,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 18,
+                      "positionName": "New position Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "a5f61013-65e7-4638-adf1-f6ac331d420c",
+              "styleVersionId": "277e2875-b804-4531-b4f6-367392c9614c",
+              "styleGuideVersionNumber": 4,
+              "styleGuideName": "style guide hero on",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "position 1"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "position 2"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "position 3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+              "styleGuideId": "0559cd4f-4d42-49db-8855-9567680fd65d",
+              "styleVersionId": "88f1766e-7366-4f70-96b3-0eaddc17d261",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Invalid styleGuide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "3c218ec9-7a75-49e2-80bf-3cec80b9df25",
+              "styleVersionId": "376866da-50f9-40d6-b142-76168080a97b",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Final selection Require color ref Use selection from production type",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "15b83c76-56ae-4bb8-80bd-1561f9bf2919",
+              "styleVersionId": "f2fc349e-93f2-494f-9538-1af3e9d31ba7",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Final selection Require color ref Specific production type",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                },
+                {
+                  "shootingTypeId": 2,
+                  "shootingTypeName": "Mannequin",
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "29173970-4c4c-4195-bd92-b9d894fc1256",
+              "styleVersionId": "d8801449-b558-409b-8546-a4a739c93ab0",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "047f6b8c-5815-44fb-bb4b-f08524b78e91",
+              "styleVersionId": "2ec9c1e4-7f14-461b-a4d8-abac89822ed9",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Pre-selection Require color ref",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "88ea6556-329c-4777-8b56-c5f567fcaba6",
+              "styleVersionId": "5dbf10ca-d79f-4b1c-a034-307f4360062c",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Pre-Selection",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "f56dc680-08bc-48af-91cc-0980f6e0ca5c",
+              "styleVersionId": "3603f7ed-0b67-4472-abc6-abd24abb2405",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Pre-Selection By Position Require Color Ref",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "e326d5df-fcca-4bab-ad01-b78b1a4a74b7",
+              "styleVersionId": "c3a05933-1393-4b8d-ad81-4bab8e701f1b",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Final selection Require color ref",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+              "styleGuideId": "15f3edec-927f-4cfd-a252-ede5d28ca382",
+              "styleVersionId": "2d32ec03-b66f-4399-a2a3-5d62611531bf",
+              "styleGuideVersionNumber": 1,
+              "styleGuideName": "Animals",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "position 1"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "position 2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+              "styleGuideId": "e8ed4fcb-7443-4767-9b27-e445f0a7cc47",
+              "styleVersionId": "7c306327-b526-408c-b344-ac38791c792f",
+              "styleGuideVersionNumber": 1,
+              "styleGuideName": "Style Guilde Client Task",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "Position1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+              "styleGuideId": "823cf5ec-8c10-4139-8053-d24158be7674",
+              "styleVersionId": "8ead6f97-49c0-4ac3-8c3a-1d148c04f3e5",
+              "styleGuideVersionNumber": 0,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "1b684ed5-abf7-4e73-8781-fbb09739010c",
+              "styleGuideId": "b183264d-acdf-41e0-be69-a34ef0fc359d",
+              "styleVersionId": "c2fba6cc-f353-4824-8939-205f5c565dab",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Digital Style Guide",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "ALL"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "270bbe30-eeba-46e0-bc6a-d9b1652ecd51",
+              "styleVersionId": "9ae5a9ed-552d-46c7-ab5a-9c7284ba0b5f",
+              "styleGuideVersionNumber": 3,
+              "styleGuideName": "Final selection",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    },
+                    {
+                      "positionId": 3,
+                      "positionName": "New position Copy"
+                    },
+                    {
+                      "positionId": 4,
+                      "positionName": "New position Copy Copy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+              "styleGuideId": "e3183d25-514b-4d93-a310-fee15ea078eb",
+              "styleVersionId": "b8c4a6d3-86de-484b-9c0e-c79d008346a9",
+              "styleGuideVersionNumber": 2,
+              "styleGuideName": "Final selection ALT = FALSE",
+              "shootingTypes": [
+                {
+                  "shootingTypeId": 1,
+                  "shootingTypeName": "On Model",
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "positionName": "New position"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuides information with invalid isEnabled",
+        "endpoint": "?isEnabled=123",
+        "compareData": false,
+        "code": 200,
+        "message": "Invalid data"
+    },
+    {
+        "title": "Get styleGuides information without permission",
+        "compareData": false,
+        "endpoint": "",
+        "code": 403,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuides information without authorization",
+        "compareData": false,
+        "endpoint": "",
+        "code": 401,
+        "message": "Unauthorized"
+    }
+]

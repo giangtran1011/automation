@@ -1,0 +1,62 @@
+{
+    "name": "New workflow",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": true,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 3,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 3,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                },
+                "internal": {
+                    "isNotAllowAutoQa": false,
+                    "isBypassQc": false,
+                    "isEnabled": true
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": true,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 10
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true,
+                "clientDeliveryConnectionId": "3d445d9a-24b6-4faf-a04a-4d0cd9c5d0b6"
+            }
+        }
+    ]
+}

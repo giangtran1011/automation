@@ -1,0 +1,40 @@
+[
+    {
+        "title": "200 - Get style guide count no param",
+        "code": 200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJDKODLCM19:00000001"
+            },
+            "data": 6
+        }
+    },
+    {
+        "title":"200 - Get style guide count by client",
+        "code":200,
+        "param":"clientId=9064cbef-66fe-4ea2-9397-c05d35302e9c",
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJDKODLCM59:00000001"
+            },
+            "data": 2
+        }
+    },
+    {
+        "title":"200 - Get style guide count by work flow",
+        "code":200,
+        "param":"workflowId=c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJDKODLCMVH:00000001"
+            },
+            "data": 1
+        }
+    }
+]

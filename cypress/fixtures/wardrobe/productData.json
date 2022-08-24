@@ -1,0 +1,27 @@
+{
+    "products": [{
+        "category": "CATEGORYTest",
+        "styleGuide": "Style guide Common",
+        "wardrobeitem": 0,
+        "productCode": "",
+        "productName": "Product S_0706214",
+        "color": "pink",
+        "brand": "JM",
+        "properties": {},
+        "samples": [{
+            "sampleCode": "",
+            "sampleName": "002",
+            "size": "2",
+            "sampleProductImages": [],
+            "sampleReturnDatetimeUtc": 4736024754765,
+            "properties": {
+                "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment13"
+            }
+        }],
+        "vendorMaterialCode": "vendorMaterialCode Test",
+        "colorReferenceUrls": [
+            "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+        ],
+        "styleCode": "styleCode03"
+    }]
+}

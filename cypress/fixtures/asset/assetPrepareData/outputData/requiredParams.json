@@ -1,0 +1,172 @@
+{
+    "pageInfo": {
+        "pageNumber": 1,
+        "pageSize": 10
+    },
+    "pageData": [{
+            "assetId": "9ea7cef0-bf95-4364-b5ab-4f854009f713",
+            "fullResPreviewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=1&size=0&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=2&size=160&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=3&size=320&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=4&size=650&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=5&size=1300&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "previewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=6&size=1600&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "previewX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=7&size=3200&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F6205e6da%2FMan_H20220517_1_6_a.jpg",
+            "length": 4197781,
+            "imageInformation": {
+                "dpi": "",
+                "colorProfileName": "",
+                "dimension": {
+                    "width": 0,
+                    "height": 0
+                },
+                "fileExtension": ".jpg",
+                "fileExtensionId": 1
+            },
+            "videoInformation": {
+                "fileExtension": ".jpg",
+                "videoWidthInPixel": 0,
+                "videoHeightInPixel": 0,
+                "durationInSecond": 0.0,
+                "videoFrameCount": 0.0,
+                "videoFrameRate": 0.0,
+                "codec": 0
+            },
+            "fileId": "9115ce8f-5715-4710-8a3c-3c7cf5bfdaa3",
+            "fileName": "Man_H20220517_1_6_a.jpg",
+            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/o/62d7ff06e5944cbe8811b63717a4f6ed/0c2c/20220815_100952/c8288b08/171ffeb9/6205e6da/Man_H20220517_1_6_a.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEGMaDmFwLXNvdXRoZWFzdC0xIkYwRAIgDeKDs9S5H0ZnCaOECVhdw9FKoAmUaSqTrCr77LBf7eUCIFgFSnyWQQfc72UXE%2B4fhVM4upV0u7HrTQknp46qI3%2FvKuoECMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDkyMzkyNzg3MTg3IgxSTclOrxtqEoa%2FWigqvgT918qsrqsUWUPmZDspvI9LruXJ%2Bvk7IoVmHeDmdZY1SJENB2oif0ytE9tqZRIXUVx1bDNddtPeA47eQdCwCUmoQWN6VAi4NxVnK4ZOCbGE0mh2qk1yyQvG5nYEd2fEClf3iwGqr94j3DtCQwcWbvQhwhaDSZctLJQ8GH5AX1bp5mP1D9QFb6sHPuKib%2FDNNB%2BWZNhkFH6HIX02OrSoVqmJjiKYxdQV803lwxsIl5KpY2A0QLBVNfHSssHJ%2FeFrr3t%2BeS14hawN4MOZtwYckb1MWMG5amF1OG75qICYkjfrRBwt0x%2FvrfemJl9OLiXZWeKMY0golTW6lfvzbazwba8MmEt0u5ZDkTkOy2F%2F2mShFAs10OD7ihDnIKkIkAhTYf9xhR8%2FNdHtEGuc39tY3U668mkbaygBeca0iTqFqpVivabXzTcEGuuFE3QO%2F6zGWvQjym6Jt9JtCqcJ9COaemqQu9hZjfila4fw3m3MchNVWvSyb7ftJYWXqMkz1Kf%2F7Z%2FPRev8mS4F3GNELAQt%2FLX2%2BeCBgvUAm0lwLaBJhM5tczb4bNWoLM9UK2WTyPqacgQIoocpO2tw%2FYF2cNuK6VsuiUBuqUQ%2B4cM8veSymD3VP7cxzukBW3WUU5sj15Iee7X%2BHmaist57YKAxewQ1ClmbgNLwdHvBWuxjio1t%2FKqmxd1igk6kzqfrGXX73TmWfg3beOmsoQSUbaYGB3OzHAfPhGcT7sqoYGAGBHFjMaOzIzPBf3lp%2BrfqpzdgsROOMLua7JcGOqoB%2F6r9Veg6jxl813WuChPo3IZxi9u78GJFdXwGXn5leB1cHhGV2tZOUwNgMRWToF%2FPGrNblm4JSKqT2lgctCipW3AkGskm08KdN%2FPEHCiJrYj6pj99VOSybnONdduMk7qTCrUNAapPcALRK2n6x684T15G2TMUi3eOBiq8A7CGQoNvRSJYV6dyy7hurVrX4pfBH5K5xgpL7MWTpOz5vnp43o8i9XDL1DFxlpI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZZEHIPF7M/20220816/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220816T040617Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=7f8d7419d28bd1d24c197410a08b994f5abce61de2fd8827e699669c20a215ca"
+        },
+        {
+            "assetId": "55b83183-9e80-4bf0-895e-e9649963e425",
+            "fullResPreviewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=1&size=0&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=2&size=160&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=3&size=320&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=4&size=650&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=5&size=1300&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "previewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=6&size=1600&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "previewX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=7&size=3200&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2Fb8b3358d%2FMan_H20220517_1_6_a.jpg",
+            "length": 4197781,
+            "imageInformation": {
+                "dpi": "",
+                "colorProfileName": "",
+                "dimension": {
+                    "width": 0,
+                    "height": 0
+                },
+                "fileExtension": ".jpg",
+                "fileExtensionId": 1
+            },
+            "videoInformation": {
+                "fileExtension": ".jpg",
+                "videoWidthInPixel": 0,
+                "videoHeightInPixel": 0,
+                "durationInSecond": 0.0,
+                "videoFrameCount": 0.0,
+                "videoFrameRate": 0.0,
+                "codec": 0
+            },
+            "fileId": "147a3f96-0b9e-4ba9-b642-b40ac99e536d",
+            "fileName": "Man_H20220517_1_6_a.jpg",
+            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/o/62d7ff06e5944cbe8811b63717a4f6ed/0c2c/20220815_100952/c8288b08/171ffeb9/b8b3358d/Man_H20220517_1_6_a.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEGMaDmFwLXNvdXRoZWFzdC0xIkYwRAIgDeKDs9S5H0ZnCaOECVhdw9FKoAmUaSqTrCr77LBf7eUCIFgFSnyWQQfc72UXE%2B4fhVM4upV0u7HrTQknp46qI3%2FvKuoECMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDkyMzkyNzg3MTg3IgxSTclOrxtqEoa%2FWigqvgT918qsrqsUWUPmZDspvI9LruXJ%2Bvk7IoVmHeDmdZY1SJENB2oif0ytE9tqZRIXUVx1bDNddtPeA47eQdCwCUmoQWN6VAi4NxVnK4ZOCbGE0mh2qk1yyQvG5nYEd2fEClf3iwGqr94j3DtCQwcWbvQhwhaDSZctLJQ8GH5AX1bp5mP1D9QFb6sHPuKib%2FDNNB%2BWZNhkFH6HIX02OrSoVqmJjiKYxdQV803lwxsIl5KpY2A0QLBVNfHSssHJ%2FeFrr3t%2BeS14hawN4MOZtwYckb1MWMG5amF1OG75qICYkjfrRBwt0x%2FvrfemJl9OLiXZWeKMY0golTW6lfvzbazwba8MmEt0u5ZDkTkOy2F%2F2mShFAs10OD7ihDnIKkIkAhTYf9xhR8%2FNdHtEGuc39tY3U668mkbaygBeca0iTqFqpVivabXzTcEGuuFE3QO%2F6zGWvQjym6Jt9JtCqcJ9COaemqQu9hZjfila4fw3m3MchNVWvSyb7ftJYWXqMkz1Kf%2F7Z%2FPRev8mS4F3GNELAQt%2FLX2%2BeCBgvUAm0lwLaBJhM5tczb4bNWoLM9UK2WTyPqacgQIoocpO2tw%2FYF2cNuK6VsuiUBuqUQ%2B4cM8veSymD3VP7cxzukBW3WUU5sj15Iee7X%2BHmaist57YKAxewQ1ClmbgNLwdHvBWuxjio1t%2FKqmxd1igk6kzqfrGXX73TmWfg3beOmsoQSUbaYGB3OzHAfPhGcT7sqoYGAGBHFjMaOzIzPBf3lp%2BrfqpzdgsROOMLua7JcGOqoB%2F6r9Veg6jxl813WuChPo3IZxi9u78GJFdXwGXn5leB1cHhGV2tZOUwNgMRWToF%2FPGrNblm4JSKqT2lgctCipW3AkGskm08KdN%2FPEHCiJrYj6pj99VOSybnONdduMk7qTCrUNAapPcALRK2n6x684T15G2TMUi3eOBiq8A7CGQoNvRSJYV6dyy7hurVrX4pfBH5K5xgpL7MWTpOz5vnp43o8i9XDL1DFxlpI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZZEHIPF7M/20220816/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220816T040617Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=39f048956b66f80c5c61dbcbcaffacd0f7770c88d92b2f01b4930d31d94014c6"
+        },
+        {
+            "assetId": "84e917a3-c210-4933-a754-3e7df86432d6",
+            "fullResPreviewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=1&size=0&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=2&size=160&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=3&size=320&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=4&size=650&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=5&size=1300&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "previewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=6&size=1600&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "previewX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=7&size=3200&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F47b988f2%2FMan_H20220517_1_6_a.jpg",
+            "length": 4197781,
+            "imageInformation": {
+                "dpi": "",
+                "colorProfileName": "",
+                "dimension": {
+                    "width": 0,
+                    "height": 0
+                },
+                "fileExtension": ".jpg",
+                "fileExtensionId": 1
+            },
+            "videoInformation": {
+                "fileExtension": ".jpg",
+                "videoWidthInPixel": 0,
+                "videoHeightInPixel": 0,
+                "durationInSecond": 0.0,
+                "videoFrameCount": 0.0,
+                "videoFrameRate": 0.0,
+                "codec": 0
+            },
+            "fileId": "fdc65048-bf2a-43ca-b313-f1ee4d31988b",
+            "fileName": "Man_H20220517_1_6_a.jpg",
+            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/o/62d7ff06e5944cbe8811b63717a4f6ed/0c2c/20220815_100952/c8288b08/171ffeb9/47b988f2/Man_H20220517_1_6_a.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEGMaDmFwLXNvdXRoZWFzdC0xIkYwRAIgDeKDs9S5H0ZnCaOECVhdw9FKoAmUaSqTrCr77LBf7eUCIFgFSnyWQQfc72UXE%2B4fhVM4upV0u7HrTQknp46qI3%2FvKuoECMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDkyMzkyNzg3MTg3IgxSTclOrxtqEoa%2FWigqvgT918qsrqsUWUPmZDspvI9LruXJ%2Bvk7IoVmHeDmdZY1SJENB2oif0ytE9tqZRIXUVx1bDNddtPeA47eQdCwCUmoQWN6VAi4NxVnK4ZOCbGE0mh2qk1yyQvG5nYEd2fEClf3iwGqr94j3DtCQwcWbvQhwhaDSZctLJQ8GH5AX1bp5mP1D9QFb6sHPuKib%2FDNNB%2BWZNhkFH6HIX02OrSoVqmJjiKYxdQV803lwxsIl5KpY2A0QLBVNfHSssHJ%2FeFrr3t%2BeS14hawN4MOZtwYckb1MWMG5amF1OG75qICYkjfrRBwt0x%2FvrfemJl9OLiXZWeKMY0golTW6lfvzbazwba8MmEt0u5ZDkTkOy2F%2F2mShFAs10OD7ihDnIKkIkAhTYf9xhR8%2FNdHtEGuc39tY3U668mkbaygBeca0iTqFqpVivabXzTcEGuuFE3QO%2F6zGWvQjym6Jt9JtCqcJ9COaemqQu9hZjfila4fw3m3MchNVWvSyb7ftJYWXqMkz1Kf%2F7Z%2FPRev8mS4F3GNELAQt%2FLX2%2BeCBgvUAm0lwLaBJhM5tczb4bNWoLM9UK2WTyPqacgQIoocpO2tw%2FYF2cNuK6VsuiUBuqUQ%2B4cM8veSymD3VP7cxzukBW3WUU5sj15Iee7X%2BHmaist57YKAxewQ1ClmbgNLwdHvBWuxjio1t%2FKqmxd1igk6kzqfrGXX73TmWfg3beOmsoQSUbaYGB3OzHAfPhGcT7sqoYGAGBHFjMaOzIzPBf3lp%2BrfqpzdgsROOMLua7JcGOqoB%2F6r9Veg6jxl813WuChPo3IZxi9u78GJFdXwGXn5leB1cHhGV2tZOUwNgMRWToF%2FPGrNblm4JSKqT2lgctCipW3AkGskm08KdN%2FPEHCiJrYj6pj99VOSybnONdduMk7qTCrUNAapPcALRK2n6x684T15G2TMUi3eOBiq8A7CGQoNvRSJYV6dyy7hurVrX4pfBH5K5xgpL7MWTpOz5vnp43o8i9XDL1DFxlpI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZZEHIPF7M/20220816/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220816T040617Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=3dc062269342bca0821b44fdb8cb61f2ec9df10ccd5cde5bfa476e55122d43e1"
+        },
+        {
+            "assetId": "4bd2aa00-52cb-4d2a-9e23-7f4e514232c9",
+            "fullResPreviewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=1&size=0&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=2&size=160&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=3&size=320&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=4&size=650&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=5&size=1300&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "previewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=6&size=1600&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "previewX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=7&size=3200&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F9d594af1%2FMan_H20220517_1_6_a.jpg",
+            "length": 4197781,
+            "imageInformation": {
+                "dpi": "",
+                "colorProfileName": "",
+                "dimension": {
+                    "width": 0,
+                    "height": 0
+                },
+                "fileExtension": ".jpg",
+                "fileExtensionId": 1
+            },
+            "videoInformation": {
+                "fileExtension": ".jpg",
+                "videoWidthInPixel": 0,
+                "videoHeightInPixel": 0,
+                "durationInSecond": 0.0,
+                "videoFrameCount": 0.0,
+                "videoFrameRate": 0.0,
+                "codec": 0
+            },
+            "fileId": "dd7f316f-85ce-47f6-92ed-50cf94f80c2e",
+            "fileName": "Man_H20220517_1_6_a.jpg",
+            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/o/62d7ff06e5944cbe8811b63717a4f6ed/0c2c/20220815_100952/c8288b08/171ffeb9/9d594af1/Man_H20220517_1_6_a.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEGMaDmFwLXNvdXRoZWFzdC0xIkYwRAIgDeKDs9S5H0ZnCaOECVhdw9FKoAmUaSqTrCr77LBf7eUCIFgFSnyWQQfc72UXE%2B4fhVM4upV0u7HrTQknp46qI3%2FvKuoECMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDkyMzkyNzg3MTg3IgxSTclOrxtqEoa%2FWigqvgT918qsrqsUWUPmZDspvI9LruXJ%2Bvk7IoVmHeDmdZY1SJENB2oif0ytE9tqZRIXUVx1bDNddtPeA47eQdCwCUmoQWN6VAi4NxVnK4ZOCbGE0mh2qk1yyQvG5nYEd2fEClf3iwGqr94j3DtCQwcWbvQhwhaDSZctLJQ8GH5AX1bp5mP1D9QFb6sHPuKib%2FDNNB%2BWZNhkFH6HIX02OrSoVqmJjiKYxdQV803lwxsIl5KpY2A0QLBVNfHSssHJ%2FeFrr3t%2BeS14hawN4MOZtwYckb1MWMG5amF1OG75qICYkjfrRBwt0x%2FvrfemJl9OLiXZWeKMY0golTW6lfvzbazwba8MmEt0u5ZDkTkOy2F%2F2mShFAs10OD7ihDnIKkIkAhTYf9xhR8%2FNdHtEGuc39tY3U668mkbaygBeca0iTqFqpVivabXzTcEGuuFE3QO%2F6zGWvQjym6Jt9JtCqcJ9COaemqQu9hZjfila4fw3m3MchNVWvSyb7ftJYWXqMkz1Kf%2F7Z%2FPRev8mS4F3GNELAQt%2FLX2%2BeCBgvUAm0lwLaBJhM5tczb4bNWoLM9UK2WTyPqacgQIoocpO2tw%2FYF2cNuK6VsuiUBuqUQ%2B4cM8veSymD3VP7cxzukBW3WUU5sj15Iee7X%2BHmaist57YKAxewQ1ClmbgNLwdHvBWuxjio1t%2FKqmxd1igk6kzqfrGXX73TmWfg3beOmsoQSUbaYGB3OzHAfPhGcT7sqoYGAGBHFjMaOzIzPBf3lp%2BrfqpzdgsROOMLua7JcGOqoB%2F6r9Veg6jxl813WuChPo3IZxi9u78GJFdXwGXn5leB1cHhGV2tZOUwNgMRWToF%2FPGrNblm4JSKqT2lgctCipW3AkGskm08KdN%2FPEHCiJrYj6pj99VOSybnONdduMk7qTCrUNAapPcALRK2n6x684T15G2TMUi3eOBiq8A7CGQoNvRSJYV6dyy7hurVrX4pfBH5K5xgpL7MWTpOz5vnp43o8i9XDL1DFxlpI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZZEHIPF7M/20220816/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220816T040617Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=2248950c981fcdc9d6720e0aad9476c29afb7fa6d6c8060986ba2c32527f868f"
+        },
+        {
+            "assetId": "4fa17bf8-f16e-4df3-be60-ae72a71c4d49",
+            "fullResPreviewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=1&size=0&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=2&size=160&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "smallThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=3&size=320&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=4&size=650&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "mediumThumbnailX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=1&thumbnailId=5&size=1300&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "previewUrl": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=6&size=1600&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "previewX2Url": "https://rxxgf232ud.execute-api.ap-southeast-1.amazonaws.com/v1/thumb?quality=85&type=0&thumbnailId=7&size=3200&bucketId=1&fileKey=o%2F62d7ff06e5944cbe8811b63717a4f6ed%2F0c2c%2F20220815_100952%2Fc8288b08%2F171ffeb9%2F4c6595fc%2FMan_H20220517_1_6_a.jpg",
+            "length": 4197781,
+            "imageInformation": {
+                "dpi": "",
+                "colorProfileName": "",
+                "dimension": {
+                    "width": 0,
+                    "height": 0
+                },
+                "fileExtension": ".jpg",
+                "fileExtensionId": 1
+            },
+            "videoInformation": {
+                "fileExtension": ".jpg",
+                "videoWidthInPixel": 0,
+                "videoHeightInPixel": 0,
+                "durationInSecond": 0.0,
+                "videoFrameCount": 0.0,
+                "videoFrameRate": 0.0,
+                "codec": 0
+            },
+            "fileId": "fa63a7de-ffd3-4ae6-bb21-e5b2c3e427d5",
+            "fileName": "Man_H20220517_1_6_a.jpg",
+            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/o/62d7ff06e5944cbe8811b63717a4f6ed/0c2c/20220815_100952/c8288b08/171ffeb9/4c6595fc/Man_H20220517_1_6_a.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEGMaDmFwLXNvdXRoZWFzdC0xIkYwRAIgDeKDs9S5H0ZnCaOECVhdw9FKoAmUaSqTrCr77LBf7eUCIFgFSnyWQQfc72UXE%2B4fhVM4upV0u7HrTQknp46qI3%2FvKuoECMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMMDkyMzkyNzg3MTg3IgxSTclOrxtqEoa%2FWigqvgT918qsrqsUWUPmZDspvI9LruXJ%2Bvk7IoVmHeDmdZY1SJENB2oif0ytE9tqZRIXUVx1bDNddtPeA47eQdCwCUmoQWN6VAi4NxVnK4ZOCbGE0mh2qk1yyQvG5nYEd2fEClf3iwGqr94j3DtCQwcWbvQhwhaDSZctLJQ8GH5AX1bp5mP1D9QFb6sHPuKib%2FDNNB%2BWZNhkFH6HIX02OrSoVqmJjiKYxdQV803lwxsIl5KpY2A0QLBVNfHSssHJ%2FeFrr3t%2BeS14hawN4MOZtwYckb1MWMG5amF1OG75qICYkjfrRBwt0x%2FvrfemJl9OLiXZWeKMY0golTW6lfvzbazwba8MmEt0u5ZDkTkOy2F%2F2mShFAs10OD7ihDnIKkIkAhTYf9xhR8%2FNdHtEGuc39tY3U668mkbaygBeca0iTqFqpVivabXzTcEGuuFE3QO%2F6zGWvQjym6Jt9JtCqcJ9COaemqQu9hZjfila4fw3m3MchNVWvSyb7ftJYWXqMkz1Kf%2F7Z%2FPRev8mS4F3GNELAQt%2FLX2%2BeCBgvUAm0lwLaBJhM5tczb4bNWoLM9UK2WTyPqacgQIoocpO2tw%2FYF2cNuK6VsuiUBuqUQ%2B4cM8veSymD3VP7cxzukBW3WUU5sj15Iee7X%2BHmaist57YKAxewQ1ClmbgNLwdHvBWuxjio1t%2FKqmxd1igk6kzqfrGXX73TmWfg3beOmsoQSUbaYGB3OzHAfPhGcT7sqoYGAGBHFjMaOzIzPBf3lp%2BrfqpzdgsROOMLua7JcGOqoB%2F6r9Veg6jxl813WuChPo3IZxi9u78GJFdXwGXn5leB1cHhGV2tZOUwNgMRWToF%2FPGrNblm4JSKqT2lgctCipW3AkGskm08KdN%2FPEHCiJrYj6pj99VOSybnONdduMk7qTCrUNAapPcALRK2n6x684T15G2TMUi3eOBiq8A7CGQoNvRSJYV6dyy7hurVrX4pfBH5K5xgpL7MWTpOz5vnp43o8i9XDL1DFxlpI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZZEHIPF7M/20220816/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220816T040617Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=1db85c28b9e90408a1497f50075c94dd62c3c24ba445f5ce277035cee774f5b5"
+        }
+    ]
+}

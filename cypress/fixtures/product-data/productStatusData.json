@@ -1,0 +1,63 @@
+[{
+        "title": "200 OK - Get product status successfully with productcode",
+        "productCode": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "400 - Get product status by non-exist productCode",
+        "productCode": "non-exist-product6570",
+        "code": 400,
+        "message": "ProductNotFound"
+    },
+    {
+        "title": "400 - Get product status by deleted productCode",
+        "productCode": "productCode_TestImport_33231",
+        "code": 400,
+        "message": "ProductNotFound"
+    },
+    {
+        "title": "200 - Get product status by inactive productCode",
+        "productCode": "disable_product1",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "400 - Get product status by invalid param",
+        "productCode": "invalidParam",
+        "code": 400,
+        "message": "ProductNotFound"
+    },
+    {
+        "title": "400 - Get product status without param",
+        "productCode": "noParam",
+        "code": 400,
+        "message": "ProductNotFound"
+    },
+    {
+        "title": "401 - Get product status without authorization",
+        "productCode": "",
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    {
+        "title": "403 - Get product status without API permission",
+        "productCode": "",
+        "code": 403,
+        "message": "Forbidden"
+    },
+    {
+        "title": "403 - Get product status without consent permission",
+        "productCode": "",
+        "code": 403,
+        "message": "UserNotHavePermissionOnProduct"
+    },
+    {
+        "title": "405 - Get product status with invalid method",
+        "productCode": "",
+        "code": 405,
+        "message": "MethodNotAllowed"
+    }
+
+
+]

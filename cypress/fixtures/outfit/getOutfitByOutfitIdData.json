@@ -1,0 +1,31 @@
+[{
+        "title": "Success, Get outfit by valid outfitId",
+        "endpoint": "5BBB2C0E-0B23-4092-AC85-B81462D08364",
+        "code": 200,
+        "responseBody": {
+            "outfitName": "Outfit API1506_78",
+            "outfitCfBarcode": "OF878578CF",
+            "outfitCode": "TestOutfitA11",
+            "outfitId": "5bbb2c0e-0b23-4092-ac85-b81462d08364",
+            "createdUtc": 1660882987000,
+            "jobId": "c5124fdd-57fa-41c1-b3c6-218d84b836c1",
+            "productionTypeIds": "1,2",
+            "clientId": "5d492379-6c5f-4c66-9c4e-02bde4aa34a5",
+            "properties": {
+                "5894fbb1-f719-466d-b45f-89cb92ff2c4d": "outfit comment"
+            }
+        }
+    },
+    {
+        "title": "Get outfit by non-exist outfitId",
+        "endpoint": "5BBB2C0E-0B23-4092-AC85-B81462D08365",
+        "code": 204,
+        "responseBody": ""
+    },
+    {
+        "title": "Get outfit by non access permission outfitId",
+        "endpoint": "35395e52-b962-44bb-a6fc-14a8824ee1ae",
+        "code": 204,
+        "responseBody": ""
+    }
+]

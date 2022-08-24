@@ -1,0 +1,66 @@
+{
+    "name": "test7",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": false,
+        "isNotSentToExternalPost": true,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 3,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 3,
+                "external": {
+                    "additionalVendorIds": [
+                        {
+                            "id": "f0e7f68a-544d-42ed-a686-c4cfee61bad6"
+                        }
+                    ],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                },
+                "internal": {
+                    "isNotAllowAutoQa": false,
+                    "isBypassQc": true,
+                    "isEnabled": false
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": true,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Success, Get product by outfit",
+        "code": 200,
+        "param":"1ff09bda-c7b0-49f1-aa37-0556453a6fe7",
+        "responseBody":[
+            {
+                "productId": "15a8c82a-f422-480c-900d-bcc9e58c1ea3",
+                "productCode": "LE1855172",
+                "productName": "White T-shirt",
+                "productCfBarcode": "PD9517728CF",
+                "productTypeId": 0,
+                "roleId": 2,
+                "selectedSampleId": "4d7c25bf-752f-4ce3-bbbb-ff10b93c1f0d",
+                "samples": [
+                    {
+                        "sampleId": "4d7c25bf-752f-4ce3-bbbb-ff10b93c1f0d",
+                        "sampleCode": "SE1855172",
+                        "sampleCfBarcode": "SE11384905CF"
+                    }
+                ]
+            },
+            {
+                "productId": "b3edf4d2-883e-4367-bfc0-f7d0a95c04da",
+                "productCode": "LE1855175",
+                "productName": "Jean",
+                "productCfBarcode": "PD9517727CF",
+                "productTypeId": 0,
+                "roleId": 1,
+                "selectedSampleId": "364203f7-b2db-4eaa-aef6-11f83be7e5c7",
+                "samples": [
+                    {
+                        "sampleId": "364203f7-b2db-4eaa-aef6-11f83be7e5c7",
+                        "sampleCode": "SE1855175",
+                        "sampleCfBarcode": "SE11384904CF"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Get product by outfit with outfitId not found",
+        "code": 200,
+        "param":"1ff09bda-c7b0-49f1-aa37-0556453a6fe1",
+        "responseBody":[]
+    },
+    {
+        "title": "Get product by outfit with outfitId invalid",
+        "code": 400,
+        "param":"1ff09bda-c7b0-49f1-aa37xxxxxxx",
+        "responseBody":{
+            "errors": {
+                "outfitId": [
+                    "The value '1ff09bda-c7b0-49f1-aa37xxxxxxx' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|15f1ce42-4cc2ffa10b9e2d66."
+        }
+    }
+]

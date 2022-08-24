@@ -1,0 +1,62 @@
+{
+    "name": "test5",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": true,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 3,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "keepExternalPostFileName": false,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                },
+                "internal": {
+                    "isEnabled": true,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12"
+            }
+        }
+    ]
+}

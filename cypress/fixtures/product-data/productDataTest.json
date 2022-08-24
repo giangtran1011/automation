@@ -1,0 +1,16 @@
+{
+    "products": [{
+        "category": "CATEGORYTest",
+        "styleGuide": "Style guide Common",
+        "wardrobeitem": 0,
+        "productCode": "",
+        "productName": "Product S_0706214",
+        "color": "pink",
+        "brand": "JM",
+        "properties": {},
+        "colorReferenceUrls": [
+            "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+        ],
+        "styleCode": "styleCode03"
+    }]
+}

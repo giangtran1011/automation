@@ -23,3 +23,15 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('login', (username, password) => {
+    let access_token = "";
+    cy.visit('https://sandbox-app.creativeforce.io/logged-out');
+    cy.contains('Login').click();
+    cy.get("#Username").type(username);
+    cy.get("#Password").type(password);
+    cy.get("#btnSubmit").click()
+    .should(() => {
+      access_token = JSON.parse(localStorage.getItem('user')).token.access_token;
+      return access_token;
+    });
+});

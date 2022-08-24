@@ -1,0 +1,36 @@
+[{
+        "title": "Get sample by samplePool have many samples ",
+        "type": "Successful-2 data",
+        "samplePoolIdRequest": "",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "Get sample by samplePool only have 1 sample ",
+        "type": "Successful-1 data",
+        "samplePoolIdRequest": "",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "Get sample by non-exist samplePoolId",
+        "type": "Empty-data",
+        "samplePoolIdRequest": "C2659F77-43D0-4162-964F-AE9B7C646A60",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "Get sample by non-access permission samplePoolId",
+        "type": "Empty-data",
+        "samplePoolIdRequest": "75D7FA76-AB08-4E00-882F-6CDF5DFDA36A",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "Get sample without samplePoolId",
+        "type": "404",
+        "samplePoolIdRequest": "",
+        "message": "",
+        "code": 404
+    }
+]

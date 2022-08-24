@@ -1,0 +1,71 @@
+[{
+        "title": "Get asset with valid required params, no optional params",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d59b&productionTypeId=1&stepId=3",
+        "indexAsset": "",
+        "code": 200,
+        "responseBody": "requiredParams.json"
+    },
+    {
+        "title": "Get asset with valid all optional params",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d59b&productionTypeId=1&stepId=3&selectionTypeId=0&isResource=false&isInclip=false&isHero=false&pageSize=5&pageNumber=1",
+        "indexAsset": "",
+        "code": 200,
+        "responseBody": "optionalParams.json"
+    },
+    {
+        "title": "Get asset with valid empty default params",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d59b&productionTypeId=1&stepId=3&selectionTypeId=0&isResource=&isInclip=&isHero=&pageSize=5&pageNumber=1",
+        "indexAsset": "",
+        "code": 200,
+        "responseBody": "emptyDefaultParams.json"
+    },
+    {
+        "title": "Get asset with isHero = true",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d59b&productionTypeId=1&stepId=3&isHero=true",
+        "indexAsset": 1,
+        "code": 200,
+        "responseBody": "trueHero.json"
+    },
+    {
+        "title": "Get asset with isInclip = true",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d59b&productionTypeId=1&stepId=3&isInclip=true",
+        "indexAsset": 3,
+        "code": 200,
+        "responseBody": "trueInclip.json"
+    },
+    {
+        "title": "Get asset with isResource = true",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d59b&productionTypeId=1&stepId=3&isResource=true",
+        "indexAsset": 4,
+        "code": 200,
+        "responseBody": "trueResource.json"
+    },
+    {
+        "title": "Get asset with non-exist productId",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d58b&productionTypeId=1&stepId=3",
+        "indexAsset": "",
+        "code": 400,
+        "responseBody": "invalidDataMessage.json"
+    },
+    {
+        "title": "Get asset without productId",
+        "endpoint": "productionTypeId=1&stepId=3",
+        "indexAsset": "",
+        "code": 404,
+        "responseBody": "undefinedMessage.json"
+    },
+    {
+        "title": "Get asset without productionTypeId",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d58b&stepId=3",
+        "indexAsset": "",
+        "code": 404,
+        "responseBody": "undefinedMessage.json"
+    },
+    {
+        "title": "Get asset without stepId",
+        "endpoint": "productId=171ffeb9-b9d5-4d60-80ca-cd9e9121d58b&productionTypeId=1",
+        "indexAsset": "",
+        "code": 404,
+        "responseBody": "undefinedMessage.json"
+    }
+]

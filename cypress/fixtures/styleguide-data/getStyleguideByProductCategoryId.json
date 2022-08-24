@@ -1,0 +1,85 @@
+[{
+        "title": "Get styleGuide by default category (without productCategoryId)",
+        "clientId": "e1cf6427-57fa-4b66-b2f1-7d50d0aaca67",
+        "productCategoryId": "",
+        "compareData": {
+            "styleGuideId": "c0a6f48b-8991-49d1-a8ef-13a738c0231d",
+            "styleGuideName": "Digital Style Guide",
+            "styleGuideInternalName": "digital_style_guide",
+            "styleGuideVersionId": "5ded176e-7550-4af2-be97-767ac3f987f4"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by exist productCategoryId",
+        "clientId": "e1cf6427-57fa-4b66-b2f1-7d50d0aaca67",
+        "productCategoryId": "f764823c-4ad0-1238-8a10-bdb5ae2d0775",
+        "compareData": {
+            "styleGuideId": "44975a85-b074-4472-9528-321c64d225a1",
+            "styleGuideName": "Category style guide",
+            "styleGuideInternalName": "category_style_guide",
+            "styleGuideVersionId": "de70b9d2-db40-400c-86e2-834a5cae69be"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by non-exist productCategoryId",
+        "clientId": "e1cf6427-57fa-4b66-b2f1-7d50d0aaca67",
+        "productCategoryId": "f764823c-4ad0-1238-8a10-bdb5ae2d0776",
+        "compareData": {
+            "styleGuideId": "c0a6f48b-8991-49d1-a8ef-13a738c0231d",
+            "styleGuideName": "Digital Style Guide",
+            "styleGuideInternalName": "digital_style_guide",
+            "styleGuideVersionId": "5ded176e-7550-4af2-be97-767ac3f987f4"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by special character productCategoryId",
+        "clientId": "e1cf6427-57fa-4b66-b2f1-7d50d0aaca67",
+        "productCategoryId": "d0179920-c00d-12c3-b4da-172dc0cc1d4a",
+        "compareData": {
+            "styleGuideId": "87671e03-b7a3-4ca6-9d22-f2ecd7126f71",
+            "styleGuideName": "Special category style guide",
+            "styleGuideInternalName": "special_category_style_guide",
+            "styleGuideVersionId": "250b67d8-e5a6-4fd8-a5a4-3ab2dc3351e1"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by productCategoryId without clientId",
+        "clientId": "",
+        "productCategoryId": "f764823c-4ad0-1238-8a10-bdb5ae2d0775",
+        "compareData": false,
+        "code": 200,
+        "message": "[DEV MODE] Sequence contains no matching element"
+    },
+    {
+        "title": "Get styleGuide with invalid uuid",
+        "clientId": "",
+        "productCategoryId": "abc",
+        "compareData": false,
+        "code": 200,
+        "message": "Invalid data"
+    },
+    {
+        "title": "Get styleGuide by productCategoryId without API permission",
+        "clientId": "e1cf6427-57fa-4b66-b2f1-7d50d0aaca67",
+        "productCategoryId": "f764823c-4ad0-1238-8a10-bdb5ae2d0775",
+        "compareData": false,
+        "code": 403,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by productCategoryId without authorization",
+        "clientId": "e1cf6427-57fa-4b66-b2f1-7d50d0aaca67",
+        "productCategoryId": "f764823c-4ad0-1238-8a10-bdb5ae2d0775",
+        "compareData": false,
+        "code": 401,
+        "message": "Unauthorized"
+    }
+]

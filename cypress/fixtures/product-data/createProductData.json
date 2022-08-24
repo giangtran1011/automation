@@ -1,0 +1,1476 @@
+[{
+        "title": "GW_Import_01 - Import products with only productCode",
+        "data": {
+            "products": [{
+                "productCode": ""
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_02 - Import multiple products successful",
+        "data": {
+            "products": [{
+                    "category": "Accessories",
+                    "styleGuide": "Style guide Common",
+                    "outfits": [{
+                        "outfitCode": "OF-140520-07",
+                        "outfitName": "Outfit API1405_7",
+                        "productionTypeIds": [
+                            1
+                        ],
+                        "properties": {}
+                    }],
+                    "productCode": "",
+                    "productName": "Product S_0706213",
+                    "color": "pink",
+                    "brand": "LV",
+                    "properties": {},
+                    "samples": [{
+                        "sampleCode": "sampleCode1_7472512",
+                        "sampleName": "Sample2207",
+                        "size": "3",
+                        "sampleProductImages": [],
+                        "sampleReturnDatetimeUtc": 16092021,
+                        "sample_url": [
+                            "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                        ]
+                    }],
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                },
+                {
+                    "category": "Accessories",
+                    "styleGuide": "Style guide Common",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "Product S_0706214",
+                    "color": "purple",
+                    "brand": "LV",
+                    "properties": {},
+                    "samples": [{
+                        "sampleCode": "sampleCode2_5164864",
+                        "sampleName": "123",
+                        "size": "4",
+                        "sampleProductImages": [],
+                        "sampleReturnDatetimeUtc": 4736024754765,
+                        "properties": {}
+                    }],
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }
+            ]
+        },
+        "message": ""
+    },
+    {
+        "title": "GW_Import_03+04 - Import products with non-exist Category + Import products with duplicate Category (Uppercase) ",
+        "data": {
+            "products": [{
+                "category": "",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_07062145",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST04",
+                "vendorMaterialCode": "vendorMaterialCode04",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_04b - Import products with duplicate Category (Lowercase) ",
+        "data": {
+            "products": [{
+                "category": "",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_07062145",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST04b",
+                "vendorMaterialCode": "vendorMaterialCode44b",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_05 - Import products with exist Category of other client ",
+        "data": {
+            "products": [{
+                "category": "",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_0706nnndf",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST05",
+                "vendorMaterialCode": "vendorMaterialCode055",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_06 - Import products with styleGuide not in client ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "Style guide cat",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_0706nana",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST05",
+                "vendorMaterialCode": "vendorMaterialCode0666",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_07 - Import products with non-exist styleGuide",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "Style guide non-exist 123",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_0706nana",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST07",
+                "vendorMaterialCode": "vendorMaterialCode07767",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_08 - Import products with disable styleGuide",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "disable style guide",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_07088nana",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_09 - Import products with all disable prod types styleGuide",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "All disable production types st",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_07088nana",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_10 - Import products with a disable prod type styleGuide",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "A disable production type st",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "Product S_07088nana",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_12 - Import products with duplicate project code in ED",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "EPJ100972CF",
+                "productName": "projectName12",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_13 - Import products with duplicate project name in ED",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "summer",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_14 - Import products with duplicate deliveriable code in ED",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "ED7149837CF",
+                "productName": "deliveriable14",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_15 - Import products with duplicate deliveriable name in ED",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "fashion2",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST08",
+                "vendorMaterialCode": "vendorMaterialCode88",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_16 - Import products with duplicate productCode of 1 styling item (same client) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName16",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST16",
+                "vendorMaterialCode": "vendorMaterialCode116",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_17 - Import products with duplicate productCode of 2 styling items (same client and newer+other+shareOn) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName17",
+                "color": "green",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST17",
+                "vendorMaterialCode": "vendorMaterialCode117",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_18 - Import products with duplicate productCode of 2 styling items (same client and newer+other+shareoff) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName18",
+                "color": "green",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST18",
+                "vendorMaterialCode": "vendorMaterialCode118",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_19 - Import products with duplicate productCode of 1 styling items (other client and shareoff) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName19",
+                "color": "green",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST19",
+                "vendorMaterialCode": "vendorMaterialCode119",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_16b - Import products with duplicate productCode of 1 styling items (same client and shareoff) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName16b",
+                "color": "green",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "ST16b",
+                "vendorMaterialCode": "vendorMaterialCode119",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_20 - Import products with duplicate productCode of other product (same client, same jobId) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName002",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "b59383d3-601b-4a82-b8de-35742dcb7ff8": "zzz"
+                },
+                "samples": [{
+                    "sampleCode": "sampleCode_test2_002",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }],
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_20b - Import products with duplicate productCode of other product (same client, other jobId) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName002",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "b59383d3-601b-4a82-b8de-35742dcb7ff8": "zzz"
+                },
+                "samples": [{
+                    "sampleCode": "sampleCode_test2_002",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }],
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_21 - Import products with duplicate productCode of other product (other client and shareOff) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName002",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "b59383d3-601b-4a82-b8de-35742dcb7ff8": "zzz"
+                },
+                "samples": [{
+                    "sampleCode": "sampleCode_test2_002",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }],
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "samplePool": "532F724A-3616-4654-9C07-E7F9265BBF29"
+    },
+    {
+        "title": "GW_Import_22 - Import products with duplicate productCode of other product (other client and shareOn) ",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName201",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "b59383d3-601b-4a82-b8de-35742dcb7ff8": "zzz"
+                },
+                "samples": [{
+                    "sampleCode": "sampleCode_test2_002",
+                    "sampleName": "201",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }],
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "samplePool": "E26D6B8B-06B0-4C53-91E4-7B0FA2925F54"
+    },
+    {
+        "title": "GW_Import_23 - Import products with all product properties 1",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "e5545fd5-a94c-40b3-9426-ad861eb52e95": "season winter",
+                    "ffce0215-bff9-47a2-b964-c3f6a81bf2f3": "method out",
+                    "526c2f50-1778-416e-82bb-c1707bfec71b": "1636356434000"
+                },
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "samplePool": "E26D6B8B-06B0-4C53-91E4-7B0FA2925F54"
+    },
+    {
+        "title": "GW_Import_24 - Import products with all product properties 2",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "e5545fd5-a94c-40b3-9426-ad861eb52e95": "",
+                    "526c2f50-1778-416e-82bb-c1707bfec71b": "",
+                    "ffce0215-bff9-47a2-b964-c3f6a81bf2f3": "",
+                    "a782c16d-cb2d-43d9-b8b5-9c53b3ce5917": ""
+                },
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_25 - Import products with all dateTime product properties",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "01-12-2022",
+                    "526c2f50-1778-416e-82bb-c1707bfec71b": "01-12-2022 02:12:22"
+                },
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_26 - Import products with all sample properties 1",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName23",
+                "color": "brown",
+                "brand": "HMMMM",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "sampleName_123",
+                    "sampleReturnDatetimeUtc": 1636356434000,
+                    "properties": {
+                        "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "z freeText3",
+                        "07d8bdec-e6c0-42dc-b14a-7a197e52e06a": "zz out flowers3",
+                        "6a244a16-e5ee-42bb-8adc-23ff659a17c6": "1641125352000"
+                    }
+                }],
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_27 - Import products with all sample properties 2",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName23",
+                "color": "brown",
+                "brand": "HMMMM",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "sampleName_123",
+                    "size": "4",
+                    "sampleProductImages": [
+                        "sampleProductImages"
+                    ],
+                    "sampleReturnDatetimeUtc": 1636356434000,
+                    "properties": {
+                        "07d8bdec-e6c0-42dc-b14a-7a197e52e06a": "",
+                        "5e40697a-9240-4f48-9733-e4b905661e2c": "",
+                        "6a244a16-e5ee-42bb-8adc-23ff659a17c6": "",
+                        "895bf90e-95f1-48a9-b043-ac33c4c0cb08": ""
+                    }
+                }],
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_28 - Import products with dateTime sample properties",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "wardrobeitem": 0,
+                "productCode": "",
+                "productName": "productName23",
+                "color": "brown",
+                "brand": "HMMMM",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "sampleName_123",
+                    "size": "4",
+                    "sampleProductImages": [
+                        "sampleProductImages"
+                    ],
+                    "sampleReturnDatetimeUtc": 1636356434000,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "01-12-2022",
+                        "6a244a16-e5ee-42bb-8adc-23ff659a17c6": "01-12-2022 02:12:22"
+                    }
+                }],
+                "styleCode": "ST00201",
+                "vendorMaterialCode": "vendorMaterialCode002",
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_29 - Import products with duplicate productCode and sampleCode",
+        "data": [{
+                "products": [{
+                    "category": "123",
+                    "styleGuide": "",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "productName23",
+                    "color": "brown",
+                    "brand": "HMMMM",
+                    "properties": {
+                        "232a2399-e067-4a74-98dd-5ce44ad875a1": "zzz winter"
+                    },
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleName_123",
+                        "size": "4",
+                        "sampleProductImages": [
+                            "sampleProductImages"
+                        ],
+                        "sampleReturnDatetimeUtc": 1636356434000
+                    }],
+                    "styleCode": "ST00201",
+                    "vendorMaterialCode": "vendorMaterialCode002",
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }]
+            },
+            {
+                "products": [{
+                    "category": "123",
+                    "styleGuide": "",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "productName_second",
+                    "color": "white",
+                    "brand": "Lotte",
+                    "properties": { "232a2399-e067-4a74-98dd-5ce44ad875a1": "second zzz" },
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleName_second_1",
+                        "size": "4",
+                        "sampleProductImages": [
+                            "sampleProductImages_second"
+                        ],
+                        "sampleReturnDatetimeUtc": 1636356434000,
+                        "properties": { "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "z freeText3 second" }
+                    }],
+                    "styleCode": "ST00201",
+                    "vendorMaterialCode": "vendorMaterialCode002",
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "title": "GW_Import_30 - Import products with duplicate productCode and other sampleCode",
+        "data": [{
+                "products": [{
+                    "category": "123",
+                    "styleGuide": "",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "productName23",
+                    "color": "brown",
+                    "brand": "HMMMM",
+                    "properties": {
+                        "232a2399-e067-4a74-98dd-5ce44ad875a1": "zzz winter"
+                    },
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleName_123",
+                        "size": "4",
+                        "sampleProductImages": [
+                            "sampleProductImages"
+                        ],
+                        "sampleReturnDatetimeUtc": 1636356434000
+                    }],
+                    "styleCode": "ST00201",
+                    "vendorMaterialCode": "vendorMaterialCode002",
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }]
+            },
+            {
+                "products": [{
+                    "category": "123",
+                    "styleGuide": "",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "productName_second",
+                    "color": "white",
+                    "brand": "Lotte",
+                    "properties": { "232a2399-e067-4a74-98dd-5ce44ad875a1": "second zzz" },
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleName_second_1",
+                        "size": "4",
+                        "sampleProductImages": [
+                            "sampleProductImages_second"
+                        ],
+                        "sampleReturnDatetimeUtc": 1636356434000,
+                        "properties": { "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "z freeText3 second" }
+                    }],
+                    "styleCode": "ST00201",
+                    "vendorMaterialCode": "vendorMaterialCode002",
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "title": "GW_Import_31 - Import 1 product with duplicate productCode and other sampleCode",
+        "data": {
+            "products": [{
+                    "category": "123",
+                    "styleGuide": "",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "productName23",
+                    "color": "blue",
+                    "brand": "KKJ",
+                    "properties": {
+                        "b59383d3-601b-4a82-b8de-35742dcb7ff8": "xxxxx1",
+                        "a9913474-3713-447c-8b62-5ffbdf2853ce": "",
+                        "232a2399-e067-4a74-98dd-5ce44ad875a1": "zzzzz1"
+                    },
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleName_123",
+                        "size": "4",
+                        "sampleProductImages": [
+                            "sampleProductImages"
+                        ],
+                        "sampleReturnDatetimeUtc": 1636356434000
+                    }],
+                    "styleCode": "ST00201",
+                    "vendorMaterialCode": "vendorMaterialCode002",
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                },
+                {
+                    "category": "123",
+                    "styleGuide": "",
+                    "wardrobeitem": 0,
+                    "productCode": "",
+                    "productName": "productName23",
+                    "color": "pink",
+                    "brand": "KKJ",
+                    "properties": {
+                        "b59383d3-601b-4a82-b8de-35742dcb7ff8": "xxxxx2",
+                        "a9913474-3713-447c-8b62-5ffbdf2853ce": "www"
+                    },
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleName_123",
+                        "size": "4",
+                        "sampleProductImages": [
+                            "sampleProductImages"
+                        ],
+                        "sampleReturnDatetimeUtc": 1636356434000
+                    }],
+                    "styleCode": "ST00201",
+                    "vendorMaterialCode": "vendorMaterialCode002",
+                    "colorReferenceUrls": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "title": "GW_Import_32 - Import with only sample",
+        "data": {
+            "products": [{
+                "samples": [{
+                    "sampleCode": "OnlySampletestabc",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }]
+            }]
+        },
+        "message": "ProductCodeRequired"
+    },
+    {
+        "title": "GW_Import_33 - Import with only outfit",
+        "data": {
+            "products": [{
+                "outfits": [{
+                    "outfitCode": "outfitCode_6562683",
+                    "outfitName": "string",
+                    "productionTypeIds": [
+                        0
+                    ],
+                    "outfitProducts": [{
+                        "replaceable": true,
+                        "wardrobeItem": true,
+                        "productCode": "prodOutfitCode_4816728",
+                        "productName": "productCodeOF1",
+                        "color": "grey",
+                        "brand": "JM2",
+                        "styleCode": "string",
+                        "vendorMaterialCode": "string"
+                    }],
+                    "properties": {}
+                }]
+            }]
+        },
+        "message": "ProductCodeRequired"
+    },
+    {
+        "title": "GW_Import_34 - Import with all date properties format 1",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "05-02-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "05/02/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "05 02 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "05.02.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-05-02",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/05/02",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 05 02",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.05.02"
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_35 - Import with all date properties  format 2",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "15-02-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "15/02/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "15 02 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "02.15.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-15-02",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/15/02",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 15 02",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.15.02"
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_36 - Import with all date properties  format 3",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "5-2-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "5/2/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "5 2 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "5.2.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-5-2",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/5/2",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 5 2",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.5.2"
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_37 - Import with all date properties  format 4",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "15-2-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "15/2/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "15 2 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "2.15.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-15-2",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/15/2",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 15 2",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.15.2"
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_38 - Import with all date sample properties format 1",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "05-02-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "05/02/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "05 02 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "05.02.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-05-02",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/05/02",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 05 02",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.05.02"
+                    }
+                }],
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_39 - Import with all date sample properties format 2",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "15-02-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "15/02/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "15 02 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "02.15.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-15-02",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/15/02",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 15 02",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.15.02"
+                    }
+                }],
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_40 - Import with all date sample properties format 3",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "5-2-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "5/2/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "5 2 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "5.2.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-5-2",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/5/2",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 5 2",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.5.2"
+                    }
+                }],
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_41 - Import with all date sample properties format 4",
+        "data": {
+            "products": [{
+                "category": "123",
+                "styleGuide": "",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "15-2-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "15/2/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "15 2 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "2.15.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-15-2",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/15/2",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 15 2",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.15.2"
+                    }
+                }],
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_42 - Import ProductCode with category has ,",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_43 - Import ProductCode with category has ;",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_46 - Import with duplicate sampleCode (existingSampleActionId =2)",
+        "data": {
+            "existingSampleActionId": 2,
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "green",
+                "brand": "20Again",
+                "properties": {},
+                "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleTest1",
+                        "size": "4",
+                        "sampleReturnDatetimeUtc": 4736024754765
+                    },
+                    {
+                        "sampleCode": "",
+                        "sampleName": "sampleTest2",
+                        "size": "5",
+                        "sampleReturnDatetimeUtc": 4736024754765
+                    }
+                ],
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002"
+
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_47 - Import with duplicate sampleCode (existingSampleActionId =1)",
+        "data": {
+            "existingSampleActionId": 1,
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "green",
+                "brand": "20Again",
+                "properties": {},
+                "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "sampleTest1",
+                        "size": "4",
+                        "sampleReturnDatetimeUtc": 4736024754765
+                    },
+                    {
+                        "sampleCode": "",
+                        "sampleName": "sampleTest2",
+                        "size": "5",
+                        "sampleReturnDatetimeUtc": 4736024754765
+                    }
+                ],
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002"
+
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_48 - Import without sample (same job, no default Sample)",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName48",
+                "color": "green",
+                "brand": "20Again",
+                "properties": {},
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002"
+            }]
+        }
+    },
+    {
+        "title": "GW_Import_49 - Import without sample (other job, no default Sample)",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName49",
+                "color": "green",
+                "brand": "20Again",
+                "properties": {},
+                "styleCode": "ST002",
+                "vendorMaterialCode": "vendorMaterialCode002"
+            }]
+        }
+    },
+
+
+    {
+        "title": "Validate - Import Async with invalid jobId",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "InvalidJob"
+    },
+    {
+        "title": "Validate - Import Async without productCode",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "ProductCodeRequired"
+    },
+    {
+        "title": "Validate - Import Async null productCode",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": null,
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "ProductCodeRequired"
+    },
+    {
+        "title": "Validate - Import Async with non-exist properties",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": { "b59383d3-601b-4a82-b8de-35742dcb7ff9": "non-exist prop" }
+            }]
+        },
+        "code": 400,
+        "message": "SomePropertiesNotfound"
+    },
+    {
+        "title": "Validate - Import Async with invalid  properties value",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": { "526c2f50-1778-416e-82bb-c1707bfec71b": "not date" }
+            }]
+        },
+        "code": 400,
+        "message": "CustomPropertyValueFormatInvalid"
+    },
+    {
+        "title": "Validate - Import Async with over maxlength product properties",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": { "6f64270e-994f-4460-8b88-bc571ff86d5d": "abcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamw" }
+            }]
+        },
+        "code": 400,
+        "message": "CustomPropertyValueTooLong"
+    },
+    {
+        "title": "Validate - Import Async with over maxlength sample properties",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "SampleCode_Test001",
+                    "sampleName": "123Test",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "abcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamw"
+                    }
+                }]
+            }]
+        },
+        "code": 400,
+        "message": "CustomPropertyValueTooLong"
+    },
+    {
+        "title": "Validate - Import Async with invalid format utc/uuid",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": { "526c2f50-1778-416e-82bb-c1707bfec71": "" },
+                "samples": [{
+                    "sampleCode": "SampleCode_Test001",
+                    "sampleName": "123Test",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": "1aaa",
+                    "properties": {}
+                }]
+            }]
+        },
+        "code": 400,
+        "message": "One or more validation errors occurred."
+    },
+    {
+        "title": "Validate - Import Async without authorization",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {}
+            }]
+        },
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    {
+        "title": "Validate - Import Async without permission",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {}
+            }]
+        },
+        "code": 403,
+        "message": "Forbidden"
+    },
+    {
+        "title": "Validate - Import Async with invalid content-Type",
+        "data": {
+            "products": [{
+                "category": "123",
+                "productCode": "",
+                "productName": "productName23",
+                "color": "purple",
+                "brand": "LV",
+                "properties": {}
+            }]
+        },
+        "code": 415,
+        "message": "Unsupported Media Type"
+    }
+]

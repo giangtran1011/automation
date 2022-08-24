@@ -1,0 +1,905 @@
+[{
+        "title": "GW_ImportSI_01 - Import styling items with only productCode",
+        "testCase": "GW_ImportSI_01",
+        "data": {
+            "stylingItems": [{
+                "productCode": ""
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_02 - Import styling items with only productCode and sampleCode",
+        "testCase": "GW_ImportSI_02",
+        "data": {
+            "stylingItems": [{
+                "productCode": "",
+                "samples": [{
+                    "sampleCode": ""
+                }]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_03+04 - Create styling with non-exist category and duplicate (Uppercase)",
+        "testCase": "GW_ImportSI_03+04",
+        "data": {
+            "stylingItems": [{
+                "category": "",
+                "productCode": "",
+                "productName": "styling_productName03",
+                "color": "yellow",
+                "brand": "HJJJK",
+                "properties": {},
+                "styleCode": "string",
+                "vendorMaterialCode": "string",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_4b - Create styling with duplicate category (lowerCase)",
+        "testCase": "GW_ImportSI_4b",
+        "data": {
+            "stylingItems": [{
+                "category": "",
+                "productCode": "",
+                "productName": "styling_productName03",
+                "color": "yellow",
+                "brand": "HJJJK",
+                "properties": {},
+                "styleCode": "string",
+                "vendorMaterialCode": "string",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_5 - Create styling with same category in 2 clients",
+        "testCase": "GW_ImportSI_5",
+        "data": {
+            "stylingItems": [{
+                "category": "",
+                "productCode": "",
+                "productName": "styling_productName03",
+                "color": "yellow",
+                "brand": "HJJJK",
+                "properties": {},
+                "styleCode": "string",
+                "vendorMaterialCode": "string",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_6 - Create styling with same projectCode in ED",
+        "testCase": "GW_ImportSI_6_7_8_9",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "EPJ101072CF",
+                "productName": "EPJ101072CF",
+                "color": "pink",
+                "brand": "HJJJK",
+                "properties": {},
+                "styleCode": "string",
+                "vendorMaterialCode": "string",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_7 - Create styling with same projectName in ED",
+        "testCase": "GW_ImportSI_6_7_8_9",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "Test dup",
+                "productName": "Test dup",
+                "color": "yellow",
+                "brand": "HJJJK",
+                "properties": {},
+                "styleCode": "string",
+                "vendorMaterialCode": "string",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_8 - Create styling with same Deliveriable_code",
+        "testCase": "GW_ImportSI_6_7_8_9",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "ED7149837CF",
+                "productName": "ED7149837CF",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "styleCode8",
+                "vendorMaterialCode": "vendorMaterialCode8",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_9 - Create styling with same Deliveriable_name",
+        "testCase": "GW_ImportSI_6_7_8_9",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "fashion2",
+                "productName": "fashion2",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "styleCode": "styleCode9",
+                "vendorMaterialCode": "vendorMaterialCode9",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_10 - Create styling with other properties, same client",
+        "testCase": "GW_ImportSI_10",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "b59383d3-601b-4a82-b8de-35742dcb7ff8": "summner"
+                },
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }],
+                "styleCode": "styleCode10",
+                "vendorMaterialCode": "vendorMaterialCode10",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_11 - Create styling with other sampleCode, other client",
+        "testCase": "GW_ImportSI_11",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "test123 sample",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {}
+                }],
+                "styleCode": "styleCode10",
+                "vendorMaterialCode": "vendorMaterialCode10",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_12 - Create styling with same sampleCode, other client, share on",
+        "testCase": "GW_ImportSI_12",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment12"
+                    }
+                }],
+                "styleCode": "styleCode12",
+                "vendorMaterialCode": "vendorMaterialCode12",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_13 - Create styling with other sampleCode, other client, share on",
+        "testCase": "GW_ImportSI_13",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment13"
+                    }
+                }],
+                "styleCode": "styleCode12",
+                "vendorMaterialCode": "vendorMaterialCode12",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_14 - Create styling with same productCode, new sampleCode",
+        "testCase": "GW_ImportSI_14",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment13"
+                    }
+                }],
+                "styleCode": "styleCode12",
+                "vendorMaterialCode": "vendorMaterialCode12",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_15 - Create styling with other client, share off, same sampleCode ",
+        "testCase": "GW_ImportSI_15",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment13"
+                    }
+                }],
+                "styleCode": "styleCode12",
+                "vendorMaterialCode": "vendorMaterialCode12",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_16 - Create styling with other client, share on, same sampleCode ",
+        "testCase": "GW_ImportSI_16",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment13"
+                    }
+                }],
+                "styleCode": "styleCode12",
+                "vendorMaterialCode": "vendorMaterialCode12",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_17 - Create styling with other client, share on, other sampleCode ",
+        "testCase": "GW_ImportSI_17",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "002",
+                    "size": "2",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "zzzxx comment13"
+                    }
+                }],
+                "styleCode": "styleCode12",
+                "vendorMaterialCode": "vendorMaterialCode12",
+                "colorReferenceUrls": [
+                    "string"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_18 - Create styling with all properties",
+        "testCase": "GW_ImportSI_18",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "1636356434000",
+                    "526c2f50-1778-416e-82bb-c1707bfec71b": "1636356434000",
+                    "ffce0215-bff9-47a2-b964-c3f6a81bf2f3": "no method",
+                    "a9913474-3713-447c-8b62-5ffbdf2853ce": "freeText18"
+                },
+                "styleCode": "styleCode18",
+                "vendorMaterialCode": "vendorMaterialCode18",
+                "colorReferenceUrls": [
+                    "string18"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_19 - Create styling with all empty properties",
+        "testCase": "GW_ImportSI_19",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "",
+                    "a782c16d-cb2d-43d9-b8b5-9c53b3ce5917": "",
+                    "ffce0215-bff9-47a2-b964-c3f6a81bf2f3": "",
+                    "a9913474-3713-447c-8b62-5ffbdf2853ce": ""
+                },
+                "styleCode": "styleCode18",
+                "vendorMaterialCode": "vendorMaterialCode18",
+                "colorReferenceUrls": [
+                    "string18"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_20 - Create styling with date time properties",
+        "testCase": "GW_ImportSI_20",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "01-02-2022",
+                    "526c2f50-1778-416e-82bb-c1707bfec71b": "01-02-2022 09:10:15"
+                },
+                "styleCode": "styleCode18",
+                "vendorMaterialCode": "vendorMaterialCode18",
+                "colorReferenceUrls": [
+                    "string18"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_21 - Create styling with all sample properties",
+        "testCase": "GW_ImportSI_21",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "00221",
+                    "size": "L",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "1636356434000",
+                        "6a244a16-e5ee-42bb-8adc-23ff659a17c6": "1636356434000",
+                        "07d8bdec-e6c0-42dc-b14a-7a197e52e06a": "no flower",
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": "freeText18"
+                    }
+                }],
+                "styleCode": "styleCode21",
+                "vendorMaterialCode": "vendorMaterialCode21",
+                "colorReferenceUrls": [
+                    "string21"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_22 - Create styling with all empty sample properties",
+        "testCase": "GW_ImportSI_22",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "00222",
+                    "size": "L",
+                    "sampleProductImages": [
+                        "https://images.freeimages.com/images/large-previews/1cb/close-squirrel-1381764.jpg"
+                    ],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "",
+                        "5e40697a-9240-4f48-9733-e4b905661e2c": "",
+                        "07d8bdec-e6c0-42dc-b14a-7a197e52e06a": "",
+                        "68af852d-672e-4a31-bc2d-336ae79040e7": ""
+                    }
+                }],
+                "styleCode": "styleCode22",
+                "vendorMaterialCode": "vendorMaterialCode22",
+                "colorReferenceUrls": [
+                    "string22"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_23 - Create styling with date time sample properties",
+        "testCase": "GW_ImportSI_23",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "00223",
+                    "size": "L",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "01-02-2022",
+                        "6a244a16-e5ee-42bb-8adc-23ff659a17c6": "01-02-2022 09:10:15"
+                    }
+                }],
+                "styleCode": "styleCode23",
+                "vendorMaterialCode": "vendorMaterialCode23",
+                "colorReferenceUrls": [
+                    "string23"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_24 - Create styling with 2 same styling",
+        "testCase": "GW_ImportSI_24",
+        "data": {
+            "stylingItems": [{
+                    "category": "StylingTest1",
+                    "productCode": "",
+                    "productName": "",
+                    "color": "pink",
+                    "brand": "LV",
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "00223",
+                        "size": "L",
+                        "sampleProductImages": [],
+                        "sampleReturnDatetimeUtc": 4736024754765
+                    }],
+                    "styleCode": "styleCode23",
+                    "vendorMaterialCode": "vendorMaterialCode23",
+                    "colorReferenceUrls": [
+                        "string23"
+                    ]
+                },
+                {
+                    "category": "StylingTest1",
+                    "productCode": "",
+                    "productName": "",
+                    "color": "pink",
+                    "brand": "LV",
+                    "samples": [{
+                        "sampleCode": "",
+                        "sampleName": "00223",
+                        "size": "L",
+                        "sampleProductImages": [],
+                        "sampleReturnDatetimeUtc": 4736024754765
+                    }],
+                    "styleCode": "styleCode23",
+                    "vendorMaterialCode": "vendorMaterialCode23",
+                    "colorReferenceUrls": [
+                        "string23"
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "title": "GW_ImportSI_26 - Create styling with only sample",
+        "testCase": "GW_ImportSI_26",
+        "data": {
+            "stylingItems": [{
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "00223",
+                    "size": "L",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "01-02-2022",
+                        "6a244a16-e5ee-42bb-8adc-23ff659a17c6": "01-02-2022 09:10:15"
+                    }
+                }]
+            }]
+        },
+        "code": 400,
+        "message": "ProductCodeRequired"
+    },
+    {
+        "title": "GW_ImportSI_27 - Create with date properties format 1",
+        "testCase": "GW_ImportSI_27",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "05-02-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "05/02/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "05 02 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "05.02.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-05-02",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/05/02",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 05 02",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.05.02"
+                },
+                "styleCode": "styleCode27",
+                "vendorMaterialCode": "vendorMaterialCode27",
+                "colorReferenceUrls": [
+                    "string27"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_28 - Create with date properties format 2",
+        "testCase": "GW_ImportSI_28",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "15-02-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "15/02/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "15 02 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "02.15.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-15-02",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/15/02",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 15 02",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.15.02"
+                },
+                "styleCode": "styleCode28",
+                "vendorMaterialCode": "vendorMaterialCode28",
+                "colorReferenceUrls": [
+                    "string28"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_29 - Create with date properties format 3",
+        "testCase": "GW_ImportSI_29",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "5-2-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "5/2/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "5 2 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "5.2.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-5-2",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/5/2",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 5 2",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.5.2"
+                },
+                "styleCode": "styleCode29",
+                "vendorMaterialCode": "vendorMaterialCode29",
+                "colorReferenceUrls": [
+                    "string29"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_30 - Create with date properties format 4",
+        "testCase": "GW_ImportSI_30",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {
+                    "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2": "15-2-2022",
+                    "76fbd1ce-90ce-4ab7-8043-f9107068185c": "15/2/2022",
+                    "b4aa7e19-cd08-46e1-ac80-d1f9c7784076": "15 2 2022",
+                    "00ac8f23-a456-45af-a575-2be166edd221": "2.15.2022",
+                    "74c86f76-920c-4185-a2fe-60911b3b2f55": "2022-15-2",
+                    "a13c85e8-0a7a-404b-931c-fd6ff4fce2bc": "2022/15/2",
+                    "254c34de-2654-4a83-aa90-0cfb166cd496": "2022 15 2",
+                    "8b0cb323-c001-46aa-970a-5e8a8164d1c6": "2022.15.2"
+                },
+                "styleCode": "styleCode30",
+                "vendorMaterialCode": "vendorMaterialCode30",
+                "colorReferenceUrls": [
+                    "string30"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_31 - Create with date sample properties format 1",
+        "testCase": "GW_ImportSI_31",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "05-02-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "05/02/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "05 02 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "05.02.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-05-02",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/05/02",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 05 02",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.05.02"
+                    }
+                }],
+                "styleCode": "styleCode30",
+                "vendorMaterialCode": "vendorMaterialCode30",
+                "colorReferenceUrls": [
+                    "string30"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_32 - Create with date sample properties format 2",
+        "testCase": "GW_ImportSI_32",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "15-02-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "15/02/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "15 02 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "02.15.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-15-02",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/15/02",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 15 02",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.15.02"
+                    }
+                }],
+                "styleCode": "styleCode32",
+                "vendorMaterialCode": "vendorMaterialCode32",
+                "colorReferenceUrls": [
+                    "string30"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_33 - Create with date sample properties format 3",
+        "testCase": "GW_ImportSI_33",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "5-2-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "5/2/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "5 2 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "5.2.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-5-2",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/5/2",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 5 2",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.5.2"
+                    }
+                }],
+                "styleCode": "styleCode33",
+                "vendorMaterialCode": "vendorMaterialCode33",
+                "colorReferenceUrls": [
+                    "string33"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_34 - Create with date sample properties format 4",
+        "testCase": "GW_ImportSI_34",
+        "data": {
+            "stylingItems": [{
+                "category": "StylingTest1",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "samples": [{
+                    "sampleCode": "",
+                    "sampleName": "123",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "2930695e-734d-4ee2-b6c0-79d0af252471": "15-2-2022",
+                        "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "15/2/2022",
+                        "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "15 2 2022",
+                        "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "2.15.2022",
+                        "98e5fba2-de16-4517-bc53-502256876ae8": "2022-15-2",
+                        "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/15/2",
+                        "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 15 2",
+                        "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.15.2"
+                    }
+                }],
+                "styleCode": "styleCode34",
+                "vendorMaterialCode": "vendorMaterialCode32",
+                "colorReferenceUrls": [
+                    "string34"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_35 - Ceate styling with category has ,",
+        "testCase": "GW_ImportSI_35",
+        "data": {
+            "stylingItems": [{
+                "category": "",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "styleCode": "styleCode34",
+                "vendorMaterialCode": "vendorMaterialCode32",
+                "colorReferenceUrls": [
+                    "string34"
+                ]
+            }]
+        }
+    },
+    {
+        "title": "GW_ImportSI_36 - Ceate styling with category has ;",
+        "testCase": "GW_ImportSI_36",
+        "data": {
+            "stylingItems": [{
+                "category": "",
+                "productCode": "",
+                "productName": "",
+                "color": "pink",
+                "brand": "LV",
+                "styleCode": "styleCode35",
+                "vendorMaterialCode": "vendorMaterialCode32",
+                "colorReferenceUrls": [
+                    "string34"
+                ]
+            }]
+        }
+    }
+]

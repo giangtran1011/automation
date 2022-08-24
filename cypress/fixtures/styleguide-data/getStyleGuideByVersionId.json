@@ -1,0 +1,307 @@
+[
+    {
+        "title" : "200 - Get style guide by version Id normal",
+        "param" : "f83cc46c-9e0c-44f5-9cfa-4f400785676d",
+        "code" : 200,
+        "responseBody" : {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJB14HNIG6A:00000001"
+            },
+            "data": {
+                "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d",
+                "styleGuide": {
+                    "name": "Atuo style guide 2x",
+                    "internalName": "atuo_style_guide_2x",
+                    "hasPositionCondition": false,
+                    "hasShootingTypeCondition": false,
+                    "mdDescription": "",
+                    "fileIds": [],
+                    "properties": {},
+                    "shootingTypes": [
+                        {
+                            "groupId": 1,
+                            "name": "On Model",
+                            "shootingTypeId": 1,
+                            "heroPositionIndex": 0,
+                            "mdDescription": "",
+                            "fileIds": [
+                                "7580459f-b1e6-4dbb-90e5-41e1e7ab6990"
+                            ],
+                            "properties": {},
+                            "variantMapping": false,
+                            "positions": [
+                                {
+                                    "positionId": 2,
+                                    "name": "postionstyleguilde2x",
+                                    "mdDescription": "",
+                                    "fileIds": [],
+                                    "exampleFileIds": [
+                                        "7e255e36-59a2-4d9f-a799-08c76942068e"
+                                    ],
+                                    "properties": {},
+                                    "type": 0,
+                                    "isHero": false,
+                                    "isOptional": false,
+                                    "isPhotoReview": false,
+                                    "isEnforceAlts": false,
+                                    "minShotsAlts": 0,
+                                    "isBypassExternalPostProduction": false,
+                                    "isColorReference": false,
+                                    "photography": {
+                                        "minShots": 1,
+                                        "maxShots": 2
+                                    },
+                                    "assets": {
+                                        "namePattern": [],
+                                        "presetInfo": []
+                                    }
+                                }
+                            ],
+                            "ignoreDeliveryOptions": []
+                        }
+                    ],
+                    "colorMatching": {
+                        "colorReferenceOutputName": [
+                            {
+                                "text": "_color-ref-%product_code"
+                            }
+                        ]
+                    },
+                    "internalPostProduction": {
+                        "retouchingBrief": {
+                            "mdDescription": "",
+                            "fileIds": [],
+                            "goodExamplesIds": [],
+                            "badExamplesIds": []
+                        }
+                    },
+                    "nonSelectAssets": {
+                        "namePattern": [
+                            {
+                                "text": "_non-select-%product_code"
+                            }
+                        ]
+                    }
+                },
+                "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                "isEnabled": true,
+                "assignedCategoryIds": [],
+                "assignedWorkflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                "currentStyleGuideVersionCreatedDatetime": 1658301908288,
+                "versionNumber": 2
+            }
+        }
+    },
+    {
+        "title":"200 - Get style guide by version Id with style guide is enable",
+        "param":"95235c52-1d81-43a4-ac29-441d8008bbb6",
+        "code": 200,
+        "responseBody" : {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJB14HNIH3E:00000001"
+            },
+            "data": {
+                "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6",
+                "styleGuide": {
+                    "name": "Atuo style guide 1x",
+                    "internalName": "atuo_style_guide_1x",
+                    "hasPositionCondition": false,
+                    "hasShootingTypeCondition": false,
+                    "mdDescription": "",
+                    "fileIds": [],
+                    "properties": {},
+                    "shootingTypes": [
+                        {
+                            "groupId": 1,
+                            "name": "On Model",
+                            "shootingTypeId": 1,
+                            "heroPositionIndex": 0,
+                            "mdDescription": "",
+                            "fileIds": [],
+                            "properties": {},
+                            "variantMapping": false,
+                            "positions": [
+                                {
+                                    "positionId": 2,
+                                    "name": "New position",
+                                    "mdDescription": "",
+                                    "fileIds": [],
+                                    "exampleFileIds": [],
+                                    "properties": {},
+                                    "type": 0,
+                                    "isHero": false,
+                                    "isOptional": false,
+                                    "isPhotoReview": false,
+                                    "isEnforceAlts": false,
+                                    "minShotsAlts": 0,
+                                    "isBypassExternalPostProduction": false,
+                                    "isColorReference": false,
+                                    "photography": {
+                                        "minShots": 1,
+                                        "maxShots": 2
+                                    },
+                                    "assets": {
+                                        "namePattern": [],
+                                        "presetInfo": []
+                                    }
+                                }
+                            ],
+                            "ignoreDeliveryOptions": []
+                        }
+                    ],
+                    "colorMatching": {
+                        "colorReferenceOutputName": [
+                            {
+                                "text": "_color-ref-%product_code"
+                            }
+                        ]
+                    },
+                    "internalPostProduction": {
+                        "retouchingBrief": {
+                            "mdDescription": "",
+                            "fileIds": [],
+                            "goodExamplesIds": [],
+                            "badExamplesIds": []
+                        }
+                    },
+                    "nonSelectAssets": {
+                        "namePattern": [
+                            {
+                                "text": "_non-select-%product_code"
+                            }
+                        ]
+                    }
+                },
+                "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                "isEnabled": true,
+                "assignedCategoryIds": [],
+                "assignedWorkflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                "currentStyleGuideVersionCreatedDatetime": 1658301955684,
+                "versionNumber": 2
+            }
+        }
+    },
+    {
+        "title":"200 - Get style guide by version Id when style guide is disable",
+        "param": "644cd872-0b39-4dcd-a2b7-0cc54278f279",
+        "code" : 200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJB14HNIHBL:00000001"
+            },
+            "data": {
+                "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279",
+                "styleGuide": {
+                    "name": "Atuo style guide 3x",
+                    "internalName": "atuo_style_guide_3x",
+                    "hasPositionCondition": false,
+                    "hasShootingTypeCondition": false,
+                    "mdDescription": "",
+                    "fileIds": [],
+                    "properties": {},
+                    "shootingTypes": [
+                        {
+                            "groupId": 1,
+                            "name": "On Model",
+                            "shootingTypeId": 1,
+                            "heroPositionIndex": 0,
+                            "mdDescription": "",
+                            "fileIds": [
+                                "1250c871-ed87-479b-8cf1-2889992d47d0"
+                            ],
+                            "properties": {},
+                            "variantMapping": false,
+                            "positions": [
+                                {
+                                    "positionId": 2,
+                                    "name": "New position",
+                                    "mdDescription": "",
+                                    "fileIds": [],
+                                    "exampleFileIds": [],
+                                    "properties": {},
+                                    "type": 0,
+                                    "isHero": false,
+                                    "isOptional": false,
+                                    "isPhotoReview": false,
+                                    "isEnforceAlts": false,
+                                    "minShotsAlts": 0,
+                                    "isBypassExternalPostProduction": false,
+                                    "isColorReference": false,
+                                    "photography": {
+                                        "minShots": 1,
+                                        "maxShots": 2
+                                    },
+                                    "assets": {
+                                        "namePattern": [],
+                                        "presetInfo": []
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "colorMatching": {
+                        "colorReferenceOutputName": [
+                            {
+                                "text": "_color-ref-%product_code"
+                            }
+                        ]
+                    },
+                    "internalPostProduction": {
+                        "retouchingBrief": {
+                            "mdDescription": "",
+                            "fileIds": [],
+                            "goodExamplesIds": [],
+                            "badExamplesIds": []
+                        }
+                    },
+                    "nonSelectAssets": {
+                        "namePattern": [
+                            {
+                                "text": "_non-select-%product_code"
+                            }
+                        ]
+                    }
+                },
+                "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                "isEnabled": false,
+                "assignedCategoryIds": [],
+                "assignedWorkflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                "currentStyleGuideVersionCreatedDatetime": 1658377250543,
+                "versionNumber": 3
+            }
+        }
+       },
+       {
+        "title": "200 - Get style guide by version Id not found",
+        "code":200,
+        "param" : "644cd872-0b39-4dcd-a2b7-0cc54278f2791",
+        "responseBody": {
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+       },
+       {
+        "title": "200 - Get style guide by version Id with id version invalid format",
+        "code":200,
+        "param" : "644cd872-0b39-4dcd-a2b7-0cc54278f2791",
+        "responseBody": {
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+       }
+]

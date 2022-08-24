@@ -1,0 +1,78 @@
+{
+    "name": "test6",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": false,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 1,
+            "photography": {
+                "finalSelectionOptionId": 2,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "photoReview": {
+                    "reviewType": 1
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": true
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 3,
+                "external": {
+                    "isEnabled": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isBypassQc": false,
+                    "keepExternalPostFileName": false,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "additionalVendorIds": [
+                        {
+                            "id": "f0e7f68a-544d-42ed-a686-c4cfee61bad6"
+                        }
+                    ]
+                },
+                "internal": {
+                    "isEnabled": false,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": true,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7,
+                "enforceInternal": {
+                    "isEnabled": false
+                },
+                "bypassExternal": {
+                    "isEnabled": false,
+                    "postProductionExternalBypassTypeId": 0,
+                    "shootingTypeIds": []
+                }
+            },
+            "copywriting": {
+                "isEnabled": false
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12",
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true
+            },
+            "shootingTypeCategoryId": 10
+        }
+    ]
+}

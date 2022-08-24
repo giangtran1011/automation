@@ -1,0 +1,624 @@
+[
+    {
+        "title": "200 - Get workflow by id Successfully",
+        "param" :"f04e7d32-cb9d-4abc-ae2f-a8284b7050b4",
+        "token":"{access_token1}",
+        "code": 200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJJC773ITQC:00000001"
+            },
+            "data": {
+                "id": "f04e7d32-cb9d-4abc-ae2f-a8284b7050b4",
+                "isDefault": false,
+                "clientInfo": {
+                    "id": "a873bd97-0511-4a27-9247-12bb9e176adc",
+                    "name": "ClientWorkFlowAPI_GET"
+                },
+                "workflowModel": {
+                    "name": "workflow_get1",
+                    "isEnabled": true,
+                    "colorMatching": {
+                        "isRequiredColorReference": false,
+                        "isNotSentToExternalPost": false,
+                        "includeColorReferenceTypeId": 0,
+                        "requestFromShootingTypeId": 0,
+                        "approachType": 1,
+                        "actionWithoutColorRefId": 0
+                    },
+                    "shootingTypes": [
+                        {
+                            "shootingTypeId": 1,
+                            "photography": {
+                                "finalSelectionOptionId": 2,
+                                "alternative": {
+                                    "isEnabled": true
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 1,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 2,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 5,
+                                "external": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false
+                                },
+                                "internal": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 3,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 4,
+                                "external": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false
+                                },
+                                "internal": {
+                                    "isEnabled": true,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 5,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 2,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                    "isBypassQc": true,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": true,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": true,
+                                    "isBypassQc": true,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 6,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 2,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": true,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": true
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 7,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 3,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                    "isBypassQc": true,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": true,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": true,
+                                    "isBypassQc": true,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 10
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when id not exist",
+        "param":"f04e7d32-cb9d-4abc-ae2f-a8284b7050b5",
+        "token":"{access_token1}",
+        "code":200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-1",
+                "message": "NotSuccess",
+                "requestId": "0HMJJC773IUNP:00000001"
+            }
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when id is null",
+        "param":"null",
+        "token":"{access_token1}",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when id is empty",
+        "param":"''",
+        "token":"{access_token1}",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when id is decimal",
+        "param":"12.33",
+        "token":"{access_token1}",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when id is text",
+        "token":"{access_token1}",
+        "param":"ttt",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when workflowid in client but user not have permission",
+        "token":"{access_token2}",
+        "param":"f4eb3395-79c6-4459-b110-69cb4a27394a",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-1",
+                "message": "NotSuccess",
+                "requestId": "0HMJJC773J1QR:00000001"
+            }
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when user just view permission",
+        "token":"{access_token3}",
+        "param":"f4eb3395-79c6-4459-b110-69cb4a27394a",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJJC773J5EU:00000001"
+            },
+            "data": {
+                "id": "f4eb3395-79c6-4459-b110-69cb4a27394a",
+                "isDefault": false,
+                "clientInfo": {
+                    "id": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+                    "name": "Default"
+                },
+                "workflowModel": {
+                    "name": "w1",
+                    "isEnabled": true,
+                    "colorMatching": {
+                        "isRequiredColorReference": false,
+                        "isNotSentToExternalPost": false,
+                        "includeColorReferenceTypeId": 0,
+                        "requestFromShootingTypeId": 0,
+                        "approachType": 1,
+                        "actionWithoutColorRefId": 0
+                    },
+                    "shootingTypes": [
+                        {
+                            "shootingTypeId": 1,
+                            "photography": {
+                                "finalSelectionOptionId": 2,
+                                "alternative": {
+                                    "isEnabled": true
+                                },
+                                "photoReview": {
+                                    "reviewType": 1
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": true
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 2,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false,
+                                    "additionalVendorIds": [
+                                        {
+                                            "id": "244eafd9-50bc-4faa-8d51-df4613033068"
+                                        }
+                                    ]
+                                },
+                                "internal": {
+                                    "isEnabled": true,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 2,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 1
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 1,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 3,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 2,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": true,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        },
+                        {
+                            "shootingTypeId": 5,
+                            "photography": {
+                                "finalSelectionOptionId": 1,
+                                "alternative": {
+                                    "isEnabled": false
+                                },
+                                "photoReview": {
+                                    "reviewType": 0
+                                },
+                                "preSelectionByPosition": {
+                                    "isEnabled": false
+                                },
+                                "cutOffStepId": 4
+                            },
+                            "postProduction": {
+                                "approachModelId": 1,
+                                "external": {
+                                    "isEnabled": true,
+                                    "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                    "isBypassQc": false,
+                                    "keepExternalPostFileName": false,
+                                    "isSeperatedMappingForExternalPhotography": false,
+                                    "additionalVendorIds": []
+                                },
+                                "internal": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL1": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "internalL2": {
+                                    "isEnabled": false,
+                                    "isBypassQc": false,
+                                    "isNotAllowAutoQa": false
+                                },
+                                "createAssetVariantsAtStep": 7
+                            },
+                            "copywriting": {
+                                "isEnabled": false
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "title":"200 - Get work flow by id when user not have permisstion workflow",
+        "token":"{access_token4}",
+        "param":"f4eb3395-79c6-4459-b110-69cb4a27394a",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-1",
+                "message": "NotSuccess",
+                "requestId": "0HMJJC773J1QR:00000001"
+            }
+        }
+    }
+
+]

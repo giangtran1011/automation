@@ -1,0 +1,259 @@
+[{
+        "title": "200 OK - Create job successful",
+        "jobCode": "",
+        "jobName": "",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 - Create a job with deadlineutc = empty",
+        "jobCode": "",
+        "jobName": "",
+        "deadlineutc": "",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 - Create a job with properties = null",
+        "jobCode": "",
+        "jobName": "",
+        "deadlineutc": "1636372800000",
+        "properties": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 - Create job with special jobCode, jobName",
+        "jobCode": "jobCode       !@#$!@@%%$",
+        "jobName": "jobName     !@#$1234",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "400 - Create a job with deadlineutc = null",
+        "jobCode": "jobCode_1234",
+        "jobName": "jobName_1234",
+        "deadlineutc": null,
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "400 - Create a job with empty jobCode",
+        "jobCode": "",
+        "jobName": "jobName1234",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "JobCodeIsEmpty"
+    },
+    {
+        "title": "400 - Create a job with jobCode = null",
+        "jobCode": null,
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "JobCodeIsEmpty"
+    },
+    {
+        "title": "400 - Create a job with empty jobName",
+        "jobCode": "jobCode_1234",
+        "jobName": " ",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "NameIsEmpty"
+    },
+    {
+        "title": "400 - Create a job with jobName = null",
+        "jobCode": "jobCode_1234",
+        "jobName": null,
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "NameIsEmpty"
+    },
+    {
+        "title": "400 - Create a job with jobCode > 64 characters",
+        "jobCode": "Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890",
+        "jobName": "jobName_1234",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "CustomJobCodeValueTooLong"
+    },
+    {
+        "title": "400 - Create a job with jobName > 256 characters",
+        "jobCode": "jobCode_1234",
+        "jobName": "Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890Abcd1234567890",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "CustomJobNameValueTooLong"
+    },
+    {
+        "title": "400 - Create job with invalid format deadlineutc",
+        "jobCode": "jobCode_1234",
+        "jobName": "jobName_1234",
+        "deadlineutc": "TestAbc!@#",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "One or more validation errors occurred."
+    },
+    {
+        "title": "400 - Create a job with jobName = jobCode = deadlineutc = null",
+        "jobCode": null,
+        "jobName": null,
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "NameIsEmpty"
+    },
+    {
+        "title": "400 - Create a job with non-exist properties",
+        "jobCode": "jobCode_1234",
+        "jobName": "jobName_1234",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "cd23dfdb-5b95-4925-9798-4fd9beca1723": "1636356434000"
+        },
+        "code": 400,
+        "message": "SomePropertiesNotfound"
+    },
+    {
+        "title": "400 - Create a job with overmax length properties",
+        "jobCode": "1234!@@%%$",
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "abcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamw"
+        },
+        "code": 400,
+        "message": "CustomPropertyValueTooLong"
+    },
+    {
+        "title": "400 - Create a job with invalid utc/uuid format",
+        "jobCode": "jobCode_1234",
+        "jobName": "jobName_1234",
+        "deadlineutc": "1636472800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "1636356434000"
+        },
+        "code": 400,
+        "message": "One or more validation errors occurred."
+    },
+    {
+        "title": "400 - Create a job with invalid uri",
+        "jobCode": "",
+        "jobName": "",
+        "deadlineutc": "1636472800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "1636356434000"
+        },
+        "code": 400,
+        "message": "One or more validation errors occurred."
+    },
+    {
+        "title": "401 - Unauthentication",
+        "jobCode": "1234",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "aaaa"
+        },
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    {
+        "title": "403 - Create a job without api permission 403",
+        "jobCode": "",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "aaaa"
+        },
+        "code": 403,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "403 - Create a job without consent permission 403",
+        "jobCode": "jobCode_104242",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "aaaa"
+        },
+        "code": 403,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "415 - Create a job with invalid content type",
+        "jobCode": "jobCode_104242",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "aaaa"
+        },
+        "code": 415,
+        "message": "UnsupportedMediaType"
+    },
+    {
+        "title": "405 - Create a job with method not allowed",
+        "jobCode": "jobCode_104242",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "aaaa"
+        },
+        "code": 405,
+        "message": "MethodNotAllowed"
+    }
+]

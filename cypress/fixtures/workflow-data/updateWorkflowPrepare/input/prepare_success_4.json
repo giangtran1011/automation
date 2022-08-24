@@ -1,0 +1,137 @@
+{
+    "name": "New workflow",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 1,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1,
+        "actionWithoutColorRefId": 0
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 1001,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "photoReview": {
+                    "reviewType": 2
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 7,
+                "external": {
+                    "isEnabled": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isBypassQc": false,
+                    "keepExternalPostFileName": false,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "additionalVendorIds": []
+                },
+                "internal": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": true,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": true,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": true
+                },
+                "createAssetVariantsAtStep": 7,
+                "enforceInternal": {
+                    "isEnabled": false
+                },
+                "bypassExternal": {
+                    "isEnabled": false,
+                    "postProductionExternalBypassTypeId": 0,
+                    "shootingTypeIds": []
+                }
+            },
+            "copywriting": {
+                "isEnabled": false
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "clientDeliveryConnectionId": "ab820340-8671-49d7-93e8-8da910adabd1",
+                "clientDeliveryConnectionName": "delivery_client_2",
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true
+            },
+            "shootingTypeCategoryId": 20
+        },
+        {
+            "shootingTypeId": 5,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": true
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "isEnabled": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isBypassQc": false,
+                    "keepExternalPostFileName": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "additionalVendorIds": []
+                },
+                "internal": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7,
+                "enforceInternal": {
+                    "isEnabled": false
+                },
+                "bypassExternal": {
+                    "isEnabled": false,
+                    "postProductionExternalBypassTypeId": 0,
+                    "shootingTypeIds": []
+                }
+            },
+            "copywriting": {
+                "isEnabled": false
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            },
+            "shootingTypeCategoryId": 20
+        }
+    ]
+}

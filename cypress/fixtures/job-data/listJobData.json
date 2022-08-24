@@ -1,0 +1,64 @@
+[{
+        "title": "200 OK - Get job with many results",
+        "clientIdTest": "",
+        "jobCode": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Get job with no result",
+        "clientIdTest": "",
+        "jobCode": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Get job with all params",
+        "clientIdTest": "",
+        "jobCode": "have data",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Get job with deleted job",
+        "clientIdTest": "",
+        "jobCode": "deleted jobCode",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "400 Bad request - Get job with invalid clientId",
+        "clientIdTest": "12345",
+        "jobCode": "",
+        "code": 400,
+        "message": "The value '12345' is not valid."
+    },
+    {
+        "title": "403 Forbidden - Get job with no permission with API",
+        "clientIdTest": "",
+        "jobCode": "",
+        "code": 403,
+        "message": ""
+    },
+    {
+        "title": "403 Forbidden - Get job with no consent permission with client",
+        "clientIdTest": "7ed510d6-05b6-43bb-ab92-3e965e8ec64d",
+        "jobCode": "",
+        "code": 403,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "401 Unauthorized -Get job with no authorization",
+        "clientIdTest": "",
+        "jobCode": "",
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    {
+        "title": "405 Get job with invalid method",
+        "clientIdTest": "",
+        "jobCode": "",
+        "code": 405,
+        "message": "MethodNotAllowed"
+    }
+]

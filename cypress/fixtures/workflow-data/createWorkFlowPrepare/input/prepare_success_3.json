@@ -1,0 +1,121 @@
+{
+    "name": "test12",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 2,
+        "approachType": 2,
+        "accurateStep": null
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 2,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 2,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 3,
+                "external": {
+                    "additionalVendorIds": [
+                        {
+                            "id": "a0b090e9-f72e-49d7-a564-467ac244e765"
+                        }
+                    ],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                },
+                "internal": {
+                    "isNotAllowAutoQa": false,
+                    "isBypassQc": true,
+                    "isEnabled": true
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12"
+            }
+        },
+        {
+            "shootingTypeId": 1001,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 6,
+                "external": {
+                    "additionalVendorIds": [
+                        {
+                            "id": "f0e7f68a-544d-42ed-a686-c4cfee61bad6"
+                        }
+                    ],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isEnabled": true
+                },
+                "internal": {
+                    "isNotAllowAutoQa": true,
+                    "isBypassQc": true,
+                    "isEnabled": true
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": true,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12",
+                "clientDeliveryConnectionName": "delivery_wf2"
+                
+            }
+        }
+    ]
+}

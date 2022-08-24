@@ -1,0 +1,186 @@
+[
+    {
+        "title":"Get all export style guide category trigger mapping with user full permission",
+        "token":"fulll-permission",
+        "param":"pageSize=10&pageNumber=1",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+              "code": "GEN-0",
+              "message": "Success",
+              "requestId": "0HMK1N8UJ999L:00000001"
+            },
+            "data": {
+              "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10,
+                "totalItemsCount": 56
+              },
+              "pageData": [
+                {
+                  "styleGuideId": "fd626f1b-97c5-407d-b8b2-61fff592221c",
+                  "styleGuideName": "Digital Style Guide",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "5d492379-6c5f-4c66-9c4e-02bde4aa34a5",
+                  "clientName": "ClientOutfits",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "74ae2d3a-143e-441a-81e0-26eea964f8cd",
+                  "styleGuideName": "Digital Style Guide",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "0f38c5bd-2eab-4d84-90db-06e5a7b4c91d",
+                  "clientName": "Test Client",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "6fee5e09-63eb-4bdd-b0e3-53f3e90136e1",
+                  "styleGuideName": "Digital Style Guide",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "bad1cd4d-d6e8-4202-bd98-0c10434466a2",
+                  "clientName": "Client For no access",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "25af9163-1117-4cbe-965b-a851f570cab9",
+                  "styleGuideName": "Digital Style Guide",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "a873bd97-0511-4a27-9247-12bb9e176adc",
+                  "clientName": "ClientWorkFlowAPI_GET",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "4f531950-e3e4-4409-b1d8-b0493ae0c7af",
+                  "styleGuideName": "Style_Guide_WflowAPI_GET",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "a873bd97-0511-4a27-9247-12bb9e176adc",
+                  "clientName": "ClientWorkFlowAPI_GET",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                  "styleGuideName": "Atuo style guide 1x",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "clientName": "StyleGuilde_Client1 (dont change)",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                  "styleGuideName": "Atuo style guide 2x",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "clientName": "StyleGuilde_Client1 (dont change)",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                  "styleGuideName": "Atuo style guide 3x",
+                  "isStyleGuideEnabled": false,
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "clientName": "StyleGuilde_Client1 (dont change)",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                  "styleGuideName": "Digital Style Guide",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "clientName": "StyleGuilde_Client1 (dont change)",
+                  "triggers": ""
+                },
+                {
+                  "styleGuideId": "02d61116-8e85-4efb-9dc5-7eeff6eec0fb",
+                  "styleGuideName": "A disable production type st",
+                  "isStyleGuideEnabled": true,
+                  "clientId": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+                  "clientName": "Automation Test",
+                  "triggers": ""
+                }
+              ]
+            }
+          }
+    },
+    {
+        "title":"Get all export style guide category trigger mapping with exist clientId",
+        "token":"fulll-permission",
+        "param":"pageSize=10&pageNumber=1&clientId=8d42185e-c25b-4ce0-91d6-886cc92326fd",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJQ0SE9EBCP:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "pageNumber": 1,
+                    "pageSize": 10,
+                    "totalItemsCount": 5
+                },
+                "pageData": [
+                    {
+                        "styleGuideId": "e3f0223c-63ea-4028-8ba4-15b6a25ea88a",
+                        "styleGuideName": "Disable style guide (don't change)",
+                        "isStyleGuideEnabled": false,
+                        "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+                        "clientName": "Default",
+                        "triggers": ""
+                    },
+                    {
+                        "styleGuideId": "3c216c54-d84b-41e1-9c25-28315ff2cbe6",
+                        "styleGuideName": "Full setting style guide",
+                        "isStyleGuideEnabled": true,
+                        "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+                        "clientName": "Default",
+                        "triggers": "st_category_lowercase_94811"
+                    },
+                    {
+                        "styleGuideId": "b8b8bc1a-2a39-4016-98ef-813e63b7be42",
+                        "styleGuideName": "Digital Style Guide",
+                        "isStyleGuideEnabled": true,
+                        "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+                        "clientName": "Default",
+                        "triggers": ""
+                    },
+                    {
+                        "styleGuideId": "0559cd4f-4d42-49db-8855-9567680fd65d",
+                        "styleGuideName": "Invalid styleGuide",
+                        "isStyleGuideEnabled": true,
+                        "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+                        "clientName": "Default",
+                        "triggers": "st_category_lowercase_80991"
+                    },
+                    {
+                        "styleGuideId": "5f16af74-f09e-40fd-870f-af4af449ca5a",
+                        "styleGuideName": "Category style guide",
+                        "isStyleGuideEnabled": true,
+                        "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+                        "clientName": "Default",
+                        "triggers": "category1; Category2"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title":"Get all export style guide category trigger mapping with not exist clientId",
+        "token":"fulll-permission",
+        "param":"pageSize=10&pageNumber=1&clientId=8d42185e-c25b-4ce0-91d6-886cc923261",
+        "code":200,
+        "responseBody":{"metadata":{"code":"INP-1","message":"Invalid data"},"data":false}
+    },
+    {
+        "title":"Get all export style guide category trigger mapping with client user not permission",
+        "token":"limit-permission",
+        "param":"pageSize=10&pageNumber=1&clientId=8d42185e-c25b-4ce0-91d6-886cc92326fd",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "PER-3",
+                "message": "UserNotHavePermissionOnClient",
+                "requestId": "0HMJQ0SE9EBHS:00000001"
+            }
+        }
+    }
+]

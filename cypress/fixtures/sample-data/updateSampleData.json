@@ -1,0 +1,171 @@
+[{
+        "title": "GW_UpdateSa_01 - Update sample with empty properties",
+        "type": "Empty properties",
+        "data": {
+            "sampleName": "",
+            "sampleCode": "",
+            "size": "",
+            "sampleReturnDatetimeUtc": "",
+            "properties": {
+                "895bf90e-95f1-48a9-b043-ac33c4c0cb08": ""
+            }
+        },
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_02 - Update sample code, name, properties",
+        "type": "Any properties",
+        "data": {
+            "sampleName": "",
+            "sampleCode": "",
+            "size": "",
+            "sampleReturnDatetimeUtc": 4736059200000,
+            "properties": {
+                "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "Sample comment1"
+            }
+        },
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_03 - Update sample with date properties format 1",
+        "type": "Date properties",
+        "data": {
+            "sampleCode": "",
+            "sampleReturnDatetimeUtc": 4736059200000,
+            "properties": {
+                "2930695e-734d-4ee2-b6c0-79d0af252471": "05-02-2022",
+                "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "05/02/2022",
+                "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "05 02 2022",
+                "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "02.05.2022",
+                "98e5fba2-de16-4517-bc53-502256876ae8": "2022-05-02",
+                "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/05/02",
+                "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 05 02",
+                "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.05.02"
+            }
+        },
+        "dateUtc": "1651492800000",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_04 - Update sample with date properties format 2",
+        "type": "Date properties",
+        "data": {
+            "sampleCode": "",
+            "sampleReturnDatetimeUtc": 4736059200000,
+            "properties": {
+                "2930695e-734d-4ee2-b6c0-79d0af252471": "15-02-2022",
+                "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "15/02/2022",
+                "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "15 02 2022",
+                "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "02.15.2022",
+                "98e5fba2-de16-4517-bc53-502256876ae8": "2022-15-02",
+                "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/15/02",
+                "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 15 02",
+                "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.15.02"
+            }
+        },
+        "dateUtc": "1644926400000",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_05 - Update sample with date properties format 3",
+        "type": "Date properties",
+        "data": {
+            "sampleCode": "",
+            "sampleReturnDatetimeUtc": 4736059200000,
+            "properties": {
+                "2930695e-734d-4ee2-b6c0-79d0af252471": "5-2-2022",
+                "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "5/2/2022",
+                "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "5 2 2022",
+                "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "2.5.2022",
+                "98e5fba2-de16-4517-bc53-502256876ae8": "2022-5-2",
+                "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/5/2",
+                "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 5 2",
+                "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.5.2"
+            }
+        },
+        "dateUtc": "1651492800000",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_06 - Update sample with date properties format 4",
+        "type": "Date properties",
+        "data": {
+            "sampleCode": "",
+            "sampleReturnDatetimeUtc": 4736059200000,
+            "properties": {
+                "2930695e-734d-4ee2-b6c0-79d0af252471": "15-2-2022",
+                "b9c31a16-b3bc-4ccd-9b6d-34bf8c47abe9": "15/2/2022",
+                "caf674ee-410f-45c2-b07e-e3abbe5a83d4": "15 2 2022",
+                "3b1a7535-31c5-4b6f-957f-c920dfbd3563": "2.15.2022",
+                "98e5fba2-de16-4517-bc53-502256876ae8": "2022-15-2",
+                "1ce55246-e961-4361-808d-05a4ae90aaa7": "2022/15/2",
+                "518d426e-603b-47d7-a135-7f997c6e9ed3": "2022 15 2",
+                "feea4c70-1c70-4bf0-97a3-cc8e0f1658c7": "2022.15.2"
+            }
+        },
+        "dateUtc": "1644926400000",
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_07 - Update sample with non-exist sampleId",
+        "type": "Validate",
+        "data": {
+            "sampleCode": ""
+        },
+        "sampleIdRequest": "8158157b-bca5-4554-b613-2e71919f8db5",
+        "message": "InvalidData",
+        "code": 400
+    },
+    {
+        "title": "GW_UpdateSa_08 - Update sample with deleted sampleId",
+        "type": "Validate",
+        "data": {
+            "sampleCode": ""
+        },
+        "sampleIdRequest": "2f4aba8c-2959-487c-8f45-84b16c7a5c14",
+        "message": "InvalidData",
+        "code": 400
+    },
+    {
+        "title": "GW_UpdateSa_09 - Update sample with no access permission sampleId",
+        "type": "Validate",
+        "data": {
+            "sampleCode": ""
+        },
+        "sampleIdRequest": "9edfdebc-ab1a-4d41-9b02-68a1f1ecc5a1",
+        "message": "InvalidData",
+        "code": 400
+    },
+    {
+        "title": "GW_UpdateSa_10 - Update sample with non-exist properties",
+        "type": "Validate",
+        "data": {
+            "sampleCode": "",
+            "properties": {
+                "3930695e-734d-4ee2-b6c0-79d0af252472": "15-2-2022"
+            }
+        },
+        "sampleIdRequest": "",
+        "message": "SomePropertiesNotfound",
+        "code": 400
+    },
+    {
+        "title": "GW_UpdateSa_11 - Update sample with invalid properties value",
+        "type": "Validate",
+        "data": {
+            "sampleCode": "",
+            "properties": {
+                "2930695e-734d-4ee2-b6c0-79d0af252471": "no date"
+            }
+        },
+        "sampleIdRequest": "",
+        "message": "CustomPropertyValueFormatInvalid",
+        "code": 400
+    }
+]

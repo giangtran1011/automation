@@ -1,0 +1,103 @@
+[{
+        "title": "Add multi sample to product with valid data",
+        "type": "Valid",
+        "data": [{
+                "sampleCode": "",
+                "sampleName": "S1 Name",
+                "size": "M1",
+                "sampleProductImages": [
+                    "https://example.com/sample-image-1.jpg"
+                ],
+                "sampleReturnDatetimeUtc": 1599333576093,
+                "properties": {
+                    "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "sample comment123"
+                }
+            },
+            {
+                "sampleCode": "",
+                "sampleName": "S2 Name",
+                "size": "M2",
+                "sampleProductImages": [
+                    "https://example.com/sample-image-1.jpg"
+                ],
+                "sampleReturnDatetimeUtc": 1599333576093,
+                "properties": {
+                    "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "sample comment456"
+                }
+            }
+        ],
+        "message": true,
+        "code": 200
+    },
+    {
+        "title": "Add sample to product with null sample code",
+        "type": "Empty",
+        "data": [{
+            "sampleCode": null,
+            "sampleName": "null123 Name",
+            "size": "null123",
+            "sampleProductImages": [
+                "https://example.com/sample-image-1.jpg"
+            ],
+            "sampleReturnDatetimeUtc": 1599333576093,
+            "properties": {
+                "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "sample commentNull123123"
+            }
+        }],
+        "message": true,
+        "code": 200
+    },
+    {
+        "title": "Add sample to product with empty sample code",
+        "type": "Empty",
+        "data": [{
+            "sampleName": "S empty123 Name",
+            "size": "M empty123",
+            "sampleProductImages": [
+                "https://example.com/sample-image-1.jpg"
+            ],
+            "sampleReturnDatetimeUtc": 1599333576093,
+            "properties": {
+                "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "sample empty123"
+            }
+        }],
+        "message": true,
+        "code": 200
+    },
+    {
+        "title": "Add sample to product with invalid properties",
+        "type": "validate",
+        "data": [{
+            "sampleCode": "Test",
+            "sampleName": "empty123 Name",
+            "size": "empty123",
+            "sampleProductImages": [
+                "https://example.com/sample-image-1.jpg"
+            ],
+            "sampleReturnDatetimeUtc": 1599333576093,
+            "properties": {
+                "895bf90e-95f1-48a9-b043-ac33c4c0cb06": "sample empty123"
+            }
+        }],
+        "message": "SomePropertiesNotfound",
+        "code": 400
+    },
+    {
+        "title": "Add sample to product with invalid properties value",
+        "type": "validate",
+        "data": [{
+            "sampleCode": "Test",
+            "sampleName": "empty123 Name",
+            "size": "empty123",
+            "sampleProductImages": [
+                "https://example.com/sample-image-1.jpg"
+            ],
+            "sampleReturnDatetimeUtc": 1599333576093,
+            "properties": {
+                "2930695e-734d-4ee2-b6c0-79d0af252471": "not date"
+            }
+        }],
+        "message": "CustomPropertyValueFormatInvalid",
+        "code": 400
+    }
+]
