@@ -27,7 +27,7 @@ pipeline {
 
     post {
         always { 
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'reports', reportFiles: 'index.html', reportName: 'Report Auto Test', reportTitles: ''])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'cypress/reports', reportFiles: 'index.html', reportName: 'Report Auto Test', reportTitles: ''])
         }
         success {
             echo 'Run test case successfully'
