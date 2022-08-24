@@ -17,30 +17,27 @@ pipeline {
             }
         }
 
-        stage('Testing') {
+        stage('Run Testing') {
             steps {
                 bat "npm i"
                 bat "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
             }
         }
 
-         stage('Deploy') {
-        steps {
-            echo "Deploy application"
+        stage('Push lish report') {
+
         }
-         }
     }
 
     post {
         always { 
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'cypress/report', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: 'HTML report'])
-            echo 'I will always say Hello again!'
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'reports', reportFiles: 'index.html', reportName: 'Report Auto Test', reportTitles: ''])
         }
         success {
-            echo 'I will say Hello only if job is success'
+            echo 'Run test case successfully'
         }
         failure {
-            echo 'I will say Hello only if job is failure'
+            echo 'Have some error !, Please check service again'
         }
     }
   
