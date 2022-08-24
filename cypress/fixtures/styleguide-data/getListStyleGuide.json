@@ -1,0 +1,821 @@
+[
+    {
+        "title": "200 - Get all style guide",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+              "code": "GEN-0",
+              "message": "Success",
+              "requestId": "0HMJAUN661JKD:00000001"
+            },
+            "data": {
+              "pageInfo": {
+                "hasMore": false,
+                "lastOrderKey": "6"
+              },
+              "pageData": [
+                {
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                  "name": "Atuo style guide 3x",
+                  "mdDescription": "",
+                  "isInvalid": false,
+                  "isEnabled": false,
+                  "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                  "isWorkflowEnabled": true,
+                  "workflowName": "Studio Workflow",
+                  "versionNumber": 3,
+                  "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                },
+                {
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                  "name": "Atuo style guide 2x",
+                  "mdDescription": "",
+                  "isInvalid": false,
+                  "isEnabled": true,
+                  "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                  "isWorkflowEnabled": true,
+                  "workflowName": "Auto workflow styleguilde1",
+                  "versionNumber": 2,
+                  "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                },
+                {
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                  "name": "Atuo style guide 1x",
+                  "mdDescription": "",
+                  "isInvalid": false,
+                  "isEnabled": true,
+                  "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                  "isWorkflowEnabled": true,
+                  "workflowName": "Auto workflow styleguilde1",
+                  "versionNumber": 2,
+                  "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                },
+                {
+                  "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                  "id": "d5a7f114-b04a-4e20-80c7-40a09f0747ce",
+                  "name": "Auto style guilde 1",
+                  "mdDescription": "",
+                  "isInvalid": false,
+                  "isEnabled": true,
+                  "workflowId": "c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+                  "isWorkflowEnabled": true,
+                  "workflowName": "Auto workflow style guilde",
+                  "cover": {
+                    "id": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                    "fullResPreviewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/z/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=c1424fcfa7b6fe2d115c07e8de02ef9023cd67761ec261806b9264da3788aa6f",
+                    "smallThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=711922d4542e9317bbe0ecdabd29dd92bdf987d320564b75654367cb7838500e",
+                    "smallThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=ab3ed1637f1f7ece91cf9365720ebb9a0257d63bd6c3d739957a66762eb23815",
+                    "mediumThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=8ff054db1f534f979fe87f1a0bd8a3e148697696f9cb71d7c928637910b9edf0",
+                    "mediumThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=517544b66636ddfe7d74427d9f43a3912801b021c8faf3c7c09245dab8593b1d",
+                    "previewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=288db5f58e4889d213bcc51c67ec06313950f0f206946e15017688d18e68eb47",
+                    "previewX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=d311603de8b661d77e422917cc9ad1f9e9511dea4bad0337a456452220ef150d",
+                    "length": 146294,
+                    "fileId": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                    "fileName": "c6dc8c2764bf1a42b11e97eb095a9593.png",
+                    "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAK2MQKlWVsrkRCWBGyaps9Zrvx1xy9dJI2j87LDLRZPyAiBG8g8ugkwHXb414aWxypQZUNb4kfO9dXosf5bY3A%2BI3CrhBAhBEAMaDDA5MjM5Mjc4NzE4NyIMECV%2BmymprLZBRVO3Kr4E%2FEyVw8IWiYw3PPv8%2BnDu9x0xmqY%2B9jdd4QeZ7Z1dYjsZzZJ4BWzkdBJ51pVaRka3zasDTLIO5pb8SlOaQyLtadtcGg8Ur%2BiQfidBCEXDWgk9p%2F%2Fp8vrorhnVpqYI4O9gh7aZ02dUM7gTnVZxG6CuXZsghvJSdysrSyYY26Kx7SqScLJYPouKgUE0jvK%2BpfzqVrVe%2B0m5gKijnIyxyLPJtLbbjRWVsxEGmdm9dl82W6LKLclP2Ds6wh4rFZNFUv0PdEqLfjSqYSkUGjuLp0sNksh8rqBmSNtyVTxK9otIf3LVDopkBlt%2Fvx5dCebT9xik2wmdMRRCzzB9CwMKoOjMHGMuk93Bm57GO5jKzMTWVYlNqc1f6K2L1%2BQNh6qoS3ZRSUI3CQqs11YYXhU1vaGftMWt%2Bfn4JB0rgmE3m6vskrRQIq2grYIxFTxiNP1zQ8JV3cuLoONchS2MC0j7BstP04BgyifyUS%2BDWB7zTaiIvsSfZBse8AH5miZ1wk4hxTc0DiAy9lNhWD6b%2BRGVIF3bhySpXyTtbEbKOO0jfUpA7rG4ozpbGdJmiHU1eWGk3YszPnpqWrS2QG7Bqc1We6iMhncz8GP448ysU7ipOtYh757laf7aZyzbyttuaiLl1u1c4h3%2Bk%2BvaBgRTy6l3YftdiVFTNE7trInqHV98UzUbbR2E8zMXnTe1hpjv%2BgQvU2ZbmJXDzRRUqZxEiYTsVoRCVtkg1wSnLeMwJhjHn%2F0kH334CVS5oqyEUZLORSL7bDDSjuSWBjqpAR8SN6E%2FnDmjgNOzATSQocWdZ0WZie9jz7rWg%2Ft5TCHL58LM1gaNFHY3P0IRapM9iNypeGX1PqG8%2FN%2BBJ0K6ieIZFL86nK7t8V0vnsukZDD5ilbztRIDvEAe0WH04L26FEADgCaief2GIjdqE%2BfbZWpPTcfx88xwhpBhK3Spj5NIiOrqOYjX9xbGDeCrxlT1KpgGrd0ZD8LlRahzwF1XtBQasQHQExyPkGU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ7QJORHND/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T084948Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=b4827c385f1c7a7f5ddaba79aa6c112cae2f8fc36d2a644193076bb141b1b83f",
+                    "s3BucketId": 1
+                  },
+                  "versionNumber": 3,
+                  "versionId": "c4bb747e-3f43-43a7-8961-219286930fab"
+                },
+                {
+                  "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                  "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                  "name": "Digital Style Guide",
+                  "isInvalid": false,
+                  "isEnabled": true,
+                  "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                  "isWorkflowEnabled": true,
+                  "workflowName": "Studio Workflow",
+                  "versionNumber": 0,
+                  "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                },
+                {
+                  "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                  "id": "9d9a4ff5-d701-4cb6-aa73-7250e2ec022c",
+                  "name": "Digital Style Guide",
+                  "isInvalid": false,
+                  "isEnabled": true,
+                  "workflowId": "c7725710-c811-48c1-b41c-a922af2aac97",
+                  "isWorkflowEnabled": true,
+                  "workflowName": "Studio Workflow",
+                  "versionNumber": 0,
+                  "versionId": "3bf5c52d-053e-46b8-bc77-038678e77d24"
+                }
+              ]
+            }
+          }
+    },
+    {
+        "title" : "200 - Get style guide by client",
+        "param" : "clientId=bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+        "code" : 200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJA7TT6C3H5:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "4"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                        "name": "Atuo style guide 3x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": false,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 3,
+                        "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                        "name": "Atuo style guide 1x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title" : "200 - Get all styleGuides by nonpermission client",
+        "param" : "clientId=c23ca492-f532-4d65-b82b-212473595825",
+        "code" : 200,
+        "responseBody" : {
+            "metadata": {
+                "code": "PER-3",
+                "message": "UserNotHavePermissionOnClient",
+                "requestId": "0HMJA7TT6C5DB:00000001"
+            }
+        }
+    },
+    {
+        "title" : "200 - Get all style guide by workflow",
+        "param" : "workflowId=c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+        "code" : 200,
+        "responseBody" :{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJA7TT6C5P1:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "1"
+                },
+                "pageData": [
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "d5a7f114-b04a-4e20-80c7-40a09f0747ce",
+                        "name": "Auto style guilde 1",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow style guilde",
+                        "cover": {
+                            "id": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fullResPreviewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/z/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=65e152bde0be35aa67987b0d2084d816a06dcce1a7a3755790faccf1589be9d8",
+                            "smallThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=0887530a9c9b9b52aef988a258448f70bd9ebdf37d193a59d84f4fc4f8d5f484",
+                            "smallThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=8b535e1d734bc7f8a654940eceb36189a9bff9a3e18df2d1b75b9480cc10037e",
+                            "mediumThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=258ef9d414c6cf8efeaf26babf3db3ebedd080993dda45d3f79919cebc44a903",
+                            "mediumThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=6f1b3d6efc076193e38c4dbab8aa0d5bb6c76c81f9ecd305701705dc7d9e8339",
+                            "previewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=03d315d895352a5876dfe4da5eabedd77fa5b57f3ddb3ab036045f7853e1453f",
+                            "previewX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=1c59f9142777319b9c28a10d86e45f12a7d724286f7113fc4a20092feb575691",
+                            "length": 146294,
+                            "fileId": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fileName": "c6dc8c2764bf1a42b11e97eb095a9593.png",
+                            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgXRe%2FTbl0q1EZdLfwZDpQv4eBBldpHxpTw72XAbkg0KMCIQCjncDH7YQU1OThnaCRSzObV89p7wZzC%2FmvcAsuHjcpLSrhBAg9EAMaDDA5MjM5Mjc4NzE4NyIM8Ms7TsX6k4%2F%2Fy1YPKr4Escen5EqWHIN3wK75Pi1PHjyR%2FvX%2F5poNd5%2B60QlIdhd%2BjtVAS6khdk2prRJi%2Bmf3g0sqtZadWA77nyZBlzuy%2B9uu44DSp8gqOqIHNHsr7gHjDoa287r15vsfHRfp3yv6ZiUs6x7hEnDFFDZlkMQXWvjTyDPM4SRgwmNh7Y4jHvknrwAnfmTElDzVC9H%2BZHiDSMrN0Q0ls6BJN6Yfyv%2FPWoF72y3pCUEybSFY0tdSbFwwMLAlsBW0244p%2Fdq5gBGfgUuuH2QOl0eZFBNifuF7SYhtMM7y%2Fd3dKV4AnIo7ePdD%2FnvWvFLRldO2EtToLsdsCir00Ws4Y18BKH9M37tfPOZtM1xzYPWjejOBrXA%2B8qH%2BcgVXummdf6NrRgCfw2TqNVV2spk1E3srbjVDLagidG1XZawPCdBUt2YOl7PGCwk9cf9CHH4oYXZZfwwGele2tIJfOEgQWk7JOUEn5mhin4r361JjYwKmOKNBIAir7vRYaakdIGFFuK8NV26Zno5VrRVXWMvIw4g9Y%2B53eqUR0QWy1VA5UHLw2GPKdgU2lXAlzyrFCCWk9H%2FaWkbLMEMxvXbDb1c2lXWqSo1GCmiw%2BQJWldV5tVIFo%2B24b9dyaOhYw6hTffGw19spSTWwDqG0%2Bl%2FK54QXPJ1rZ8x71pTn%2BTdIFzrZ0q8I%2FXCfN00dzAIwj8Eon5DGrw8grqO9hwTAv1y0%2BYXSqrN72zvfisn9OwEm9F7PYHkWVMx4vADOsU82MCXoRyUR9Kqi9ZF9JjC4oOOWBjqpAepm7lXAENcKKTaheD3uEGI3jaVejxg52u8HT8IGhD6AOKPr5F0kc1K%2Bpy1gn2mT9OwrApFxjbQcLNZEOt6vqTEpI%2B5elZ7juMqd3NYeo5bukeI06KUoX%2FTH2n1DT4wqeWYrKx%2FHUC4%2BZ6X1nfU0HtGHi4UkQE50IUT1HQjKE6UbhjEEJeHeJWMFCViUaph9lK8e8MpS4NlwdJrP0t54v92%2FZ8W7ji6s0pY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZV5ZVGH4M/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T044356Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=fbffeba7d16f355697a00a231224a8066ef040b1863a2380771606ce92f87229",
+                            "s3BucketId": 1
+                        },
+                        "versionNumber": 3,
+                        "versionId": "c4bb747e-3f43-43a7-8961-219286930fab"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title" :"200 - Get all style guide by workflow  not exsit",
+        "param":"workflowId=c5b21b0d-aeea-4292-8a0a-cceef1e749cb11",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"200 - Get all style guide when style guide isEnable = true",
+        "param":"isEnabled=true",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1BHU:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "5"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                        "name": "Atuo style guide 1x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                    },
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "d5a7f114-b04a-4e20-80c7-40a09f0747ce",
+                        "name": "Auto style guilde 1",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow style guilde",
+                        "cover": {
+                            "id": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fullResPreviewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/z/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=64c59d60ceb3098595c330d84f4df8e860a88c2c98a47cf9f44a89656152b420",
+                            "smallThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=2f8ce489608787bcd0e264b615f585aa1f070b305b316c182c60a7083530a248",
+                            "smallThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=54159c98487f298670062e960495990de63e03ddfe2db09c7ac5b806112eb39f",
+                            "mediumThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=489abe73cc3dbdf57f1e6d0c326fcbf1f29c56a8618b3ea5bc17662b53a8186a",
+                            "mediumThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=2353fdb58d7a90cfffe31ba296dfed6e4ea36e8c7f7e0332e907d162fd4a9916",
+                            "previewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=91445084795f617e74fb9fe9524f217f10e906738bbd2d630476dc23a42b761d",
+                            "previewX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=3bbda645d6d86b8f275fb67a90a56ecad09e090c911ef60cb4cc2a699c0a23fa",
+                            "length": 146294,
+                            "fileId": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fileName": "c6dc8c2764bf1a42b11e97eb095a9593.png",
+                            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064124Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=fa0fc5894a04f5b3a754bea90d592d7b0816da8d586efbe20fb71120a0b39111",
+                            "s3BucketId": 1
+                        },
+                        "versionNumber": 3,
+                        "versionId": "c4bb747e-3f43-43a7-8961-219286930fab"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                    },
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "9d9a4ff5-d701-4cb6-aa73-7250e2ec022c",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c7725710-c811-48c1-b41c-a922af2aac97",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "3bf5c52d-053e-46b8-bc77-038678e77d24"
+                    }
+                ]
+            }
+        }
+    },
+    {
+
+        "title":"200 - Get all style guide when style guide isEnable = false",
+        "param":"isEnabled=false",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1BME:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "1"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                        "name": "Atuo style guide 3x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": false,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 3,
+                        "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                    }
+                ]
+            }
+        }
+
+    },
+    {
+      
+        "title":"200 - Get all style guide sort asc by name ",
+        "param":"clientId=bc3f1642-fe2f-4209-95c7-206c3f9fe96f&sortBy=name&sort=asc",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1BU8:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "4"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                        "name": "Atuo style guide 1x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                        "name": "Atuo style guide 3x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": false,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 3,
+                        "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                    }
+                ]
+            }
+        }
+  
+    },
+    {
+      
+        "title":"200 - Get all style guide sort desc by name ",
+        "param":"clientId=bc3f1642-fe2f-4209-95c7-206c3f9fe96f&sortBy=name&sort=asc",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJAUN661V4N:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "4"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                        "name": "Atuo style guide 1x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                        "name": "Atuo style guide 3x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": false,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 3,
+                        "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                    }
+                ]
+            }
+        }
+  
+    },
+    {
+        "title":"200 - Get all style guide sort desc by user ",
+        "param":"sortBy=used&sort=desc",
+        "code":200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1C66:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "6"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                        "name": "Atuo style guide 3x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": false,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 3,
+                        "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                        "name": "Atuo style guide 1x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                    },
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "d5a7f114-b04a-4e20-80c7-40a09f0747ce",
+                        "name": "Auto style guilde 1",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow style guilde",
+                        "cover": {
+                            "id": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fullResPreviewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/z/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=0be2f6d4e9c048439b41bf5dbb4ae742be514126fb5a9e1544d71c953bcbaf2d",
+                            "smallThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=c5ff010f07c718fa0bfec8c01b24fd915d93f3844a4b216ae24353cccc73f08b",
+                            "smallThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=316586ef29362951e6ff5d2c69c3a4f72a64361f8e1397086e77e41cdb3b904f",
+                            "mediumThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=3ac2d0c8468e438efbd8fb9c1749228ee7771d49f2360c745c6e7fd2f57438d9",
+                            "mediumThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=ba714679a69828dcdbb02c6215a99e6d1fffa99ba960a419f8b4dd235a7832ae",
+                            "previewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=11e3dd5f344b7d9200ab6a25b4ac5d6fdede354f60484e4dac8603678b0f6e2f",
+                            "previewX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=6bd8eeae5afc8032b32154cd21c12097934a9cdb93895347304303511466d842",
+                            "length": 146294,
+                            "fileId": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fileName": "c6dc8c2764bf1a42b11e97eb095a9593.png",
+                            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064712Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=f3ffa102fad7a8d755276e6468f464b91d912eb5b408ae05587fd672ba1013e6",
+                            "s3BucketId": 1
+                        },
+                        "versionNumber": 3,
+                        "versionId": "c4bb747e-3f43-43a7-8961-219286930fab"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                    },
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "9d9a4ff5-d701-4cb6-aa73-7250e2ec022c",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c7725710-c811-48c1-b41c-a922af2aac97",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "3bf5c52d-053e-46b8-bc77-038678e77d24"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        
+        "title":"200 - Get all style guide sort desc by date ",
+        "param":"sortBy=date&sort=desc",
+        "code":200,
+        "responseBody" :{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1CCO:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false,
+                    "lastOrderKey": "6"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "b00ec22f-4af3-4f18-a2ec-a8643ea1a823",
+                        "name": "Atuo style guide 3x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": false,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 3,
+                        "versionId": "644cd872-0b39-4dcd-a2b7-0cc54278f279"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c06a94fd-70ab-42e8-a5e5-6dc59a898775",
+                        "name": "Atuo style guide 1x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "95235c52-1d81-43a4-ac29-441d8008bbb6"
+                    },
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "d5a7f114-b04a-4e20-80c7-40a09f0747ce",
+                        "name": "Auto style guilde 1",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c5b21b0d-aeea-4292-8a0a-cceef1e749cb",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow style guilde",
+                        "cover": {
+                            "id": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fullResPreviewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/z/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=96b671e76ff28604da7dc70171c85068a2170a39d4e22c165789728e88109205",
+                            "smallThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=27efa89c6d182425752ed4076000456667f6d2013cb5702a4e4fa02b3263b88e",
+                            "smallThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/sx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=9c589150bb33a8b1f65bbc3b04db05aeb96fe0ec74bcc5fc4bc388f48485f810",
+                            "mediumThumbnailUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=e89d22f26d5f0c2ce75b6bae043dc2d1cca5cc1fdc9a88aebef5cd900988e8ad",
+                            "mediumThumbnailX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/t/mx2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.jpg?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=ca0713111de1b09f9dbbe23411cb1049f4b270dbb537d3ffdc7018c603ef507e",
+                            "previewUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x1/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=aa159d943d961c54eba9b3ae6009cc4c726c59f1cd253dc4b3d5f0b2e1f7c44e",
+                            "previewX2Url": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/p/x2/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=b3b516fa960e0bb731fa539933f7d83c367d03802a1dfd38709982355710d16d",
+                            "length": 146294,
+                            "fileId": "466eed5f-bfab-4e65-a7fb-b26c12e95c26",
+                            "fileName": "c6dc8c2764bf1a42b11e97eb095a9593.png",
+                            "fileUrl": "https://lh-as1-files-test.s3.ap-southeast-1.amazonaws.com/styleguide/62d7ff06-e594-4cbe-8811-b63717a4f6ed/9064cbef-66fe-4ea2-9397-c05d35302e9c/af4ea7a1-3e75-4e7c-9422-24aeb3830425/c6dc8c2764bf1a42b11e97eb095a9593.png?X-Amz-Expires=43200&x-amz-security-token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkcwRQIhAMcAwMSXOoV5a%2FksGfTit9MXL2jKbakglu6EdeIdq9YTAiAWT2UJdMqftnUMp1nPEaGQh1YOBz3kCiymeey864iw4yrhBAg%2FEAMaDDA5MjM5Mjc4NzE4NyIMBDaxso0GXS5nxQJ0Kr4EVjOJMgyr7qHDSIAiM3%2FAmawa0R1ndhboW%2Fbx4HpipGAC89lN%2Bea0NG3YZYD4ks46dR3VHP8AB%2FUG0A%2Bp3tiGvBDaZ%2FDwO%2BMqYrQdZoMxe7iZ5Pz4GsoAa41RlXyJu6poCLFy8BH91cmc%2BX4DeCYn%2B9cWrZFSTrmWOF3KlHNY5OlYq8CRVq2G%2BNb0VkNg9whsOzA9yIG6TpVKKRLjhhcAIB969vO4oAyIMrXWTMDAHKL0ZjUzdaTjqQLxGgRACK0E7R%2FZmlIDLijSghdRI%2BmzmK8n3ZLJno7aIpa0myZey32aukmLEbqQroK8dx9W48fpkWNnwcxJ0dF4eUpGGCUrxCV6y4Q3SYzja%2BtjchFKfxPV4gcTmApl%2Bg3an0qwwmoqW86nPOqzNGcszX4bcZYUJqPeiXvxqF0jK4qjPbxksdEqdeF8ZzA%2FdqL1ugOPYAnygDHOeAhMT4Jj6qUQuLm98RG9TWR7OTLoFMQvR2qkh8ysAEX9%2Bf%2FhM5xIklFYO8jFNLqyG8B2nu8NopZrFahKe26kI2%2BWgPrWyFl7vRKu6G7ug91RNzcuYolFYKo3IiiFCt%2BVkrkbsSPzvtS5kGre8nyXmDFeLvDyQ8e8XGI9TMq9ORVTHbnQlOWj3sdQ0NzAOh60aLBt5pZx2WFBb6pJjbn7bOk7wYLA%2Fvtr7H4%2FArhJ36ib%2Fl6TOWKCxEX4ay1jX2wq4gTfd8XhDDrE3MnaeCBHav7rp7b7qRj%2Fwq%2F%2FV%2FcIcV0AirTV73WPF1WSvDCA1uOWBjqpARoKtzsxyjIpNvCcB8DNYqiwsCd%2BeFycuDxf839iRRK3EKEWsmaUUSwK%2BRvJD0lOHC1jbtTaYLJMwz9GEmAhiAFJXhmYb%2Fin%2BLywlpAsxh5qCdegeN1BbQrAxOLzAz6QfApcObGuNqDcizN77DonPmPQcCYx3ypDohczktI75b8dQHeUHFUuvVxMYNpqddDm4WHAN0UysOfLcEJpEmqZU0b13QNH%2FarF5cw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIARLAYKBTZ6NGSHG6U/20220721/ap-southeast-1/s3/aws4_request&X-Amz-Date=20220721T064954Z&X-Amz-SignedHeaders=host;x-amz-security-token&X-Amz-Signature=7026ae5b4b93667bae5dd9cf7042251784a19fc8540b3c644eab5cc75f0732a6",
+                            "s3BucketId": 1
+                        },
+                        "versionNumber": 3,
+                        "versionId": "c4bb747e-3f43-43a7-8961-219286930fab"
+                    },
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "4359a25b-2a7a-45b7-bb8f-c8ae7b4ffe38",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "8ec31e41-237d-40bc-8ddb-133f1dafb6f8",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "b8a72267-f4e2-4df0-852c-3a6e802d239e"
+                    },
+                    {
+                        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+                        "id": "9d9a4ff5-d701-4cb6-aa73-7250e2ec022c",
+                        "name": "Digital Style Guide",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "c7725710-c811-48c1-b41c-a922af2aac97",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Studio Workflow",
+                        "versionNumber": 0,
+                        "versionId": "3bf5c52d-053e-46b8-bc77-038678e77d24"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title":"200 - Get all style guide with all param ",
+        "param":"clientId=bc3f1642-fe2f-4209-95c7-206c3f9fe96f&sortBy=date&sort=desc&isEnabled=true&keyword=st&workflowId=6354f7bc-d577-4a01-a967-35d82da98704&pageSize=1",
+        "code":200,
+        "responseBody":{
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1CLR:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": true,
+                    "lastOrderKey": "1"
+                },
+                "pageData": [
+                    {
+                        "clientId": "bc3f1642-fe2f-4209-95c7-206c3f9fe96f",
+                        "id": "c02aee23-6e85-4ecb-8f80-e7e07e0720ae",
+                        "name": "Atuo style guide 2x",
+                        "mdDescription": "",
+                        "isInvalid": false,
+                        "isEnabled": true,
+                        "workflowId": "6354f7bc-d577-4a01-a967-35d82da98704",
+                        "isWorkflowEnabled": true,
+                        "workflowName": "Auto workflow styleguilde1",
+                        "versionNumber": 2,
+                        "versionId": "f83cc46c-9e0c-44f5-9cfa-4f400785676d"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "title":"200 - Get all style guide with no data ",
+        "param":"clientId=bc3f1642-fe2f-4209-95c7-206c3f9fe96f&keyword=no",
+        "code":200,
+        "responseBody" : {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJARUJQ1CRG:00000001"
+            },
+            "data": {
+                "pageInfo": {
+                    "hasMore": false
+                },
+                "pageData": []
+            }
+        }
+    },
+     {
+        "title":"200 - Get all style guide client invalid ",
+        "param":"clientId=bc3f1642-fe2f-4209-95c7-206c3f9fe96f1",
+        "code":200,
+        "responseBody": {
+            "data": false,
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            }
+        }
+     }
+
+]

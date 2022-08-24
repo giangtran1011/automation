@@ -1,0 +1,71 @@
+[{
+        "title": "GW_UpdateSa_01 - Change sample type to styling",
+        "type": "Successful",
+        "data": {
+            "sampleId": "",
+            "targetType": 1
+        },
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_02 - Change sample type to product",
+        "type": "Successful",
+        "data": {
+            "sampleId": "",
+            "targetType": 0
+        },
+        "message": "",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_03 - Change sample type with already targetType",
+        "type": "Unsuccessful",
+        "data": {
+            "sampleId": "",
+            "targetType": 0
+        },
+        "message": "SampleAlreadyAtTargetType",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_04 - Change sample type with invalid targetType",
+        "type": "400",
+        "data": {
+            "sampleId": "",
+            "targetType": 3
+        },
+        "message": "TargetType invalid",
+        "code": 400
+    },
+    {
+        "title": "GW_UpdateSa_05 - Change sample type with non-exist sampleId",
+        "type": "Unsuccessful",
+        "data": {
+            "sampleId": "5EE402CD-0AB7-415A-9D97-3B849F891A35",
+            "targetType": 1
+        },
+        "message": "ProductSampleNotFound",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_06 - Change sample type with deleted sampleId",
+        "type": "Unsuccessful",
+        "data": {
+            "sampleId": "fb1281ed-f115-43ff-85cf-8eb685b966b1",
+            "targetType": 1
+        },
+        "message": "ProductSampleNotFound",
+        "code": 200
+    },
+    {
+        "title": "GW_UpdateSa_07 - Change sample type with non-access permission sampleId",
+        "type": "Unsuccessful",
+        "data": {
+            "sampleId": "9edfdebc-ab1a-4d41-9b02-68a1f1ecc5a1",
+            "targetType": 1
+        },
+        "message": "ProductSampleNotFound",
+        "code": 200
+    }
+]

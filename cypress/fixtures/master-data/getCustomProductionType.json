@@ -1,0 +1,418 @@
+[
+    {
+        "title":"200 - Get custom production type",
+        "code": 200,
+        "param":"objectTypeId=2&pageSize=10&pageNumber=1",
+        "responseBody": {
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "propertyId": "254c34de-2654-4a83-aa90-0cfb166cd496",
+                    "propertyName": "Test format date 6",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2",
+                    "propertyName": "date",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "00ac8f23-a456-45af-a575-2be166edd221",
+                    "propertyName": "Test format date 3",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "b59383d3-601b-4a82-b8de-35742dcb7ff8",
+                    "propertyName": "xxx property",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "475a5d41-2eb3-4fbe-945b-5037c16e840f",
+                    "propertyName": "dont delete",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "232a2399-e067-4a74-98dd-5ce44ad875a1",
+                    "propertyName": "zzz property",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "8b0cb323-c001-46aa-970a-5e8a8164d1c6",
+                    "propertyName": "Test format date 7",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "a9913474-3713-447c-8b62-5ffbdf2853ce",
+                    "propertyName": "www add",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "74c86f76-920c-4185-a2fe-60911b3b2f55",
+                    "propertyName": "Test format date 4",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "a782c16d-cb2d-43d9-b8b5-9c53b3ce5917",
+                    "propertyName": "Summary",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 1,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": [
+                                {
+                                    "isDefault": true,
+                                    "value": "S1"
+                                },
+                                {
+                                    "isDefault": false,
+                                    "value": "S2"
+                                },
+                                {
+                                    "isDefault": false,
+                                    "value": "S3"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "title":"Get production type with objectId not exist",
+        "code":400,
+        "param":"objectTypeId=0&pageSize=10&pageNumber=1",
+        "responseBody":{
+            "errors": {
+                "objectTypeId": [
+                    "The value '0' is invalid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|c87943d3-4b5609d0028e4ffa."
+        }
+    },
+    {
+        "title":"Get production type with objectId null",
+        "code":400,
+        "param":"objectTypeId=null&pageSize=10&pageNumber=1",
+        "responseBody":{
+            "errors": {
+                "objectTypeId": [
+                    "The value 'null' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|c87943db-4b5609d0028e4ffa."
+        }
+    },
+    {
+        "title":"Get production type with objectId empty",
+        "code":400,
+        "param":"objectTypeId=''&pageSize=10&pageNumber=1",
+        "responseBody":{
+            "errors": {
+                "objectTypeId": [
+                    "The value '''' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|c87943de-4b5609d0028e4ffa."
+        }
+    },
+    {
+        "title":"Get production type with objectId < 0",
+        "code":400,
+        "param":"objectTypeId=-1&pageSize=10&pageNumber=1",
+        "responseBody":{
+            "errors": {
+                "objectTypeId": [
+                    "The value '-1' is invalid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|c87943e0-4b5609d0028e4ffa."
+        }
+    },
+    {
+        "title":"Get production type with objectId decimal",
+        "code":400,
+        "param":"objectTypeId=1.2&pageSize=10&pageNumber=1",
+        "responseBody":{
+            "errors": {
+              "objectTypeId": [
+                "The value '1.2' is not valid."
+              ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|c879450a-4b5609d0028e4ffa."
+          }
+    },
+    {
+        "title":"Get production type with objectId is text",
+        "code":400,
+        "param":"objectTypeId=tt&pageSize=10&pageNumber=1",
+        "responseBody":{
+            "errors": {
+              "objectTypeId": [
+                "The value 'tt' is not valid."
+              ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|c8794517-4b5609d0028e4ffa."
+          }
+    },
+    {
+        "title":"Get production type with pageSize < 0",
+        "code":200,
+        "param":"objectTypeId=2&pageSize=-10&pageNumber=1",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 1
+            },
+            "pageData": [
+                {
+                    "propertyId": "254c34de-2654-4a83-aa90-0cfb166cd496",
+                    "propertyName": "Test format date 6",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "title":"Get production type with pageNumber < 0",
+        "code":200,
+        "param":"objectTypeId=2&pageSize=10&pageNumber=-1",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "propertyId": "254c34de-2654-4a83-aa90-0cfb166cd496",
+                    "propertyName": "Test format date 6",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2",
+                    "propertyName": "date",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "00ac8f23-a456-45af-a575-2be166edd221",
+                    "propertyName": "Test format date 3",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "b59383d3-601b-4a82-b8de-35742dcb7ff8",
+                    "propertyName": "xxx property",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "475a5d41-2eb3-4fbe-945b-5037c16e840f",
+                    "propertyName": "dont delete",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "232a2399-e067-4a74-98dd-5ce44ad875a1",
+                    "propertyName": "zzz property",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "8b0cb323-c001-46aa-970a-5e8a8164d1c6",
+                    "propertyName": "Test format date 7",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "a9913474-3713-447c-8b62-5ffbdf2853ce",
+                    "propertyName": "www add",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 0,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "74c86f76-920c-4185-a2fe-60911b3b2f55",
+                    "propertyName": "Test format date 4",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                },
+                {
+                    "propertyId": "a782c16d-cb2d-43d9-b8b5-9c53b3ce5917",
+                    "propertyName": "Summary",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 1,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": [
+                                {
+                                    "isDefault": true,
+                                    "value": "S1"
+                                },
+                                {
+                                    "isDefault": false,
+                                    "value": "S2"
+                                },
+                                {
+                                    "isDefault": false,
+                                    "value": "S3"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "title":"Get production type with pageNumber < 0 and pageSize < 0",
+        "code":200,
+        "param":"objectTypeId=2&pageSize=-10&pageNumber=-1",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 1
+            },
+            "pageData": [
+                {
+                    "propertyId": "254c34de-2654-4a83-aa90-0cfb166cd496",
+                    "propertyName": "Test format date 6",
+                    "objectTypeId": 2,
+                    "propertyValueTypeId": 2,
+                    "propertyValueTypeDetail": {
+                        "predefined": {
+                            "values": []
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]

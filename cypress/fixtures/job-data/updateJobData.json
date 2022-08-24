@@ -1,0 +1,156 @@
+[{
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "",
+        "jobName": "",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 200,
+        "message": "",
+        "title": "200 OK - Update job successful"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234!@@%%$",
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 200,
+        "message": "One or more validation errors occurred.",
+        "title": "200 OK - Update job with special characters of jobCode"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "",
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "JobCodeIsEmpty",
+        "title": "400 Bad request - Update job with empty jobCode"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": null,
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 400,
+        "message": "JobCodeIsEmpty",
+        "title": "400 Bad request - Update job with null jobCode"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234!@@%%$",
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae7": "text1"
+        },
+        "code": 400,
+        "message": "SomePropertiesNotfound",
+        "title": "400 Bad request - Update job with non-exist properties"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234!@@%%$",
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "abcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamw"
+        },
+        "code": 400,
+        "message": "CustomPropertyValueTooLong",
+        "title": "400 Bad request - Update job with overmax length properties"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "12345",
+        "jobName": "jobName1a_104242",
+        "deadlineutc": "1aaa",
+        "properties": {
+            "10ca2b8c-53d9-417a-b50a-c7a45": ""
+        },
+        "code": 400,
+        "message": "One or more validation errors occurred.",
+        "title": "400 Bad request - Update job with invalid utc/uuid"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 401,
+        "message": "Unauthorized",
+        "title": "401 Unauthorized - Update job with unauthorized"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 403,
+        "message": "",
+        "title": "403 Forbidden - Update job with non-permission of API"
+    },
+    {
+        "clientStudio": "543ae87a-c153-4876-86e0-326cb32e33af",
+        "jobCode": "1234",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 403,
+        "message": "UserNotHavePermissionOnClient",
+        "title": "403 Forbidden - Update job with non-permission of consent"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 405,
+        "message": "MethodNotAllowed",
+        "title": "405 Update job with invalid method"
+    },
+    {
+        "clientStudio": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "jobCode": "1234",
+        "jobName": "jobName_104242",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "text1"
+        },
+        "code": 415,
+        "message": "UnsupportedMediaType",
+        "title": "415 Update job with invalid Content-type"
+    }
+]

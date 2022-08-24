@@ -1,0 +1,311 @@
+[{
+        "title": "200 OK - Import job successful",
+        "data": {
+            "products": [{
+                "category": "Accessories123",
+                "styleGuide": "Style Guide1",
+                "outfits": [{
+                    "outfitCode": "OF-140520-07",
+                    "outfitName": "Outfit API1405_7",
+                    "productionTypeIds": [
+                        1
+                    ],
+                    "outfitProducts": [{
+                        "replaceable": true,
+                        "wardrobeItem": 0,
+                        "productCode": "ProductS_0706211",
+                        "productName": "Styling S_0706211",
+                        "color": "green",
+                        "brand": "LV",
+                        "properties": {
+                            "6f64270e-994f-4460-8b88-bc571ff86d5d": ""
+                        },
+                        "samples": [{
+                            "sampleCode": "SP_2207",
+                            "sampleName": "Sample 2207",
+                            "size": "2",
+                            "sampleProductImages": [
+                                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                            ],
+                            "sampleReturnDatetimeUtc": "",
+                            "properties": {}
+                        }],
+                        "colorReferenceUrls": [
+                            "https://media.animewallpapers.com/game/final8/final8_5_640.jpg"
+                        ]
+                    }],
+                    "properties": {}
+                }],
+                "wardrobeitem": "",
+                "productCode": "Product Code",
+                "productName": "Product S_0706213",
+                "color": "pink",
+                "brand": "LV",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "Sample Code 1",
+                    "sampleName": "Sample2207",
+                    "size": "3",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 16092021,
+                    "sample_url": [
+                        "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                    ]
+                }],
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Import job with only productCode",
+        "data": {
+            "products": [{
+                "productCode": "productCode1_663356",
+                "productName": ""
+            }]
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "400 Bad Request - Import job without productCode",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "ProductCodeRequired"
+    },
+    {
+        "title": "400 Bad Request - Import job with null productCode",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": null,
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "ProductCodeRequired"
+    },
+
+    {
+        "title": "400 Bad Request - Import job with non-exist properties ",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "Test",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {
+                    "6f64270e-994f-4460-8b88-bc571ff86d6d": ""
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "SomePropertiesNotfound"
+    },
+    {
+        "title": "400 Bad Request - Import job with invalid  properties value ",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "test432",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {
+                    "526c2f50-1778-416e-82bb-c1707bfec71b": "NoDate"
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "CustomPropertyValueFormatInvalid"
+    },
+    {
+        "title": "400 Bad Request - Import job with over maxlength product properties",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "test432",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {
+                    "6f64270e-994f-4460-8b88-bc571ff86d5d": "abcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamw"
+                },
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "CustomPropertyValueTooLong"
+    },
+    {
+        "title": "400 Bad Request - Import job with over maxlength sample properties ",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "test432",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "samples": [{
+                    "sampleCode": "SampleCode_Test001",
+                    "sampleName": "123Test",
+                    "size": "4",
+                    "sampleProductImages": [],
+                    "sampleReturnDatetimeUtc": 4736024754765,
+                    "properties": {
+                        "895bf90e-95f1-48a9-b043-ac33c4c0cb08": "abcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamaconnectccccsadafsdabcd1234567HHHtessttest11111sssJamw"
+                    }
+                }],
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 400,
+        "message": "CustomPropertyValueTooLong"
+    },
+    {
+        "title": "401 Unauthorized - Import job with invalid access token",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "tesst",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    {
+        "title": "403 Forbidden - Import job without API permission",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "tesst",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 403,
+        "message": ""
+    },
+    {
+        "title": "403 Forbidden - Import job with no consent permission with client",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "tesst",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 403,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "405 Import job with invalid method",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "tesst",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 405,
+        "message": "MethodNotAllowed"
+    },
+    {
+        "title": "415 Import job with invalid content-type",
+        "data": {
+            "products": [{
+                "category": "Accessories",
+                "styleGuide": "Style guide Common",
+                "wardrobeitem": 0,
+                "productCode": "tesst",
+                "productName": "Product S_0706345",
+                "color": "White",
+                "brand": "Coco",
+                "properties": {},
+                "colorReferenceUrls": [
+                    "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+                ]
+            }]
+        },
+        "code": 415,
+        "message": "UnsupportedMediaType"
+    }
+
+]

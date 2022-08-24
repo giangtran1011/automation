@@ -1,0 +1,141 @@
+[{
+        "title": "Get workFlow list of studio",
+        "clientId": "",
+        "compareData": [{
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": true,
+                "isEnabled": true,
+                "id": "d0fcbe7c-ade2-4221-80ee-b82c17e9fec5",
+                "name": "Studio Workflow"
+            },
+            {
+                "clientId": "0f38c5bd-2eab-4d84-90db-06e5a7b4c91d",
+                "isDefault": true,
+                "isEnabled": true,
+                "id": "830da8e3-9641-4c59-adc5-c40864545c89",
+                "name": "Studio Workflow"
+            },
+            {
+                "clientId": "0f38c5bd-2eab-4d84-90db-06e5a7b4c91d",
+                "isDefault": false,
+                "isEnabled": true,
+                "id": "b932825f-378c-4d75-a892-db0dce4b21ae",
+                "name": "Music workflow"
+            },
+            {
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": false,
+                "isEnabled": true,
+                "id": "7fc6cb53-c360-49e0-aae8-9c3777f53bd1",
+                "name": "Princess workflow"
+            },
+            {
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": false,
+                "isEnabled": false,
+                "id": "7921c32f-512c-4935-a0ce-b80d42501e57",
+                "name": "Workflow disable"
+            },
+            {
+                "clientId": "0f38c5bd-2eab-4d84-90db-06e5a7b4c91d",
+                "isDefault": false,
+                "isEnabled": false,
+                "id": "e1dc96a2-ddec-4948-ae57-5c7badbbece1",
+                "name": "Workflow disable"
+            }
+        ],
+        "code": 200,
+        "message": "Success"
+    },
+    {
+        "title": "Get workFlow list by valid clientId",
+        "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+        "compareData": [{
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": true,
+                "isEnabled": true,
+                "id": "d0fcbe7c-ade2-4221-80ee-b82c17e9fec5",
+                "name": "Studio Workflow"
+            },
+            {
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": false,
+                "isEnabled": true,
+                "id": "7fc6cb53-c360-49e0-aae8-9c3777f53bd1",
+                "name": "Princess workflow"
+            },
+            {
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": false,
+                "isEnabled": false,
+                "id": "7921c32f-512c-4935-a0ce-b80d42501e57",
+                "name": "Workflow disable"
+            }
+        ],
+        "code": 200,
+        "message": "Success"
+    },
+    {
+        "title": "Get workFlow list by non-exist clientId",
+        "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df48f",
+        "compareData": "",
+        "code": 200,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "Get workFlow list by disable clientId",
+        "clientId": "a9765ee5-a900-46b1-873c-7e6e24508b38",
+        "compareData": "",
+        "code": 200,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "Get workFlow list by deleted clientId",
+        "clientId": "d1814cc3-bce4-4629-aa16-6cd0a9fabcf2",
+        "compareData": "",
+        "code": 200,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "Get workFlow list with user have view workFlow permission",
+        "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+        "compareData": [{
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": true,
+                "isEnabled": true,
+                "id": "d0fcbe7c-ade2-4221-80ee-b82c17e9fec5",
+                "name": "Studio Workflow"
+            },
+            {
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": false,
+                "isEnabled": true,
+                "id": "7fc6cb53-c360-49e0-aae8-9c3777f53bd1",
+                "name": "Princess workflow"
+            },
+            {
+                "clientId": "f839f76b-70ef-4154-b6ef-c004fa7df46f",
+                "isDefault": false,
+                "isEnabled": false,
+                "id": "7921c32f-512c-4935-a0ce-b80d42501e57",
+                "name": "Workflow disable"
+            }
+        ],
+        "code": 200,
+        "message": "Success view"
+    },
+    {
+        "title": "Get workFlow list with user can access workFlow but can't access Client",
+        "clientId": "9064cbef-66fe-4ea2-9397-c05d35302e9c",
+        "compareData": "",
+        "code": 200,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "Get workFlow list with user can't access workFlow",
+        "clientId": "",
+        "compareData": "",
+        "code": 200,
+        "message": "UserNotHavePermissionOnClient"
+    }
+]

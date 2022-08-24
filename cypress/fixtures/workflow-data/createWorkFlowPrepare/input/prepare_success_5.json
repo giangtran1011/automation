@@ -1,0 +1,66 @@
+{
+    "name": "w14",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 7,
+        "approachType": 2,
+        "accurateStep": null
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 7,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 15
+            },
+            "postProduction": {
+                "approachModelId": 5
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12"
+            }
+        },
+        {
+            "shootingTypeId": 1006,
+            "shootingTypeCategoryId": 30,
+            "postProduction": {
+                "approachModelId": 5
+            },
+            "photography": {
+                "cutOffStepId": 4,
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": true,
+                "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12"
+            }
+        }
+    ]
+}

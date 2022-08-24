@@ -1,0 +1,47 @@
+{
+    "name": "test10",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": false,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 6,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 2,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId":2,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "keepExternalPostFileName": false,
+                    "vendorId": null,
+                    "isEnabled": true
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            }
+        }
+    ]
+}

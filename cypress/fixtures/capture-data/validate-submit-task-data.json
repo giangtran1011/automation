@@ -1,0 +1,731 @@
+[{
+        "title": "Case 1: Submit task with empty taskId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "716daae7-7a2c-4d3b-8ba9-0a38ec6103c6",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 10
+    },
+    {
+        "title": "Case 2: Submit task with null taskId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": null,
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "a1107ace-135b-4a1a-8988-120bb2bdc744",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 10
+    },
+    {
+        "title": "Case 3: Submit task with deleted taskId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_17",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "5ce29d1e-5136-4b7d-a029-602840404ac5",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "1cdb3f7e-3901-4163-bebe-f5f93f8a6449",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 6
+    },
+    {
+        "title": "Case 4: Submit task with mismatch taskId and clientId",
+        "type": "Unsuccess - mismatch1",
+        "product": "productCode_55871",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "eeb6f1b4-5af5-47a5-a9f1-c212378ce6d1",
+            "sampleId": "a40dc30b-9956-4530-8532-9326b718d9f0",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "978e58e1-7e60-4313-a096-cb6a5a7b3ab1",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 29
+    },
+    {
+        "title": "Case 5: Submit task with non-exist taskId",
+        "type": "Unsuccess - fields",
+        "product": "",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "eeb6f1b4-5af5-47a5-a9f1-c212378ce6d2",
+            "sampleId": "a40dc30b-9956-4530-8532-9326b718d9f0",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "282f6c42-373d-43d1-afb2-ff57f4de1888",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 10
+    },
+    {
+        "title": "Case 6: Submit task with empty sampleId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "514f0a86-4c99-454b-9727-f0b624fd9659",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 300
+    },
+    {
+        "title": "Case 7: Submit task with null sampleId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": null,
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "5070d3d4-545b-435d-b14b-55e29eb0d490",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 300
+    },
+    {
+        "title": "Case 8: Submit task with deleted sampleId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_118",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "432677bf-f0a1-4879-81ef-0a6d5f020aee",
+            "sampleId": "c676b272-3aa1-4e80-b951-667a6f4a1b0e",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "b55eff90-a315-4b00-a1dd-fc80b0e6b9b7",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 300
+    },
+    {
+        "title": "Case 9: Submit task with mismatch sampleId and taskId",
+        "type": "Unsuccess - mismatch2",
+        "product": "Product NaT2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "f6597238-e3c8-4db5-b4ce-f7ff5a713a76",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 300
+    },
+    {
+        "title": "Case 10: Submit task with empty locationId",
+        "type": "Success - DB",
+        "product": "Product NaT1",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 1,
+                "positionId": 0,
+                "attr": 0
+            }]
+
+        },
+        "code": 200
+    },
+    {
+        "title": "Case 11: Submit task with deleted locationId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": "5d105c2f-f0bc-4878-ba26-78655e630445",
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "f91e6bad-6b0b-4010-baa1-ab3429b13f12",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 409
+    },
+    {
+        "title": "Case 12: Submit task with disable locationId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": "fee29cf9-2cb6-420b-be6d-35292463dfbd",
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "b55eff90-a315-4b00-a1dd-fc80b0e6b9b7",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 409
+    },
+    {
+        "title": "Case 13: Submit task with valid locationId",
+        "type": "Success - DB",
+        "product": "Case 29",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": "037be5f6-abd4-4e9c-a2cc-ff9cb9896312",
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 1,
+                "positionId": 0,
+                "attr": 0
+            }]
+        },
+        "code": 200
+    },
+    {
+        "title": "Case 14: Submit task with non-exist locationId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": "fee29cf9-2cb6-420b-be6d-35292465dfbd",
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "b55eff90-a315-4b00-a1dd-fc80b0e6b9b7",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 409
+    },
+    {
+        "title": "Case 15: Submit task with empty TeamOnSetId",
+        "type": "Success - No DB",
+        "product": "Product NaT3",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": "037be5f6-abd4-4e9c-a2cc-ff9cb9896312",
+            "assets": [{
+                "assetId": "b55eff90-a315-4b00-a1dd-fc80b0e6b9b7",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 409
+    },
+    {
+        "title": "Case 16: Submit task with valid TeamOnSetId",
+        "type": "Success - No DB",
+        "product": "Product NaT4",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": "037be5f6-abd4-4e9c-a2cc-ff9cb9896312",
+            "teamOnSetId": "D51E1139-0E42-43EE-97AD-9286B44256C0",
+            "assets": [{
+                "assetId": "b55eff90-a315-4b00-a1dd-fc80b0e6b9b7",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 409
+    },
+    {
+        "title": "Case 17: Submit task with null assetId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": null,
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 500
+    },
+    {
+        "title": "Case 18: Submit task with empty assetId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 500
+    },
+    {
+        "title": "Case 19: Submit task with valid fileSize",
+        "type": "Unsuccess - fullStep",
+        "product": "H20220617_1_15",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4100000,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 27
+    },
+    {
+        "title": "Case 22: Submit task with non-exist assetId",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "f3f73921-c58f-4a2c-8f6c-8494e70c76a5",
+                "rating": 5,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 24
+    },
+
+    {
+        "title": "Case 23: Submit task with empty rating",
+        "type": "Success - rate",
+        "product": "Product NaT5",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "submitTaskData": {
+            "taskId": "uuid",
+            "sampleId": "uuid",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "uuid",
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 1
+    },
+    {
+        "title": "Case 24: Submit task with text format rating",
+        "type": "Unsuccess - 400",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "85a88df5-098c-4be7-b4fd-8ed6a938efd1",
+                "rating": "text",
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 400
+    },
+    {
+        "title": "Case 25: Submit task with rate not in valid range",
+        "type": "Unsuccess - fields",
+        "product": "H20220617_1_9",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "85a88df5-098c-4be7-b4fd-8ed6a938efd1",
+                "rating": 6,
+                "positionId": 2,
+                "attr": 0
+            }]
+        },
+        "code": 408
+    },
+    {
+        "title": "Case 26: Submit task with null positionId",
+        "type": "Unsuccess - validate",
+        "product": "case 2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 2,
+                    "positionId": null,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 2,
+                    "positionId": null,
+                    "attr": 0
+                }
+            ]
+        },
+        "code": 411
+    },
+    {
+        "title": "Case 27: Submit task with empty positionId",
+        "type": "Unsuccess - validate",
+        "product": "case 2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 2,
+                    "attr": 0
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 2,
+                    "attr": 0
+                }
+            ]
+        },
+        "code": 411
+    },
+
+    {
+        "title": "Case 28: Submit task with positionId = 0",
+        "type": "Unsuccess - fields",
+        "product": "case 2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": "",
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                "assetId": "f3f73921-c58f-4a2c-8f6c-8494e70c76a5",
+                "rating": 5,
+                "positionId": 0,
+                "attr": 0
+            }]
+        },
+        "code": 411
+    },
+    {
+        "title": "Case 31: Submit task with null resourceAssetId",
+        "type": "Unsuccess - validate",
+        "product": "case 2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": null
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": null
+                }
+            ]
+        },
+        "code": 406
+    },
+    {
+        "title": "Case 32: Submit task with non-exist resourceAssetId",
+        "type": "Unsuccess - validate",
+        "product": "case 2",
+        "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-321",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                },
+                {
+                    "fileName": "Man_H20220517_1_6_a.jpg",
+                    "localId": "capture-322",
+                    "fileLength": 4197781,
+                    "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+                }
+            ]
+        },
+        "submitTaskData": {
+            "taskId": "c2149478-837e-4949-8f32-f465f87ffe03",
+            "sampleId": "9d5d695c-e6ed-494e-9b8f-504f50272c87",
+            "locationId": null,
+            "teamOnSetId": null,
+            "assets": [{
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": [{
+                        "assetId": "7d5d695c-e6ed-494e-9b8f-504f50272c87",
+                        "rating": 5
+                    }]
+                },
+                {
+                    "assetId": "uuid",
+                    "rating": 3,
+                    "positionId": 2,
+                    "attr": 0,
+                    "resourceAssets": [{
+                        "assetId": "8d5d695c-e6ed-494e-9b8f-504f50272c87",
+                        "rating": 5
+                    }]
+                }
+            ]
+        },
+        "code": 406
+    }
+
+]

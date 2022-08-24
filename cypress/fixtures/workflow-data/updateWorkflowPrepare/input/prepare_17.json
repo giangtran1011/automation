@@ -1,0 +1,47 @@
+{
+    "name": "New workflow",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": false,
+        "isNotSentToExternalPost": true,
+        "includeColorReferenceTypeId": 0,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 6,
+            "shootingTypeCategoryId": 20,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": false
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "additionalVendorIds": [],
+                    "isBypassQc": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "keepExternalPostFileName": false,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df46130338",
+                    "isEnabled": true
+                }
+            },
+            "assetDelivery": {
+                "isEnabled": false,
+                "clientDeliveryConnectionId": null,
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            }
+        }
+    ]
+}

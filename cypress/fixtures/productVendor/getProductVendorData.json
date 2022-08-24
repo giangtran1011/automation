@@ -1,0 +1,130 @@
+[
+    {
+        "title": "200 - Get product vendor Success multipe record",
+        "param":"productvendors?pageSize=10&pageNumber=1&keyword=test",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "productVendorId": "d4b11b02-84f4-4446-90c2-2d1c4f45408a",
+                    "productVendorName": "Test_product_vendor"
+                },
+                {
+                    "productVendorId": "95ac50ad-85f4-498d-b41b-85037bebd975",
+                    "productVendorName": "Test_product_vendor_2"
+                }
+            ]
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with 1 record",
+        "param":"productvendors?pageSize=10&pageNumber=1&keyword=Vendor-1",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "productVendorId": "025d6353-a558-45b4-b888-39beb042d9d9",
+                    "productVendorName": "Vendor-1"
+                }
+            ]
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with no keyword",
+        "param":"productvendors?pageSize=10&pageNumber=1",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "productVendorId": "d4b11b02-84f4-4446-90c2-2d1c4f45408a",
+                    "productVendorName": "Test_product_vendor"
+                },
+                {
+                    "productVendorId": "95ac50ad-85f4-498d-b41b-85037bebd975",
+                    "productVendorName": "Test_product_vendor_2"
+                },
+                {
+                    "productVendorId": "025d6353-a558-45b4-b888-39beb042d9d9",
+                    "productVendorName": "Vendor-1"
+                }
+            ]
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with not found keyword",
+        "param":"productvendors?pageSize=10&pageNumber=1&keyword=bbb",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with keyword include special character",
+        "param":"productvendors?pageSize=10&pageNumber=1&keyword=12@#$",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with keyword is null",
+        "param":"productvendors?pageSize=10&pageNumber=1&keyword=null",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with keyword is empty",
+        "param":"productvendors?pageSize=10&pageNumber=1&keyword=''",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title": "200 - Get product vendor Success with pageSize and pageNumber is <0",
+        "param":"productvendors?pageSize=-100&pageNumber=-1&keyword=v",
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "productVendorId": "d4b11b02-84f4-4446-90c2-2d1c4f45408a",
+                    "productVendorName": "Test_product_vendor"
+                },
+                {
+                    "productVendorId": "95ac50ad-85f4-498d-b41b-85037bebd975",
+                    "productVendorName": "Test_product_vendor_2"
+                },
+                {
+                    "productVendorId": "025d6353-a558-45b4-b888-39beb042d9d9",
+                    "productVendorName": "Vendor-1"
+                }
+            ]
+        }
+    }
+]

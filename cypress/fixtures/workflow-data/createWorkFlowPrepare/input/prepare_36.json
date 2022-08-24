@@ -1,0 +1,78 @@
+{
+  "name": "test1",
+  "isEnabled": true,
+  "colorMatching": {
+      "isRequiredColorReference": true,
+      "isNotSentToExternalPost": true,
+      "includeColorReferenceTypeId": 0,
+      "requestFromShootingTypeId": 0,
+      "approachType": 1
+  },
+  "shootingTypes": [
+      {
+          "shootingTypeId": 3,
+          "photography": {
+              "finalSelectionOptionId": 1,
+              "alternative": {
+                  "isEnabled": false
+              },
+              "photoReview": {
+                  "reviewType": 2
+              },
+              "preSelectionByPosition": {
+                  "isEnabled": false
+              },
+              "cutOffStepId": 7
+          },
+          "postProduction": {
+              "approachModelId": 2,
+              "external": {
+                  "isEnabled": true,
+                  "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                  "isBypassQc": true,
+                  "keepExternalPostFileName": false,
+                  "isSeperatedMappingForExternalPhotography": false,
+                  "additionalVendorIds": [
+                      {
+                          "id": "244eafd9-50bc-4faa-8d51-df4613033068"
+                      }
+                  ]
+              },
+              "internal": {
+                  "isEnabled": true,
+                  "isBypassQc": false,
+                  "isNotAllowAutoQa": false
+              },
+              "internalL1": {
+                  "isEnabled": false,
+                  "isBypassQc": false,
+                  "isNotAllowAutoQa": false
+              },
+              "internalL2": {
+                  "isEnabled": false,
+                  "isBypassQc": false,
+                  "isNotAllowAutoQa": false
+              },
+              "createAssetVariantsAtStep": 7,
+              "enforceInternal": {
+                  "isEnabled": false
+              },
+              "bypassExternal": {
+                  "isEnabled": false,
+                  "postProductionExternalBypassTypeId": 0,
+                  "shootingTypeIds": []
+              }
+          },
+          "copywriting": {
+              "isEnabled": false
+          },
+          "assetDelivery": {
+              "isEnabled": true,
+              "clientDeliveryConnectionId": "edb0f291-a7c8-4359-b260-6588807f9f12",
+              "additionalDeliveryConnections": [],
+              "isEnabledDeliveryNonSelectAssets": false
+          },
+          "shootingTypeCategoryId": 20
+      }
+  ]
+}

@@ -1,0 +1,304 @@
+[{
+        "title": "Case 1: Get presigned url with invalid clientId",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c75f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 14
+    },
+    {
+        "title": "Case 2: Get presigned url with null clientId",
+        "getUrlData": {
+            "clientId": null,
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 14
+    },
+    {
+        "title": "Case 3: Get presigned url with empty clientId",
+        "getUrlData": {
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 14
+    },
+    {
+        "title": "Case 4: Get presigned url with valid clientId",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 200
+    },
+    {
+        "title": "Case 5: Get presigned url with disable clientId",
+        "getUrlData": {
+            "clientId": "8b03fa24-03ce-4f28-b9f2-dcb001549d41",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 14
+    },
+    {
+        "title": "Case 6: Get presigned url with deleted clientId",
+        "getUrlData": {
+            "clientId": "7ffa83d0-7ed1-4607-b373-b4f38173cf69",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 14
+    },
+    {
+        "title": "Case 7: Get presigned url with physicalFileTypeId in 1-10",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 200
+    },
+    {
+        "title": "Case 8: Get presigned url with physicalFileTypeId not in 1-10",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 11,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 13
+    },
+    {
+        "title": "Case 9: Get presigned url with null physicalFileTypeId",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": null,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 13
+    },
+    {
+        "title": "Case 10: Get presigned url with empty physicalFileTypeId",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 13
+    },
+    {
+        "title": "Case 11: Get presigned url with null fileName",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": null,
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 1
+    },
+    {
+        "title": "Case 12: Get presigned url with empty fileName",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 1
+    },
+    {
+        "title": "Case 13: Get presigned url with blank fileName value",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 1
+    },
+    {
+        "title": "Case 14: Get presigned url with null localId",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": null,
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 11
+    },
+    {
+        "title": "Case 15: Get presigned url with empty localId",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 11
+    },
+    {
+        "title": "Case 16: Get presigned url with blank localId value",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 11
+    },
+    {
+        "title": "Case 17: Get presigned url with null fileLength",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": null,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 12
+    },
+    {
+        "title": "Case 18: Get presigned url with empty fileLength",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 12
+    },
+    {
+        "title": "Case 19: Get presigned url with text fileLength value",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": "value",
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }]
+        },
+        "code": 400
+    },
+    {
+        "title": "Case 20: Get presigned url with null fileMd5",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": null
+            }]
+        },
+        "code": 3
+    },
+    {
+        "title": "Case 21: Get presigned url with empty fileMd5",
+        "clientId": "",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781
+            }]
+        },
+        "code": 3
+    },
+    {
+        "title": "Case 22: Get presigned url with blank fileMd5 value",
+        "getUrlData": {
+            "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+            "physicalFileTypeId": 2,
+            "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": ""
+            }]
+        },
+        "code": 3
+    }
+]

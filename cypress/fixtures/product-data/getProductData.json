@@ -1,0 +1,89 @@
+[{
+        "title": "200 OK - Get product with only jobId",
+        "indexUrl": 1,
+        "jobId": "",
+        "productCode": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Get product with only productCode",
+        "indexUrl": 2,
+        "jobId": "",
+        "productCode": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Get product with all params",
+        "indexUrl": 3,
+        "jobId": "",
+        "productCode": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "200 OK - Get product with non-exist jobId",
+        "indexUrl": 4,
+        "jobId": "bfe89e43-a92a-4163-a2ec-1e1c7e8723c1",
+        "productCode": "",
+        "code": 200,
+        "message": "empty"
+    },
+    {
+        "title": "200 OK - Get product with invalid productCode",
+        "indexUrl": 5,
+        "jobId": "",
+        "productCode": "invalidProductCodea11a",
+        "code": 200,
+        "message": "empty"
+    },
+    {
+        "title": "400 Bad Request - Get product with invalid jobId",
+        "indexUrl": 4,
+        "jobId": "invalidJobId",
+        "productCode": "",
+        "code": 400,
+        "message": "The value 'invalidJobId' is not valid."
+    },
+    {
+        "title": "400 Bad Request - Get product with invalid paramaters",
+        "indexUrl": 6,
+        "jobId": "",
+        "productCode": "",
+        "code": 400,
+        "message": "InvalidData"
+    },
+    {
+        "title": "403 Forbidden - Get job with no permission with API",
+        "indexUrl": 1,
+        "jobId": "",
+        "productCode": "",
+        "code": 403,
+        "message": ""
+    },
+    {
+        "title": "403 Forbidden - Get job with no consent permission with client",
+        "indexUrl": 4,
+        "jobId": "44f3379b-efef-4551-ac9a-c5ca5ec8687c",
+        "productCode": "",
+        "code": 403,
+        "message": "UserNotHavePermissionOnClient"
+    },
+    {
+        "title": "401 Unauthorized -Get job with no authorization",
+        "indexUrl": 1,
+        "jobId": "",
+        "productCode": "",
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    {
+        "title": "405 - Get a product with method not allowed",
+        "indexUrl": 1,
+        "jobId": "",
+        "productCode": "",
+        "code": 405,
+        "message": "MethodNotAllowed"
+    }
+]

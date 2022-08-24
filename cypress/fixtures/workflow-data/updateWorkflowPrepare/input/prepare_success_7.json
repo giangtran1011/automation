@@ -1,0 +1,199 @@
+{
+    "name": "New workflow",
+    "isEnabled": true,
+    "colorMatching": {
+        "isRequiredColorReference": true,
+        "isNotSentToExternalPost": false,
+        "includeColorReferenceTypeId": 1,
+        "requestFromShootingTypeId": 0,
+        "approachType": 1,
+        "actionWithoutColorRefId": 0
+    },
+    "shootingTypes": [
+        {
+            "shootingTypeId": 1006,
+            "photography": {
+                "finalSelectionOptionId": 1,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "photoReview": {
+                    "reviewType": 1
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "cutOffStepId": 15
+            },
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "isEnabled": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isBypassQc": false,
+                    "keepExternalPostFileName": true,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "additionalVendorIds": []
+                },
+                "internal": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7,
+                "enforceInternal": {
+                    "isEnabled": false
+                },
+                "bypassExternal": {
+                    "isEnabled": false,
+                    "postProductionExternalBypassTypeId": 0,
+                    "shootingTypeIds": []
+                }
+            },
+            "copywriting": {
+                "isEnabled": false
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "clientDeliveryConnectionId": "3d445d9a-24b6-4faf-a04a-4d0cd9c5d0b6",
+                "clientDeliveryConnectionName": "delivery_client",
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            },
+            "shootingTypeCategoryId": 30
+        },
+        {
+            "shootingTypeId": 1009,
+            "photography": {
+                "finalSelectionOptionId": 2,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "photoReview": {
+                    "reviewType": 2
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": true
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 5,
+                "external": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "keepExternalPostFileName": false,
+                    "isSeperatedMappingForExternalPhotography": false,
+                    "vendorId": null,
+                    "additionalVendorIds": []
+                },
+                "internal": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7,
+                "enforceInternal": {
+                    "isEnabled": false
+                },
+                "bypassExternal": {
+                    "isEnabled": false,
+                    "postProductionExternalBypassTypeId": 0,
+                    "shootingTypeIds": []
+                }
+            },
+            "copywriting": {
+                "isEnabled": false
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "clientDeliveryConnectionId": "3d445d9a-24b6-4faf-a04a-4d0cd9c5d0b6",
+                "clientDeliveryConnectionName": "delivery_client",
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            },
+            "shootingTypeCategoryId": 30
+        },
+        {
+            "shootingTypeId": 2,
+            "photography": {
+                "finalSelectionOptionId": 2,
+                "alternative": {
+                    "isEnabled": true
+                },
+                "photoReview": {
+                    "reviewType": 0
+                },
+                "preSelectionByPosition": {
+                    "isEnabled": false
+                },
+                "cutOffStepId": 4
+            },
+            "postProduction": {
+                "approachModelId": 1,
+                "external": {
+                    "isEnabled": true,
+                    "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "isBypassQc": false,
+                    "keepExternalPostFileName": true,
+                    "isSeperatedMappingForExternalPhotography": true,
+                    "additionalVendorIds": []
+                },
+                "internal": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL1": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "internalL2": {
+                    "isEnabled": false,
+                    "isBypassQc": false,
+                    "isNotAllowAutoQa": false
+                },
+                "createAssetVariantsAtStep": 7,
+                "enforceInternal": {
+                    "isEnabled": false
+                },
+                "bypassExternal": {
+                    "isEnabled": false,
+                    "postProductionExternalBypassTypeId": 0,
+                    "shootingTypeIds": []
+                }
+            },
+            "copywriting": {
+                "isEnabled": false
+            },
+            "assetDelivery": {
+                "isEnabled": true,
+                "clientDeliveryConnectionId": "3d445d9a-24b6-4faf-a04a-4d0cd9c5d0b6",
+                "additionalDeliveryConnections": [],
+                "isEnabledDeliveryNonSelectAssets": false
+            },
+            "shootingTypeCategoryId": 20
+        }
+    ]
+}

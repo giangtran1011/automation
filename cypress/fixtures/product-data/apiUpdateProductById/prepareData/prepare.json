@@ -1,0 +1,131 @@
+{
+    "job": {
+        "jobCode": "",
+        "jobName": "",
+        "deadlineutc": "1636372800000",
+        "properties": {
+            "ad629908-1239-4ee3-9e53-dd1b63492971": "properties1",
+            "cc3581f7-a318-42d9-b633-55aefb09dae6": "properties2"
+        }
+    },
+    "importProduct" : {
+        "products": [
+            {
+            "category": "CATEGORYTest1",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "",
+            "productName": "Product_Test01",
+            "color": "pink",
+            "brand": "JM",
+            "properties": {},
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        },
+        {
+            "category": "CATEGORYTest2",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "",
+            "productName": "Product_Test02",
+            "color": "pink2",
+            "brand": "JM2",
+            "properties": {
+                "e5545fd5-a94c-40b3-9426-ad861eb52e95" : "season"
+            },
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        },
+        {
+            "category": "CATEGORYTest3",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "",
+            "productName": "Product_Test03",
+            "color": "pink3",
+            "brand": "JM3",
+            "properties": {
+                "e5545fd5-a94c-40b3-9426-ad861eb52e95" : "season",
+                "475a5d41-2eb3-4fbe-945b-5037c16e840f" : "dont delete"
+            },
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        },
+        {
+            "category": "CATEGORYTest4",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "",
+            "productName": "Product_Test04",
+            "color": "pink4",
+            "brand": "JM4",
+            "properties": {
+                "e5545fd5-a94c-40b3-9426-ad861eb52e95" : "season",
+                "475a5d41-2eb3-4fbe-945b-5037c16e840f" : "dont delete"
+            },
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        },
+        {
+            "category": "CATEGORYTest5",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "",
+            "productName": "Product_Test05",
+            "color": "pink5",
+            "brand": "JM5",
+            "properties": {
+                "e5545fd5-a94c-40b3-9426-ad861eb52e95" : "season",
+                "475a5d41-2eb3-4fbe-945b-5037c16e840f" : "dont delete"
+            },
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        },
+        {
+            "category": "CATEGORYTest6",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "",
+            "productName": "Product_Test06",
+            "color": "pink6",
+            "brand": "JM6",
+            "properties": {
+                "e5545fd5-a94c-40b3-9426-ad861eb52e95" : "season",
+                "475a5d41-2eb3-4fbe-945b-5037c16e840f" : "dont delete"
+            },
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        },
+        {
+            "category": "CATEGORYTest7",
+            "styleGuide": "Style guide Common",
+            "wardrobeitem": 0,
+            "productCode": "productCode_1239",
+            "productName": "Product_Test07",
+            "color": "pink7",
+            "brand": "JM7",
+            "properties": {
+                "e5545fd5-a94c-40b3-9426-ad861eb52e95" : "season",
+                "475a5d41-2eb3-4fbe-945b-5037c16e840f" : "dont delete"
+            },
+            "colorReferenceUrls": [
+                "https://www.prettyme.ph/wp-content/uploads/2017/12/clothes_orange.jpg"
+            ],
+            "styleCode": "styleCode03"
+        }
+
+    ]
+    }
+}

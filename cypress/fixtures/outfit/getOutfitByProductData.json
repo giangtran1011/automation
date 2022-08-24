@@ -1,0 +1,70 @@
+[
+    {
+        "title":"Success, Get outfit by productId",
+        "param":"productId=15A8C82A-F422-480C-900D-BCC9E58C1EA3&pageSize=100&pageNumber=1",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 100
+            },
+            "pageData": [
+                {
+                    "outfitName": "SU2021",
+                    "outfitCfBarcode": "OF868676CF",
+                    "outfitCode": "SU2021",
+                    "outfitId": "1ff09bda-c7b0-49f1-aa37-0556453a6fe7",
+                    "createdUtc": 1660189976000
+                }
+            ]
+        }
+    },
+    {
+        "title":"Success, Get outfit by productId not found",
+        "param":"productId=15A8C82A-F422-480C-900D-BCC9E58C1EA1&pageSize=100&pageNumber=1",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 100
+            },
+            "pageData": []
+        }
+    },
+    {
+        "title":"Success, Get outfit by productId invalid",
+        "param":"productId=15A8C82xxxx&pageSize=100&pageNumber=1",
+        "code":400,
+        "responseBody":{
+            "errors": {
+                "productId": [
+                    "The value '15A8C82xxxx' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|15f1d236-4cc2ffa10b9e2d66."
+        }
+    },
+    {
+        "title":"Success, Get outfit by productId with pageSize and pageNumber default",
+        "param":"productId=15A8C82A-F422-480C-900D-BCC9E58C1EA3",
+        "code":200,
+        "responseBody":{
+            "pageInfo": {
+                "pageNumber": 1,
+                "pageSize": 10
+            },
+            "pageData": [
+                {
+                    "outfitName": "SU2021",
+                    "outfitCfBarcode": "OF868676CF",
+                    "outfitCode": "SU2021",
+                    "outfitId": "1ff09bda-c7b0-49f1-aa37-0556453a6fe7",
+                    "createdUtc": 1660189976000
+                }
+            ]
+        }
+    }
+]

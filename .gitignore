@@ -1,0 +1,13 @@
+cypress/videos
+node_modules
+allure-report
+allure-results
+yarn-error.log
+screenshots
+.DS_Store
+.idea
+package-lock.json
+yarn.lock
+reports
+cypress-combined-report.json
+mochawesome-report

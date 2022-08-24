@@ -1,0 +1,454 @@
+[
+    {
+        "title":"200 - Get setting option with contentCreation = 1",
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e176adc&contentCreationTypeId=1",
+        "token":"{access_token1}",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJK5G5LSCAI:00000001"
+            },
+            "data": {
+                "shootingTypes": [
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1,
+                    "name": "On Model"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 2,
+                    "name": "Mannequin"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 3,
+                    "name": "Flats"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 5,
+                    "name": "Overhead"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 6,
+                    "name": "Tabletop"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 7,
+                    "name": "Hanger"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 1001,
+                    "name": "giang_t1"
+                  },
+                  {
+                    "shootingTypeCategoryId": 40,
+                    "id": 1002,
+                    "name": "Na test"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 1003,
+                    "name": "VPI"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1004,
+                    "name": "Test disable"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1005,
+                    "name": "Test Deleted"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1006,
+                    "name": "Video test"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1007,
+                    "name": "Orbitvu Disable"
+                  },
+                  {
+                    "shootingTypeCategoryId": 50,
+                    "id": 1008,
+                    "name": "Orbitvu model"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1009,
+                    "name": "Video1"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1010,
+                    "name": "Video2"
+                  }
+                ],
+                "finalSelectionOptions": [
+                  {
+                    "id": 1,
+                    "name": "By Photographer (Kelvin)"
+                  },
+                  {
+                    "id": 2,
+                    "name": "On Web (Gamma)"
+                  }
+                ],
+                "vendors": [
+                  {
+                    "type": 2,
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2"
+                  },
+                  {
+                    "type": 3,
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel"
+                  },
+                  {
+                    "type": 2,
+                    "id": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                    "name": "Post Prod Na"
+                  }
+                ],
+                "clientDeliveryConnections": [
+                  {
+                    "id": "208f0fdf-2d27-412d-92a9-665d24e2ba0b",
+                    "name": "Delivery_ecom",
+                    "type": 1001
+                  }
+                ]
+              }
+        }
+    },
+    {
+        "title":"200 - Get setting option with contentCreation = 2",
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e176adc&contentCreationTypeId=2",
+        "token":"{access_token1}",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJK5G5LSCAK:00000001"
+            },
+            "data": {
+                "shootingTypes": [
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1,
+                    "name": "On Model"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 2,
+                    "name": "Mannequin"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 3,
+                    "name": "Flats"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 5,
+                    "name": "Overhead"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 6,
+                    "name": "Tabletop"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 7,
+                    "name": "Hanger"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 1001,
+                    "name": "giang_t1"
+                  },
+                  {
+                    "shootingTypeCategoryId": 40,
+                    "id": 1002,
+                    "name": "Na test"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 1003,
+                    "name": "VPI"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1004,
+                    "name": "Test disable"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1005,
+                    "name": "Test Deleted"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1006,
+                    "name": "Video test"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1007,
+                    "name": "Orbitvu Disable"
+                  },
+                  {
+                    "shootingTypeCategoryId": 50,
+                    "id": 1008,
+                    "name": "Orbitvu model"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1009,
+                    "name": "Video1"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1010,
+                    "name": "Video2"
+                  }
+                ],
+                "finalSelectionOptions": [
+                  {
+                    "id": 1,
+                    "name": "By Photographer (Kelvin)"
+                  },
+                  {
+                    "id": 2,
+                    "name": "On Web (Gamma)"
+                  }
+                ],
+                "vendors": [
+                  {
+                    "type": 2,
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2"
+                  },
+                  {
+                    "type": 3,
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel"
+                  },
+                  {
+                    "type": 2,
+                    "id": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                    "name": "Post Prod Na"
+                  }
+                ],
+                "clientDeliveryConnections": [
+                  {
+                    "id": "0f121117-e2b9-4faa-be49-701bf5468663",
+                    "name": "Delivery_editorial",
+                    "type": 1001
+                  }
+                ]
+              }
+        }
+    },
+    {
+        "title":"200 - Get setting option with contentCreation # 2, 1",
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e176adc&contentCreationTypeId=3",
+        "token":"{access_token1}",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+
+    },
+    {
+        "title":"200 - Get setting option with no contentCreation",
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e176adc",
+        "token":"{access_token1}",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+                "code": "GEN-0",
+                "message": "Success",
+                "requestId": "0HMJK5G5LSCCO:00000001"
+            },
+            "data": {
+                "shootingTypes": [
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1,
+                    "name": "On Model"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 2,
+                    "name": "Mannequin"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 3,
+                    "name": "Flats"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 5,
+                    "name": "Overhead"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 6,
+                    "name": "Tabletop"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 7,
+                    "name": "Hanger"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 1001,
+                    "name": "giang_t1"
+                  },
+                  {
+                    "shootingTypeCategoryId": 40,
+                    "id": 1002,
+                    "name": "Na test"
+                  },
+                  {
+                    "shootingTypeCategoryId": 20,
+                    "id": 1003,
+                    "name": "VPI"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1004,
+                    "name": "Test disable"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1005,
+                    "name": "Test Deleted"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1006,
+                    "name": "Video test"
+                  },
+                  {
+                    "shootingTypeCategoryId": 10,
+                    "id": 1007,
+                    "name": "Orbitvu Disable"
+                  },
+                  {
+                    "shootingTypeCategoryId": 50,
+                    "id": 1008,
+                    "name": "Orbitvu model"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1009,
+                    "name": "Video1"
+                  },
+                  {
+                    "shootingTypeCategoryId": 30,
+                    "id": 1010,
+                    "name": "Video2"
+                  }
+                ],
+                "finalSelectionOptions": [
+                  {
+                    "id": 1,
+                    "name": "By Photographer (Kelvin)"
+                  },
+                  {
+                    "id": 2,
+                    "name": "On Web (Gamma)"
+                  }
+                ],
+                "vendors": [
+                  {
+                    "type": 2,
+                    "id": "244eafd9-50bc-4faa-8d51-df4613033068",
+                    "name": "FTP2"
+                  },
+                  {
+                    "type": 3,
+                    "id": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                    "name": "Pixel"
+                  },
+                  {
+                    "type": 2,
+                    "id": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                    "name": "Post Prod Na"
+                  }
+                ],
+                "clientDeliveryConnections": [
+                  {
+                    "id": "208f0fdf-2d27-412d-92a9-665d24e2ba0b",
+                    "name": "Delivery_ecom",
+                    "type": 1001
+                  },
+                  {
+                    "id": "0f121117-e2b9-4faa-be49-701bf5468663",
+                    "name": "Delivery_editorial",
+                    "type": 1001
+                  }
+                ]
+              }
+        }
+    },
+    {
+        "title":"200 - Get setting option with no client",
+        "token":"{access_token1}",
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"200 - Get Setting option client id không tồn tại và contentCreation valid",
+        "token":"{access_token1}",
+        "param":"clientId=8d42185e-c25b-4ce0-91d6&contentCreationTypeId=1",
+        "code": 200,
+        "responseBody": {
+            "metadata": {
+                "code": "INP-1",
+                "message": "Invalid data"
+            },
+            "data": false
+        }
+    },
+    {
+        "title":"405 - Not allow method",
+        "token":"{access_token1}",
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e176adc&contentCreationTypeId=1",
+        "code": 405,
+        "responseBody": {}
+    },
+    {
+        "title":"200 - Get Setting option when client in user not permission",
+        "token":"{access_token2}",
+        "code":401,
+        "param":"clientId=a873bd97-0511-4a27-9247-12bb9e176adc&contentCreationTypeId=1",
+        "responseBody": {}
+    }
+]

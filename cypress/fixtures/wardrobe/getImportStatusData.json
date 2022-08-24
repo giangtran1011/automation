@@ -1,0 +1,29 @@
+[{
+        "title": "Get import styling status with all valid params",
+        "importIdInput": "",
+        "clientIdInput": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get import styling status with non-exist clientId",
+        "importIdInput": "4138b9d9-c70a-4079-8dfa-c85bd76851d8",
+        "clientIdInput": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5381",
+        "code": 400,
+        "message": "InvalidData"
+    },
+    {
+        "title": "Get import styling status with non-exist ImportId",
+        "importIdInput": "4138b9d9-c70a-4079-8dfa-c85bd76851d9",
+        "clientIdInput": "f0137d38-66d9-45b1-b8f6-2f6b5cbc5380",
+        "code": 400,
+        "message": "InvalidData"
+    },
+    {
+        "title": "Get import styling status with no access permission importId",
+        "importIdInput": "f7fd1682-465d-479b-aaff-b466c683500a",
+        "clientIdInput": "d559af00-dc46-4683-a834-3974a3fccd2a",
+        "code": 403,
+        "message": "InvalidData"
+    }
+]

@@ -1,0 +1,75 @@
+{
+    "product": "product_data_t11",
+    "picture": "http://localhost:8080/images/Man_H20220517_1_6_a.jpg",
+    "getUrlData": {
+        "clientId": "0c2c5201-10ef-46b9-8bd2-c52df830c73f",
+        "physicalFileTypeId": 2,
+        "files": [{
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-321",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            },
+            {
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-322",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            },
+            {
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-323",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            },
+            {
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-324",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            },
+            {
+                "fileName": "Man_H20220517_1_6_a.jpg",
+                "localId": "capture-325",
+                "fileLength": 4197781,
+                "fileMd5": "F6CA4871-2F76-4E52-A51D-FE0A9103F569"
+            }
+        ]
+    },
+    "submitTaskData": {
+        "taskId": "uuid",
+        "sampleId": "uuid",
+        "locationId": null,
+        "teamOnSetId": null,
+        "assets": [{
+                "assetId": "uuid",
+                "rating": 5,
+                "positionId": 0,
+                "attr": 0,
+                "resourceAssets": [{
+                    "assetId": "uuid",
+                    "rating": 5
+                }]
+            },
+            {
+                "assetId": "uuid",
+                "rating": 4,
+                "positionId": 0,
+                "attr": 0
+            },
+            {
+                "assetId": "uuid",
+                "rating": 4,
+                "positionId": 0,
+                "attr": 0
+            },
+            {
+                "assetId": "uuid",
+                "rating": 4,
+                "positionId": 0,
+                "attr": 1
+            }
+        ]
+
+    }
+}

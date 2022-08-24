@@ -1,0 +1,41 @@
+[{
+        "title": "Update product state to inactive",
+        "productIdInput": "",
+        "data": {
+            "productStateId": 1
+        },
+        "message": true
+    },
+    {
+        "title": "Update product state to active",
+        "productIdInput": "",
+        "data": {
+            "productStateId": 0
+        },
+        "message": true
+    },
+    {
+        "title": "Update product state with non-exist productId",
+        "productIdInput": "A094E245-C3AF-4049-8DC6-332BC30A65FD",
+        "data": {
+            "productStateId": 0
+        },
+        "message": false
+    },
+    {
+        "title": "Update product state with non access permission productStateId",
+        "productIdInput": "0009c518-5090-40bd-aaee-ea3404cd1cb2",
+        "data": {
+            "productStateId": 0
+        },
+        "message": false
+    },
+    {
+        "title": "Update product state with invalid productStateId",
+        "productIdInput": "",
+        "data": {
+            "productStateId": 3
+        },
+        "message": "ProductStateId invalid"
+    }
+]

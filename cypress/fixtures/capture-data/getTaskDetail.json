@@ -1,0 +1,157 @@
+[
+    {
+        "title":"Get Task Detail Successful",
+        "code" : 200,
+        "data": {
+                "taskId": "0cda618b-56d4-4909-bfbd-21e91f1228e8",
+                "clientId": "fdb46a1e-95b6-4ecd-aedc-e5e518fcb356",
+                "assignToUserId": "00000000-0000-0000-0000-000000000000",
+                "selectionTypeId": 2,
+                "isAlternativeEnabled": false,
+                "isRequiredColorReference": false,
+                "styleGuide": {
+                    "groupId": 1,
+                    "name": "Style Guilde Client Task",
+                    "productionTypeId": 1,
+                    "mdDescription": "",
+                    "fileIds": [],
+                    "properties": {},
+                    "variantMapping": false,
+                    "positions": [
+                        {
+                            "positionId": 2,
+                            "name": "Position1",
+                            "mdDescription": "",
+                            "fileIds": [],
+                            "exampleFileIds": [
+                                "4a9f5ecf-945f-4a1f-bd65-352fb72057e4"
+                            ],
+                            "properties": {},
+                            "isOptional": false,
+                            "isHero": false,
+                            "isPhotoReview": false,
+                            "isEnforceAlts": false,
+                            "minShotAlts": 0,
+                            "minShots": 1,
+                            "maxShots": 2,
+                            "positionSettingType": 0
+                        }
+                    ]
+            }
+        }
+
+    },
+    {
+        "title": "Error case, 400 bad request taskId not found",
+        "numberCase": "400_1",
+        "code": 400,
+        "data" : {
+            "errors": {
+                "taskId": [
+                    "The value '618b-56d4-4909-bfbd-21e91' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|5a861587-4cf54f2bcf5d5108."
+        }
+    },
+    {
+        "title": "Error case, 400 bad request taskId is integer",
+        "numberCase": "400_2",
+        "code":400,
+        "data": {
+            "errors": {
+                "taskId": [
+                    "The value '123' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|5a860b91-4cf54f2bcf5d5108."
+        }
+    },
+    {
+        "title":"Error case, 400 bad request taskId is decimal",
+        "numberCase": "400_3",
+        "code":400,
+        "data":{
+            "errors": {
+                "taskId": [
+                    "The value '12.3' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|5a860b96-4cf54f2bcf5d5108."
+        }
+    },
+    {
+        "title":"Error case, 400 bad request taskId is text",
+        "numberCase": "400_4",
+        "code":400,
+        "data" :{
+            "errors": {
+                "taskId": [
+                    "The value 'ttt' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|5a860b9e-4cf54f2bcf5d5108."
+        }
+    },
+    {
+        "title":"Error case, 400 bad request taskId is empty",
+        "numberCase": "400_5",
+        "code":400,
+        "data" :{
+            "errors": {
+                "taskId": [
+                    "The value '\"\"' is not valid."
+                ]
+            },
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "One or more validation errors occurred.",
+            "status": 400,
+            "traceId": "|5a8612d6-4cf54f2bcf5d5108."
+        }
+    },
+    {
+        "title":"Error case, 400 bad request taskId is deleted",
+        "numberCase": "400_6",
+        "code":400,
+        "data" :{
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "Bad Request",
+            "status": 400,
+            "traceId": "|3cb8152a-4508891a19609b18."
+        }
+
+    },
+    {
+        "title":"Error case, 400 bad request taskId when product is deleted",
+        "numberCase": "400_7",
+        "code":400,
+        "data" :{
+            "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+            "title": "Bad Request",
+            "status": 400,
+            "traceId": "|3cb8152a-4508891a19609b18."
+        }
+
+    },
+    {
+        "title":"Error case, 404 not found",
+        "code":404
+    },
+    {
+        "title":"Error case, 405 method invalid",
+        "code":405
+    }
+
+]

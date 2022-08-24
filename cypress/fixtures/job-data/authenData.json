@@ -1,0 +1,91 @@
+[{
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 200,
+        "message": "",
+        "body": "",
+        "title": "Authenticate successfully"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163408dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 400,
+        "message": "invalid_client",
+        "body": "",
+        "title": "400 Bad request - Authenticate with non-exist  clientId"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86840",
+        "code": 400,
+        "message": "invalid_client",
+        "body": "",
+        "title": "400 Bad request - Authenticate with invalid clientSecret"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "bd7c3b3f03dd4e80b6f24fec624bf049",
+        "code": 400,
+        "message": "invalid_client",
+        "body": "",
+        "title": "400 Bad request - Authenticate with mismatch clientId and clientSecret"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 400,
+        "message": "invalid_grant_type",
+        "body": {
+            "client_id": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+            "client_secret": "77bdc4256a294577a8bc66f1acd86849"
+        },
+        "title": "400 Bad request - Authenticate without grant_type"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 400,
+        "message": "invalid_client",
+        "body": {
+            "grant_type": "client_credentials",
+            "client_id": "5ab2df1b-6d4b-4410-a4c9-2357163407dc"
+        },
+        "title": "400 Bad request - Authenticate without clientSecret"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 400,
+        "message": "invalid_client",
+        "body": {
+            "grant_type": "client_credentials",
+            "client_secret": "77bdc4256a294577a8bc66f1acd86849"
+        },
+        "title": "400 Bad request - Authenticate without clientId"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 405,
+        "message": "MethodNotAllowed",
+        "body": "",
+        "title": "Authenticate with invalid method"
+    },
+    {
+        "urlAuthen": "https://sandbox-accounts.creativeforce.io/connect/token",
+        "clientId": "5ab2df1b-6d4b-4410-a4c9-2357163407dc",
+        "clientSecret": "77bdc4256a294577a8bc66f1acd86849",
+        "code": 415,
+        "message": "UnsupportedMediaType",
+        "body": "",
+        "title": "Authenticate with invalid content-type"
+    }
+]

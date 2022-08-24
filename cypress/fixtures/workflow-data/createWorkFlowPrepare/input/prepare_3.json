@@ -1,0 +1,74 @@
+{
+    "name": "workflow_name",
+    "isEnabled": true,
+    "colorMatching": {
+      "isRequiredColorReference": false,
+      "isNotSentToExternalPost": false,
+      "includeColorReferenceTypeId": 0,
+      "requestFromShootingTypeId": 0,
+      "approachType": 1
+    },
+    "shootingTypes": [
+      {
+        "shootingTypeId": 1004,
+        "photography": {
+          "finalSelectionOptionId": 2,
+          "alternative": {
+            "isEnabled": true
+          },
+          "photoReview": {
+            "reviewType": 0
+          },
+          "preSelectionByPosition": {
+            "isEnabled": false
+          },
+          "cutOffStepId": 7
+        },
+        "postProduction": {
+          "approachModelId": 0,
+          "external": {
+            "isEnabled": true,
+            "vendorId": "1024f06b-70e0-4f29-bfa9-822ae1e6665b",
+            "isBypassQc": false,
+            "keepExternalPostFileName": false,
+            "isSeperatedMappingForExternalPhotography": false,
+            "additionalVendorIds": []
+          },
+          "internal": {
+            "isEnabled": false,
+            "isBypassQc": false,
+            "isNotAllowAutoQa": false
+          },
+          "internalL1": {
+            "isEnabled": false,
+            "isBypassQc": false,
+            "isNotAllowAutoQa": false
+          },
+          "internalL2": {
+            "isEnabled": false,
+            "isBypassQc": false,
+            "isNotAllowAutoQa": false
+          },
+          "createAssetVariantsAtStep": 7,
+          "enforceInternal": {
+            "isEnabled": false
+          },
+          "bypassExternal": {
+            "isEnabled": false,
+            "postProductionExternalBypassTypeId": 0,
+            "shootingTypeIds": []
+          }
+        },
+        "copywriting": {
+          "isEnabled": false
+        },
+        "assetDelivery": {
+          "isEnabled": false,
+          "clientDeliveryConnectionId": null,
+          "additionalDeliveryConnections": [],
+          "isEnabledDeliveryNonSelectAssets": false
+        },
+        "shootingTypeCategoryId": 10
+      }
+    ]
+  }

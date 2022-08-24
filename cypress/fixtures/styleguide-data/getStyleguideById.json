@@ -1,0 +1,2219 @@
+[{
+        "title": "Get styleGuide by full setting styleGuide",
+        "styleGuideId": "3c216c54-d84b-41e1-9c25-28315ff2cbe6",
+        "compareData": {
+            "id": "3c216c54-d84b-41e1-9c25-28315ff2cbe6",
+            "versionId": "6bac681b-65cd-4d30-9b21-ac197a9092a1",
+            "styleGuide": {
+                "name": "Full setting style guide",
+                "internalName": "full_setting_style_guide",
+                "hasPositionCondition": true,
+                "hasShootingTypeCondition": true,
+                "mdDescription": "Why do we use it?\n\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+                "coverFileId": "1e42f1af-1707-437b-b420-dd0cd8d58979",
+                "fileIds": [
+                    "407f599c-57e7-48e2-843b-0308fbd7aa75"
+                ],
+                "properties": {
+                    "5602939e-f7d6-4b06-9830-d59a1c096106": "Options1",
+                    "0bf002d0-c572-4390-8fb7-30be03252cce": "1212"
+                },
+                "shootingTypes": [{
+                        "groupId": 1,
+                        "name": "On Model",
+                        "shootingTypeId": 1,
+                        "heroPositionIndex": 0,
+                        "mdDescription": "",
+                        "fileIds": [
+                            "ebc2a07c-5844-47f5-adbb-7158ae391711"
+                        ],
+                        "properties": {
+                            "ecd0d8a0-fcc8-471d-8acd-0b2488459438": "1657713600000"
+                        },
+                        "variantMapping": true,
+                        "positions": [{
+                                "positionId": 2,
+                                "name": "Front",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "a110ba64-c55e-49d2-af3c-11da4081bacc"
+                                ],
+                                "properties": {
+                                    "f536ed0a-ca11-45e0-9322-fd5d25539520": "",
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": "position1",
+                                    "1de8557b-5d92-4d42-a5ef-2e5f0a40df42": "position1"
+                                },
+                                "type": 1,
+                                "isHero": true,
+                                "isOptional": false,
+                                "isPhotoReview": false,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": [{
+                                            "rules": [{
+                                                    "ruleTypeId": 1,
+                                                    "productionTypeRule": {
+                                                        "productionTypeId": 2
+                                                    }
+                                                },
+                                                {
+                                                    "ruleTypeId": 0,
+                                                    "propertyCompareRule": {
+                                                        "propertyId": "649ec502-ab3c-4591-8fad-068b039383c6",
+                                                        "conditionTypeId": 4,
+                                                        "value": "io"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "rules": [{
+                                                "ruleTypeId": 0,
+                                                "propertyCompareRule": {
+                                                    "propertyId": "ef757afd-4850-4802-81b9-9e1c65a4215f",
+                                                    "conditionTypeId": 7,
+                                                    "value": "1660910400000"
+                                                }
+                                            }]
+                                        }
+                                    ]
+                                },
+                                "photography": {
+                                    "minShots": 2,
+                                    "maxShots": 5
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "noInclipFallbackTemplateId": 2055945,
+                                                    "noInclipFallbackTemplateName": "simple spec",
+                                                    "variantMappings": [{
+                                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                                            "templateId": 2056423,
+                                                            "templateName": "Template 3D",
+                                                            "noInclipFallbackTemplateId": 2055945,
+                                                            "noInclipFallbackTemplateName": "simple spec"
+                                                        },
+                                                        {
+                                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                                            "templateId": 2056318,
+                                                            "templateName": "Template PSD",
+                                                            "noInclipFallbackTemplateId": 2056621,
+                                                            "noInclipFallbackTemplateName": "child template"
+                                                        }
+                                                    ],
+                                                    "templateId": 2056423,
+                                                    "templateName": "Template 3D"
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "noInclipFallbackTemplateId": 2055945,
+                                                    "noInclipFallbackTemplateName": "simple spec",
+                                                    "variantMappings": [{
+                                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                                            "templateId": 2056423,
+                                                            "templateName": "Template 3D",
+                                                            "noInclipFallbackTemplateId": 2055945,
+                                                            "noInclipFallbackTemplateName": "simple spec"
+                                                        },
+                                                        {
+                                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                                            "templateId": 2056318,
+                                                            "templateName": "Template PSD",
+                                                            "noInclipFallbackTemplateId": 2056621,
+                                                            "noInclipFallbackTemplateName": "child template"
+                                                        }
+                                                    ],
+                                                    "templateId": 2056423,
+                                                    "templateName": "Template 3D"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "1ecca6b7-3153-4c1f-86e3-86a529eceb63",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "1b865e97-87e7-439c-8c6c-8f6ba965482b",
+                                                    "shortHand": "productionTypeSequenceLetter",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "alphabetIndex": "a"
+                                                },
+                                                {
+                                                    "text": "_"
+                                                },
+                                                {
+                                                    "id": "04d40150-f75c-49c6-a352-7a5b76d1fe67",
+                                                    "shortHand": "productionTypeSequenceNumber",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "indexLength": 1
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86289231-f308-439a-98d8-6168ce27ecea",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "36c9285f-eaa7-4167-856e-a33cca6ce319",
+                                                    "shortHand": "sequenceNumber",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "indexLength": 1
+                                                },
+                                                {
+                                                    "id": "2555a67e-d8ea-49c9-b5b8-17b7059e175d",
+                                                    "shortHand": "sequenceLetter",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "alphabetIndex": "a"
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "b86f61ae-21fc-45b5-aefc-88a48c694791",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "1b865e97-87e7-439c-8c6c-8f6ba965482b",
+                                                    "shortHand": "productionTypeSequenceLetter",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "alphabetIndex": "a"
+                                                },
+                                                {
+                                                    "id": "649ec502-ab3c-4591-8fad-068b039383c6",
+                                                    "shortHand": "job_code",
+                                                    "groupId": 2
+                                                }
+                                            ],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "68e0ec20-898b-4d93-9289-1fe527e06eb0",
+                                                    "shortHand": "outfit_name",
+                                                    "groupId": 3
+                                                },
+                                                {
+                                                    "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                    "shortHand": "product_code",
+                                                    "groupId": 4
+                                                }
+                                            ],
+                                            "variantNumber": 1,
+                                            "variantCondition": {
+                                                "sections": [{
+                                                        "rules": [{
+                                                                "ruleTypeId": 1,
+                                                                "productionTypeRule": {
+                                                                    "productionTypeId": 1
+                                                                }
+                                                            },
+                                                            {
+                                                                "ruleTypeId": 0,
+                                                                "propertyCompareRule": {
+                                                                    "propertyId": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                                    "conditionTypeId": 6,
+                                                                    "value": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "rules": [{
+                                                                "ruleTypeId": 2,
+                                                                "sourceRule": {
+                                                                    "sourceId": 2
+                                                                }
+                                                            },
+                                                            {
+                                                                "ruleTypeId": 0,
+                                                                "propertyCompareRule": {
+                                                                    "propertyId": "d7f8ad15-9920-4a9d-9fc8-ea23cc806aa8",
+                                                                    "conditionTypeId": 10,
+                                                                    "value": "1657800000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "specId": "0aa4f7c0-94f7-45be-8e4b-7cbe405f991f",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "2fefbdd4-aaf3-49c4-815f-cdb6755e27f9",
+                                                    "shortHand": "positionSequenceLetter",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "alphabetIndex": "a"
+                                                },
+                                                {
+                                                    "id": "bd8ce6df-ddae-46b1-9301-141720a36a66",
+                                                    "shortHand": "positionSequenceNumber",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "indexLength": 1
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86e66c88-c7fe-4d09-98bc-e28e0c8e8c03",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "2555a67e-d8ea-49c9-b5b8-17b7059e175d",
+                                                    "shortHand": "sequenceLetter",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "alphabetIndex": "a"
+                                                },
+                                                {
+                                                    "id": "b95b06f5-d72f-44f0-b268-6cd09376ce64",
+                                                    "shortHand": "year",
+                                                    "groupId": 1
+                                                }
+                                            ],
+                                            "variantNumber": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 3,
+                                "name": "Back",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "2bb753d4-d29a-44a4-a2e5-97473a43810c"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": "",
+                                    "c0d1e730-62ff-4c60-8510-d5e09f3d1b97": ""
+                                },
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": true,
+                                "isPhotoReview": true,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": []
+                                },
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 2
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "variantMappings": [{
+                                                        "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                                        "templateId": 2060487,
+                                                        "templateName": "Fashion men top"
+                                                    }],
+                                                    "templateId": 2060487,
+                                                    "templateName": "Fashion men top"
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "variantMappings": [{
+                                                        "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                                        "templateId": 2060487,
+                                                        "templateName": "Fashion men top"
+                                                    }],
+                                                    "templateId": 2060487,
+                                                    "templateName": "Fashion men top"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "60fe75e4-e69c-4c1a-97ad-7562d9b721c7",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "6f64270e-994f-4460-8b88-bc571ff86d5d",
+                                                    "shortHand": "comment",
+                                                    "groupId": 4
+                                                },
+                                                {
+                                                    "text": "%job_datetime"
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "a14e6dca-d07a-497a-b868-1734731bc169",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 12,
+                                "name": "Beside",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "00951b32-5ad4-4867-b13f-0a11a48a03ac"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": "",
+                                    "c0d1e730-62ff-4c60-8510-d5e09f3d1b97": "",
+                                    "1de8557b-5d92-4d42-a5ef-2e5f0a40df42": "position1",
+                                    "f536ed0a-ca11-45e0-9322-fd5d25539520": "243729"
+                                },
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": false,
+                                "isPhotoReview": false,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": true,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": []
+                                },
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 2
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "variantMappings": [],
+                                                    "templateId": 2060487,
+                                                    "templateName": "Fashion men top"
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "variantMappings": [],
+                                                    "templateId": 2060487,
+                                                    "templateName": "Fashion men top"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "namePattern": [{
+                                        "id": "36c9285f-eaa7-4167-856e-a33cca6ce319",
+                                        "shortHand": "sequenceNumber",
+                                        "groupId": 1,
+                                        "startIndex": 1,
+                                        "indexLength": 1
+                                    }],
+                                    "presetInfo": []
+                                }
+                            },
+                            {
+                                "positionId": 13,
+                                "name": "Other",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "d5ed8c43-3f09-4394-a936-38d31bcd2b7b"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": "position2",
+                                    "c0d1e730-62ff-4c60-8510-d5e09f3d1b97": "",
+                                    "1de8557b-5d92-4d42-a5ef-2e5f0a40df42": "position2",
+                                    "f536ed0a-ca11-45e0-9322-fd5d25539520": "aBc"
+                                },
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": false,
+                                "isPhotoReview": false,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": [{
+                                            "rules": [{
+                                                "ruleTypeId": 2,
+                                                "sourceRule": {
+                                                    "sourceId": 1
+                                                }
+                                            }]
+                                        },
+                                        {
+                                            "rules": [{
+                                                "ruleTypeId": 0,
+                                                "propertyCompareRule": {
+                                                    "propertyId": "34b3b4d6-d2b7-4869-9bc0-d9c6e95f88a3",
+                                                    "conditionTypeId": 3,
+                                                    "value": "sdfdws"
+                                                }
+                                            }]
+                                        }
+                                    ]
+                                },
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 2
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "variantMappings": [{
+                                                        "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                                        "templateId": 2060487,
+                                                        "templateName": "Fashion men top"
+                                                    }],
+                                                    "templateId": 2060487,
+                                                    "templateName": "Fashion men top"
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Model_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "a0b090e9-f72e-49d7-a564-467ac244e765",
+                                                "postProductionVendorTypeId": 3,
+                                                "pixelzVendor": {
+                                                    "variantMappings": [{
+                                                        "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                                        "templateId": 2060487,
+                                                        "templateName": "Fashion men top"
+                                                    }],
+                                                    "templateId": 2060487,
+                                                    "templateName": "Fashion men top"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "60fe75e4-e69c-4c1a-97ad-7562d9b721c7",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "649ec502-ab3c-4591-8fad-068b039383c6",
+                                                    "shortHand": "job_code",
+                                                    "groupId": 2
+                                                },
+                                                {
+                                                    "id": "36c9285f-eaa7-4167-856e-a33cca6ce319",
+                                                    "shortHand": "sequenceNumber",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "indexLength": 1
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "a14e6dca-d07a-497a-b868-1734731bc169",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "shootingTypeCondition": {
+                            "sections": [{
+                                    "rules": [{
+                                            "ruleTypeId": 0,
+                                            "propertyCompareRule": {
+                                                "propertyId": "649ec502-ab3c-4591-8fad-068b039383c6",
+                                                "conditionTypeId": 2,
+                                                "value": "1"
+                                            }
+                                        },
+                                        {
+                                            "ruleTypeId": 2,
+                                            "sourceRule": {
+                                                "sourceId": 1
+                                            }
+                                        },
+                                        {
+                                            "ruleTypeId": 0,
+                                            "propertyCompareRule": {
+                                                "propertyId": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                "conditionTypeId": 1,
+                                                "value": "436"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "rules": [{
+                                        "ruleTypeId": 2,
+                                        "sourceRule": {
+                                            "sourceId": 2
+                                        }
+                                    }]
+                                }
+                            ]
+                        },
+                        "ignoreDeliveryOptions": []
+                    },
+                    {
+                        "groupId": 4,
+                        "name": "Mannequin",
+                        "shootingTypeId": 2,
+                        "heroPositionIndex": 0,
+                        "mdDescription": "Where does it come from?\n\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+                        "fileIds": [],
+                        "properties": {
+                            "ecd0d8a0-fcc8-471d-8acd-0b2488459438": "1657800000000"
+                        },
+                        "variantMapping": false,
+                        "positions": [{
+                                "positionId": 5,
+                                "name": "Ghost 1",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "5e73f911-31d4-4693-9eb0-e33d1a5195cd"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": "",
+                                    "1de8557b-5d92-4d42-a5ef-2e5f0a40df42": "position1",
+                                    "c0d1e730-62ff-4c60-8510-d5e09f3d1b97": "back2",
+                                    "f536ed0a-ca11-45e0-9322-fd5d25539520": "aBc"
+                                },
+                                "type": 1,
+                                "isHero": false,
+                                "isOptional": false,
+                                "isPhotoReview": true,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": []
+                                },
+                                "photography": {
+                                    "minShots": 2,
+                                    "maxShots": 5
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                            "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                            "postProductionVendorTypeId": 2,
+                                            "ftpVendor": {
+                                                "folderPattern": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ],
+                                                "noInclipFallback": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ]
+                                            }
+                                        }],
+                                        "existingPhotographies": [{
+                                            "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                            "postProductionVendorTypeId": 2,
+                                            "ftpVendor": {
+                                                "folderPattern": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ],
+                                                "noInclipFallback": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ]
+                                            }
+                                        }]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "60fe75e4-e69c-4c1a-97ad-7562d9b721c7",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "649ec502-ab3c-4591-8fad-068b039383c6",
+                                                    "shortHand": "job_code",
+                                                    "groupId": 2
+                                                },
+                                                {
+                                                    "id": "5602939e-f7d6-4b06-9830-d59a1c096106",
+                                                    "shortHand": "options",
+                                                    "groupId": 17
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "a14e6dca-d07a-497a-b868-1734731bc169",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "04d40150-f75c-49c6-a352-7a5b76d1fe67",
+                                                "shortHand": "productionTypeSequenceNumber",
+                                                "groupId": 1,
+                                                "startIndex": 1,
+                                                "indexLength": 1
+                                            }],
+                                            "variantNumber": 0
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 14,
+                                "name": "Ghost 2",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "d66cc67b-3d3b-49ae-a3dd-e4db4e03be75"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": "",
+                                    "f536ed0a-ca11-45e0-9322-fd5d25539520": "aBc",
+                                    "c0d1e730-62ff-4c60-8510-d5e09f3d1b97": "back2",
+                                    "db77d23f-e163-4cf1-9867-84705819c766": "d2"
+                                },
+                                "type": 0,
+                                "isHero": true,
+                                "isOptional": false,
+                                "isPhotoReview": true,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": [{
+                                            "rules": [{
+                                                    "ruleTypeId": 1,
+                                                    "productionTypeRule": {
+                                                        "productionTypeId": 2
+                                                    }
+                                                },
+                                                {
+                                                    "ruleTypeId": 0,
+                                                    "propertyCompareRule": {
+                                                        "propertyId": "4b4e93f3-3e00-4d6b-8c1f-1d94ae0522b2",
+                                                        "conditionTypeId": 1,
+                                                        "value": "1657800000000"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "rules": [{
+                                                "ruleTypeId": 0,
+                                                "propertyCompareRule": {
+                                                    "propertyId": "3010585d-5a53-4a5a-9bb2-70db3a65cfe9",
+                                                    "conditionTypeId": 1,
+                                                    "value": "1657854083000"
+                                                }
+                                            }]
+                                        }
+                                    ]
+                                },
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 0
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                            "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                            "postProductionVendorTypeId": 2,
+                                            "ftpVendor": {
+                                                "folderPattern": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ],
+                                                "noInclipFallback": []
+                                            }
+                                        }],
+                                        "existingPhotographies": [{
+                                            "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                            "postProductionVendorTypeId": 2,
+                                            "ftpVendor": {
+                                                "folderPattern": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ],
+                                                "noInclipFallback": []
+                                            }
+                                        }]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "1ecca6b7-3153-4c1f-86e3-86a529eceb63",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "2fefbdd4-aaf3-49c4-815f-cdb6755e27f9",
+                                                "shortHand": "positionSequenceLetter",
+                                                "groupId": 1,
+                                                "startIndex": 1,
+                                                "alphabetIndex": "a"
+                                            }],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86289231-f308-439a-98d8-6168ce27ecea",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "3010585d-5a53-4a5a-9bb2-70db3a65cfe9",
+                                                "shortHand": "date_time",
+                                                "groupId": 2
+                                            }],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "b86f61ae-21fc-45b5-aefc-88a48c694791",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "ad629908-1239-4ee3-9e53-dd1b63492971",
+                                                "shortHand": "comment_job",
+                                                "groupId": 2
+                                            }],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "text": "%job_date"
+                                            }],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "0aa4f7c0-94f7-45be-8e4b-7cbe405f991f",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "text": "%job_datetime"
+                                            }],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86e66c88-c7fe-4d09-98bc-e28e0c8e8c03",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "ad629908-1239-4ee3-9e53-dd1b63492971",
+                                                "shortHand": "comment_job",
+                                                "groupId": 2
+                                            }],
+                                            "variantNumber": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 15,
+                                "name": "Ghost 3",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "6a9a906e-e2d6-4764-997b-b5962170aada"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": ""
+                                },
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": true,
+                                "isPhotoReview": true,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": []
+                                },
+                                "photography": {
+                                    "minShots": 10,
+                                    "maxShots": 10
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                            "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                            "postProductionVendorTypeId": 2,
+                                            "ftpVendor": {
+                                                "folderPattern": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ],
+                                                "noInclipFallback": []
+                                            }
+                                        }],
+                                        "existingPhotographies": [{
+                                            "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                            "postProductionVendorTypeId": 2,
+                                            "ftpVendor": {
+                                                "folderPattern": [{
+                                                        "text": "Ghost_"
+                                                    },
+                                                    {
+                                                        "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                        "shortHand": "date",
+                                                        "groupId": 1
+                                                    },
+                                                    {
+                                                        "text": "_"
+                                                    },
+                                                    {
+                                                        "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                        "shortHand": "product_code",
+                                                        "groupId": 4
+                                                    }
+                                                ],
+                                                "noInclipFallback": []
+                                            }
+                                        }]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "1ecca6b7-3153-4c1f-86e3-86a529eceb63",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "04d40150-f75c-49c6-a352-7a5b76d1fe67",
+                                                "shortHand": "productionTypeSequenceNumber",
+                                                "groupId": 1,
+                                                "startIndex": 1,
+                                                "indexLength": 1
+                                            }],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86289231-f308-439a-98d8-6168ce27ecea",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "b86f61ae-21fc-45b5-aefc-88a48c694791",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "68e0ec20-898b-4d93-9289-1fe527e06eb0",
+                                                    "shortHand": "outfit_name",
+                                                    "groupId": 3
+                                                },
+                                                {
+                                                    "text": "%job_datetime"
+                                                }
+                                            ],
+                                            "variantNumber": 1,
+                                            "variantCondition": {
+                                                "sections": [{
+                                                    "rules": [{
+                                                        "ruleTypeId": 2,
+                                                        "sourceRule": {
+                                                            "sourceId": 2
+                                                        }
+                                                    }]
+                                                }]
+                                            }
+                                        },
+                                        {
+                                            "specId": "0aa4f7c0-94f7-45be-8e4b-7cbe405f991f",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86e66c88-c7fe-4d09-98bc-e28e0c8e8c03",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": 6,
+                        "name": "Flats",
+                        "shootingTypeId": 3,
+                        "heroPositionIndex": 0,
+                        "mdDescription": "Where can I get some?\n\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                        "fileIds": [
+                            "3a0a41bb-96d3-40fd-a79c-32c52887ab11"
+                        ],
+                        "properties": {
+                            "ecd0d8a0-fcc8-471d-8acd-0b2488459438": "1657713600000"
+                        },
+                        "variantMapping": false,
+                        "positions": [{
+                                "positionId": 7,
+                                "name": "Flat 1",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "082c1ee6-23a1-44d7-875f-a8d6337ae2e3"
+                                ],
+                                "properties": {},
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": true,
+                                "isPhotoReview": false,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 0
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Flat_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [],
+                                                    "noInclipFallback": []
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Flat_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [],
+                                                    "noInclipFallback": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "1ecca6b7-3153-4c1f-86e3-86a529eceb63",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "3010585d-5a53-4a5a-9bb2-70db3a65cfe9",
+                                                "shortHand": "date_time",
+                                                "groupId": 2
+                                            }],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86289231-f308-439a-98d8-6168ce27ecea",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "b86f61ae-21fc-45b5-aefc-88a48c694791",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "0aa4f7c0-94f7-45be-8e4b-7cbe405f991f",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86e66c88-c7fe-4d09-98bc-e28e0c8e8c03",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 16,
+                                "name": "New position Copy 2",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "aef30984-ca2a-445a-a90f-23198977594c"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": ""
+                                },
+                                "type": 0,
+                                "isHero": true,
+                                "isOptional": false,
+                                "isPhotoReview": true,
+                                "isEnforceAlts": true,
+                                "minShotsAlts": 5,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": []
+                                },
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 2
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Flat_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [],
+                                                    "noInclipFallback": []
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Flat_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [],
+                                                    "noInclipFallback": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "60fe75e4-e69c-4c1a-97ad-7562d9b721c7",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                "id": "d7f8ad15-9920-4a9d-9fc8-ea23cc806aa8",
+                                                "shortHand": "date",
+                                                "groupId": 2
+                                            }],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "a14e6dca-d07a-497a-b868-1734731bc169",
+                                            "isEnabled": false,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 17,
+                                "name": "New position Copy",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "cb10d8d3-0333-4429-990c-8c7dfbbdb676"
+                                ],
+                                "properties": {
+                                    "565c7183-3c90-4a46-9ddf-28cd52084c19": ""
+                                },
+                                "type": 0,
+                                "isHero": true,
+                                "isOptional": false,
+                                "isPhotoReview": true,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": []
+                                },
+                                "photography": {
+                                    "minShots": 3,
+                                    "maxShots": 3
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Flat_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [],
+                                                    "noInclipFallback": []
+                                                }
+                                            }
+                                        ],
+                                        "existingPhotographies": [{
+                                                "vendorId": "f0e7f68a-544d-42ed-a686-c4cfee61bad6",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [{
+                                                            "text": "Flat_"
+                                                        },
+                                                        {
+                                                            "id": "66f8ea2f-1637-410d-a64a-fe2c1503b04b",
+                                                            "shortHand": "date",
+                                                            "groupId": 1
+                                                        },
+                                                        {
+                                                            "text": "_"
+                                                        },
+                                                        {
+                                                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                                                            "shortHand": "product_code",
+                                                            "groupId": 4
+                                                        }
+                                                    ],
+                                                    "noInclipFallback": []
+                                                }
+                                            },
+                                            {
+                                                "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                                                "postProductionVendorTypeId": 2,
+                                                "ftpVendor": {
+                                                    "folderPattern": [],
+                                                    "noInclipFallback": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "1ecca6b7-3153-4c1f-86e3-86a529eceb63",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86289231-f308-439a-98d8-6168ce27ecea",
+                                            "isEnabled": false,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "b86f61ae-21fc-45b5-aefc-88a48c694791",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                            "isEnabled": false,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "0aa4f7c0-94f7-45be-8e4b-7cbe405f991f",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86e66c88-c7fe-4d09-98bc-e28e0c8e8c03",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "groupId": 10,
+                        "name": "VPI",
+                        "shootingTypeId": 1003,
+                        "heroPositionIndex": 0,
+                        "mdDescription": "",
+                        "fileIds": [
+                            "e164904e-0ff0-42e7-8ae8-5a4c5141ab02"
+                        ],
+                        "properties": {},
+                        "variantMapping": false,
+                        "positions": [{
+                                "positionId": 11,
+                                "name": "New position",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "f0ae644b-a144-4b3a-9d84-cf7a491125d9"
+                                ],
+                                "properties": {},
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": false,
+                                "isPhotoReview": false,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "positionCondition": {
+                                    "sections": [{
+                                        "rules": [{
+                                                "ruleTypeId": 1,
+                                                "productionTypeRule": {
+                                                    "productionTypeId": 1
+                                                }
+                                            },
+                                            {
+                                                "ruleTypeId": 2,
+                                                "sourceRule": {
+                                                    "sourceId": 1
+                                                }
+                                            }
+                                        ]
+                                    }]
+                                },
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 2
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [],
+                                        "existingPhotographies": []
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "1ecca6b7-3153-4c1f-86e3-86a529eceb63",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "c4cce227-5616-4de6-8e30-459a7cb26ef8",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "text": "%job_datetime%job_fre"
+                                                },
+                                                {
+                                                    "id": "d7f8ad15-9920-4a9d-9fc8-ea23cc806aa8",
+                                                    "shortHand": "date",
+                                                    "groupId": 2
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86289231-f308-439a-98d8-6168ce27ecea",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "b86f61ae-21fc-45b5-aefc-88a48c694791",
+                                            "isEnabled": true,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "3e98e85f-a40f-4301-9946-905649d51d90",
+                                            "isEnabled": false,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        },
+                                        {
+                                            "specId": "0aa4f7c0-94f7-45be-8e4b-7cbe405f991f",
+                                            "isEnabled": false,
+                                            "namePattern": [],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "86e66c88-c7fe-4d09-98bc-e28e0c8e8c03",
+                                            "isEnabled": false,
+                                            "namePattern": [],
+                                            "variantNumber": 1
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "positionId": 18,
+                                "name": "New position Copy",
+                                "mdDescription": "",
+                                "fileIds": [],
+                                "exampleFileIds": [
+                                    "d21c8773-2ca3-4cdb-81fb-eb11d9f7ce99"
+                                ],
+                                "properties": {},
+                                "type": 0,
+                                "isHero": false,
+                                "isOptional": true,
+                                "isPhotoReview": false,
+                                "isEnforceAlts": false,
+                                "minShotsAlts": 0,
+                                "isBypassExternalPostProduction": false,
+                                "isColorReference": false,
+                                "photography": {
+                                    "minShots": 1,
+                                    "maxShots": 2
+                                },
+                                "postProduction": {
+                                    "external": {
+                                        "photoProductions": [],
+                                        "existingPhotographies": []
+                                    }
+                                },
+                                "assets": {
+                                    "presetId": "60fe75e4-e69c-4c1a-97ad-7562d9b721c7",
+                                    "namePattern": [],
+                                    "presetInfo": [{
+                                            "specId": "6bf3780d-7b6b-4f92-b64a-e2c18c5e1886",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "2fefbdd4-aaf3-49c4-815f-cdb6755e27f9",
+                                                    "shortHand": "positionSequenceLetter",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "alphabetIndex": "a"
+                                                },
+                                                {
+                                                    "id": "04d40150-f75c-49c6-a352-7a5b76d1fe67",
+                                                    "shortHand": "productionTypeSequenceNumber",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "indexLength": 1
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        },
+                                        {
+                                            "specId": "a14e6dca-d07a-497a-b868-1734731bc169",
+                                            "isEnabled": true,
+                                            "namePattern": [{
+                                                    "id": "36c9285f-eaa7-4167-856e-a33cca6ce319",
+                                                    "shortHand": "sequenceNumber",
+                                                    "groupId": 1,
+                                                    "startIndex": 1,
+                                                    "indexLength": 1
+                                                },
+                                                {
+                                                    "id": "ffce0215-bff9-47a2-b964-c3f6a81bf2f3",
+                                                    "shortHand": "url",
+                                                    "groupId": 4
+                                                }
+                                            ],
+                                            "variantNumber": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "colorMatching": {
+                    "colorReferenceOutputName": [{
+                            "text": "_color-ref-"
+                        },
+                        {
+                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                            "shortHand": "product_code",
+                            "groupId": 4
+                        }
+                    ]
+                },
+                "internalPostProduction": {
+                    "retouchingBrief": {
+                        "mdDescription": "Lorem Ipsum\n\n\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\"\n\n\"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...\"",
+                        "fileIds": [
+                            "f37c051c-9912-44e6-b293-956c66e4f92b"
+                        ],
+                        "goodExamplesIds": [
+                            "68c22944-f7bf-48bb-9f8e-90b715d593e4"
+                        ],
+                        "badExamplesIds": [
+                            "c0cbf848-7067-4482-9a01-c8a594381627"
+                        ]
+                    }
+                },
+                "nonSelectAssets": {
+                    "namePattern": [{
+                            "text": "_non-select-"
+                        },
+                        {
+                            "id": "489dc218-a316-4dfc-9ded-4283b6f13cc9",
+                            "shortHand": "product_code",
+                            "groupId": 4
+                        }
+                    ]
+                }
+            },
+            "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+            "isEnabled": true,
+            "assignedCategoryIds": [
+                "a6468fd6-977c-c968-09fb-8dc3b90b57de"
+            ],
+            "assignedWorkflowId": "b1c9527a-ed36-4c9d-9774-227ed9418053",
+            "currentStyleGuideVersionCreatedDatetime": 1658393141508,
+            "versionNumber": 25
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by disable styleGuideId",
+        "styleGuideId": "e3f0223c-63ea-4028-8ba4-15b6a25ea88a",
+        "compareData": {
+            "id": "e3f0223c-63ea-4028-8ba4-15b6a25ea88a",
+            "versionId": "75d29f00-e13c-403e-8015-f9cb6bda09c5",
+            "styleGuide": {
+                "name": "Disable style guide (don't change)",
+                "internalName": "disable_style_guide_don_t_change",
+                "hasPositionCondition": false,
+                "hasShootingTypeCondition": false,
+                "mdDescription": "",
+                "fileIds": [],
+                "properties": {},
+                "shootingTypes": [{
+                    "groupId": 1,
+                    "name": "On Model",
+                    "shootingTypeId": 1,
+                    "heroPositionIndex": 0,
+                    "mdDescription": "",
+                    "fileIds": [],
+                    "properties": {},
+                    "variantMapping": false,
+                    "positions": [{
+                        "positionId": 2,
+                        "name": "New position",
+                        "mdDescription": "",
+                        "fileIds": [],
+                        "exampleFileIds": [],
+                        "properties": {},
+                        "type": 0,
+                        "isHero": false,
+                        "isOptional": false,
+                        "isPhotoReview": false,
+                        "isEnforceAlts": false,
+                        "minShotsAlts": 0,
+                        "isBypassExternalPostProduction": false,
+                        "isColorReference": false,
+                        "photography": {
+                            "minShots": 1,
+                            "maxShots": 2
+                        },
+                        "assets": {
+                            "namePattern": [],
+                            "presetInfo": []
+                        }
+                    }]
+                }],
+                "colorMatching": {
+                    "colorReferenceOutputName": [{
+                        "text": "_color-ref-%product_code"
+                    }]
+                },
+                "internalPostProduction": {
+                    "retouchingBrief": {
+                        "mdDescription": "",
+                        "fileIds": [],
+                        "goodExamplesIds": [],
+                        "badExamplesIds": []
+                    }
+                },
+                "nonSelectAssets": {
+                    "namePattern": [{
+                        "text": "_non-select-%product_code"
+                    }]
+                }
+            },
+            "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+            "isEnabled": false,
+            "assignedCategoryIds": [],
+            "assignedWorkflowId": "a7d4910d-6795-4158-be8f-d46df8ab73aa",
+            "currentStyleGuideVersionCreatedDatetime": 1658371536677,
+            "versionNumber": 2
+        },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by invalid styleGuideId",
+        "styleGuideId": "0559cd4f-4d42-49db-8855-9567680fd65d",
+        "compareData": {
+            "id": "0559cd4f-4d42-49db-8855-9567680fd65d",
+            "versionId": "88f1766e-7366-4f70-96b3-0eaddc17d261",
+            "styleGuide": {
+              "name": "Invalid styleGuide",
+              "internalName": "invalid_styleguide",
+              "hasPositionCondition": false,
+              "hasShootingTypeCondition": false,
+              "mdDescription": "",
+              "fileIds": [],
+              "properties": {},
+              "shootingTypes": [
+                {
+                  "groupId": 1,
+                  "name": "On Model",
+                  "shootingTypeId": 1,
+                  "heroPositionIndex": 0,
+                  "mdDescription": "",
+                  "fileIds": [],
+                  "properties": {},
+                  "variantMapping": false,
+                  "positions": [
+                    {
+                      "positionId": 2,
+                      "name": "New position",
+                      "mdDescription": "",
+                      "fileIds": [],
+                      "exampleFileIds": [],
+                      "properties": {},
+                      "type": 0,
+                      "isHero": false,
+                      "isOptional": false,
+                      "isPhotoReview": false,
+                      "isEnforceAlts": false,
+                      "minShotsAlts": 0,
+                      "isBypassExternalPostProduction": false,
+                      "isColorReference": false,
+                      "photography": {
+                        "minShots": 1,
+                        "maxShots": 2
+                      },
+                      "postProduction": {
+                        "external": {
+                          "photoProductions": [
+                            {
+                              "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                              "postProductionVendorTypeId": 2,
+                              "ftpVendor": {
+                                "folderPattern": [],
+                                "noInclipFallback": []
+                              }
+                            }
+                          ],
+                          "existingPhotographies": [
+                            {
+                              "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                              "postProductionVendorTypeId": 2,
+                              "ftpVendor": {
+                                "folderPattern": [],
+                                "noInclipFallback": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "assets": {
+                        "namePattern": [],
+                        "presetInfo": []
+                      }
+                    }
+                  ]
+                },
+                {
+                  "groupId": 3,
+                  "name": "Mannequin",
+                  "shootingTypeId": 2,
+                  "heroPositionIndex": 0,
+                  "mdDescription": "",
+                  "fileIds": [],
+                  "properties": {},
+                  "variantMapping": false,
+                  "positions": [
+                    {
+                      "positionId": 4,
+                      "name": "New position",
+                      "mdDescription": "",
+                      "fileIds": [],
+                      "exampleFileIds": [],
+                      "properties": {},
+                      "type": 0,
+                      "isHero": false,
+                      "isOptional": false,
+                      "isPhotoReview": false,
+                      "isEnforceAlts": false,
+                      "minShotsAlts": 0,
+                      "isBypassExternalPostProduction": false,
+                      "isColorReference": false,
+                      "photography": {
+                        "minShots": 1,
+                        "maxShots": 2
+                      },
+                      "postProduction": {
+                        "external": {
+                          "photoProductions": [
+                            {
+                              "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                              "postProductionVendorTypeId": 2,
+                              "ftpVendor": {
+                                "folderPattern": [],
+                                "noInclipFallback": []
+                              }
+                            }
+                          ],
+                          "existingPhotographies": [
+                            {
+                              "vendorId": "244eafd9-50bc-4faa-8d51-df4613033068",
+                              "postProductionVendorTypeId": 2,
+                              "ftpVendor": {
+                                "folderPattern": [],
+                                "noInclipFallback": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "assets": {
+                        "namePattern": [],
+                        "presetInfo": []
+                      }
+                    }
+                  ]
+                }
+              ],
+              "colorMatching": {
+                "colorReferenceOutputName": [
+                  {
+                    "text": "_color-ref-%product_code"
+                  }
+                ]
+              },
+              "internalPostProduction": {
+                "retouchingBrief": {
+                  "mdDescription": "",
+                  "fileIds": [],
+                  "goodExamplesIds": [],
+                  "badExamplesIds": []
+                }
+              },
+              "nonSelectAssets": {
+                "namePattern": [
+                  {
+                    "text": "_non-select-%product_code"
+                  }
+                ]
+              }
+            },
+            "clientId": "8d42185e-c25b-4ce0-91d6-886cc92326fd",
+            "isEnabled": true,
+            "assignedCategoryIds": [
+              "166d09e4-8a88-3a25-e26b-225d57723f33"
+            ],
+            "assignedWorkflowId": "a7d4910d-6795-4158-be8f-d46df8ab73aa",
+            "currentStyleGuideVersionCreatedDatetime": 1660017171035,
+            "versionNumber": 2
+          },
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide by non-exist styleGuideId",
+        "styleGuideId": "0559cd4f-4d42-49db-8855-9567680fd66d",
+        "compareData": false,
+        "code": 200,
+        "message": "[DEV MODE] Sequence contains no elements."
+    },
+    {
+        "title": "Get styleGuide by invalid uuid styleGuideId",
+        "styleGuideId": "0559cd4f",
+        "compareData": false,
+        "code": 200,
+        "message": "Invalid data"
+    },
+    {
+        "title": "Get styleGuide without consent permission",
+        "styleGuideId": "ee41c170-c9e5-4485-853d-b489c9c74359",
+        "compareData": false,
+        "code": 200,
+        "message": "[DEV MODE] Sequence contains no elements."
+    },
+    {
+        "title": "Get styleGuide without API permission",
+        "styleGuideId": "ee41c170-c9e5-4485-853d-b489c9c74359",
+        "compareData": false,
+        "code": 403,
+        "message": ""
+    },
+    {
+        "title": "Get styleGuide without authorization",
+        "styleGuideId": "ee41c170-c9e5-4485-853d-b489c9c74359",
+        "compareData": false,
+        "code": 401,
+        "message": "Unauthorized"
+    }
+]

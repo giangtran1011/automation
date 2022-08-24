@@ -1,0 +1,29 @@
+[{
+        "title": "Get import job status with all valid params",
+        "importIdInput": "",
+        "jobIdInput": "",
+        "code": 200,
+        "message": ""
+    },
+    {
+        "title": "Get import job status with non-exist jobId",
+        "importIdInput": "9f43e81c-b48c-410e-a184-e50827dd486a",
+        "jobIdInput": "a07c3720-f9c8-426c-8cde-dfb8d8368f98",
+        "code": 400,
+        "message": "InvalidData"
+    },
+    {
+        "title": "Get import job status with non-exist ImportId",
+        "importIdInput": "9f43e81c-b48c-410e-a184-e50827dd487a",
+        "jobIdInput": "a07c3720-f9c8-426c-8cde-dfb8d8368f99",
+        "code": 400,
+        "message": "InvalidData"
+    },
+    {
+        "title": "Get import job status with no access permission importId",
+        "importIdInput": "e8377b1b-b734-4e76-a9a6-a818e2f97b25",
+        "jobIdInput": "87a00af3-60ca-4209-b40f-19bd6298ace9",
+        "code": 403,
+        "message": "InvalidData"
+    }
+]
