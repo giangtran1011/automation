@@ -23,10 +23,6 @@ pipeline {
                 bat "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
             }
         }
-
-        stage('Push lish report') {
-
-        }
     }
 
     post {
