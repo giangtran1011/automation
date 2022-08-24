@@ -5,7 +5,7 @@ pipeline {
     parameters {
         string(name: 'SERVICE_BRANCH', defaultValue: 'master', description: 'Chọn nhánh build')
         choice(name: 'BROWSER', choices: ['chrome', 'edge'], description: 'Chọn trình duyệt')
-        string(name: 'SPEC', defaultValue: '**/*.spec.js', description: 'Chọn file để test')
+        string(name: 'SPEC', defaultValue: 'cypress/e2e/**/***', description: 'Chọn file để test')
     }
     options {
         ansiColor('xterm')
@@ -21,7 +21,7 @@ pipeline {
 
         stage('Run Testing') {
             steps {
-                sh "npm install"
+                sh "npm install cypress --save-dev"
                 sh "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
             }
         }
