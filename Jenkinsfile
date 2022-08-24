@@ -10,10 +10,11 @@ pipeline {
     }
 
     stages {
-        stage('Buiding') {
-        steps {
-            echo "Running build ${env.BUILD_ID} on ${env.JENKINS_URL}"
-        }
+        stage('Clone') {
+            steps {
+                echo "Clone source code from git"
+                git 'https://github.com/giangtran1011/automation.git'
+            }
         }
 
         stage('Testing') {
