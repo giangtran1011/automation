@@ -1,6 +1,7 @@
 pipeline {
     agent any
-    tools {nodejs 18.7.0}
+    tools {nodejs "nodejs"}
+
     parameters {
         string(name: 'SERVICE_BRANCH', defaultValue: 'master', description: 'Chọn nhánh build')
         choice(name: 'BROWSER', choices: ['chrome', 'edge'], description: 'Chọn trình duyệt')
