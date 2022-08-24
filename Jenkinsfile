@@ -21,7 +21,7 @@ pipeline {
 
         stage('Run Testing') {
             steps {
-                sh "npm i"
+                sh "npm install"
                 sh "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
             }
         }
@@ -33,9 +33,11 @@ pipeline {
         }
         success {
             echo 'Run test case successfully'
+            sh 'pkill -f http-server'
         }
         failure {
             echo 'Have some error !, Please check service again'
+            sh 'pkill -f http-server'
         }
     }
   
