@@ -21,8 +21,10 @@ pipeline {
 
         stage('Run Testing') {
             steps {
-                sh "npm cypress cache clear"
+                sh "npm install -g"
+                sh "npm init"
                 sh "npm install cypress --save-dev"
+                sh "npx cypress open"
                 sh "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
             }
         }
