@@ -6,7 +6,7 @@
     "scripts": {
         "test": "cypress run --headless",
         "test:fail-fast": "CYPRESS_FAIL_FAST_ENABLED=true cypress run --headless",
-        "open": "cypress open",
+        "cypress:open": "cypress open --browser chrome --e2e",
         "delete:reportFolder": "del-cli --force ./mochawesome-report",
         "test:cli": "npm run delete:reportFolder && cypress run",
         "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
