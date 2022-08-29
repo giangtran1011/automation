@@ -23,6 +23,8 @@ pipeline {
             steps {
                 sh "npm install -g"
                 sh "npm install cypress --save-dev"
+                sh "chmod 777 /var/jenkins_home/.cache/Cypress/10.6.0/Cypress/Cypress"
+                sh "chmod 777 cypress/e2e/asset/get-asset.cy.js"
                 sh "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
             }
         }
