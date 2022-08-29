@@ -23,6 +23,7 @@ pipeline {
             steps {
                 sh "npm install -g"
                 sh "npm install cypress --save-dev"
+                sh "apt-get install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb"
                 sh "chmod 777 /var/jenkins_home/.cache/Cypress/10.6.0/Cypress/Cypress"
                 sh "chmod 777 cypress/e2e/asset/get-asset.cy.js"
                 sh "npx cypress run  --browser ${BROWSER} --spec ${SPEC}"
