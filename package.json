@@ -6,18 +6,20 @@
     "scripts": {
         "test": "cypress run --headless",
         "test:fail-fast": "CYPRESS_FAIL_FAST_ENABLED=true cypress run --headless",
-        "cypress:open": "cypress open --browser chrome --e2e",
+        "cypress:open": "cypress open",
         "delete:reportFolder": "del-cli --force ./mochawesome-report",
         "test:cli": "npm run delete:reportFolder && cypress run",
         "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
         "create:html:report": "npm run merge:reports && marge --reportDir reports cypress-combined-report.json",
         "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/**/***",
-        "cypress:edge": "cypress run --browser edge --spec cypress/e2e/**/***"
+        "cypress:edge": "cypress run --browser edge --spec cypress/e2e/**/***",
+        "cypress:dashboard": "npx currents run --parallel --record --key feDDp2kJU89ohGoN --ci-build-id `date +%s`"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@cucumber/cucumber": "^8.5.2",
         "cypress": "^10.6.0",
         "del-cli": "^4.0.1",
         "mocha": "^10.0.0",
@@ -28,11 +30,13 @@
     },
     "dependencies": {
         "@bahmutov/cy-api": "^1.6.2",
+        "@currents/cli": "^2.0.0",
         "@cypress/schema-tools": "^1.3.1",
         "@types/mocha": "^9.0.0",
         "allure-commandline": "^2.17.2",
         "chai-json-schema": "^1.5.1",
         "comment-json": "^4.2.2",
+        "cy2": "^2.0.1",
         "cypress-fail-fast": "^3.3.0",
         "cypress-sql-server": "^1.0.0",
         "jsonpath": "^1.1.1",
